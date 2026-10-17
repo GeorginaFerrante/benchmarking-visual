@@ -1,1 +1,6 @@
-{ "dataVersion": "2026.10.16-selection", "generatedAt": "2026-10-16", "algorithmVersion": "recomendador-v0.1-heuristico", "notes": "Referentes seleccionados con fuentes de tráfico. Capturas pendientes: correr npm run capture." }
+{
+  "dataVersion": "2026-10-17-capturas",
+  "generatedAt": "2026-10-17",
+  "algorithmVersion": "recomendador-v0.1-heuristico",
+  "notes": "Referentes seleccionados con fuentes de tráfico. Capturas pendientes: correr npm run capture."
+}

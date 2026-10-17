@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /benchmarking-visual/demo/
+Sitemap: https://georginaferrante.github.io/benchmarking-visual/sitemap.xml

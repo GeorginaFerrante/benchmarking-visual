@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "search-desktop-wide",
+    "componentType": "search_bar",
+    "device": "desktop",
+    "name": "Buscador ancho en el header",
+    "plain": "La barra de búsqueda está arriba de todo y ocupa una franja grande del ancho de la pantalla. Es lo primero que se ve después del logo.",
+    "howTo": [
+      "Ubicá el buscador en el header, al lado del logo.",
+      "Dale entre un tercio y dos tercios del ancho de la pantalla.",
+      "Poné un texto de ayuda dentro, por ejemplo «Buscá productos, marcas y más».",
+      "Sumá un ícono de lupa dentro de la barra."
+    ],
+    "css": ".search { flex: 1 1 auto; max-width: 60vw; height: 44px; }",
+    "criteria": {
+      "region": "header",
+      "widthNorm": [
+        0.3,
+        0.7
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar"
+    ],
+    "clarity": 0.9
+  },
+  {
+    "id": "search-desktop-compact",
+    "componentType": "search_bar",
+    "device": "desktop",
+    "name": "Buscador compacto",
+    "plain": "El buscador existe pero es chico: un campo corto o solo una lupa. La atención queda en el menú y en las imágenes.",
+    "howTo": [
+      "Poné la lupa en el extremo derecho del header.",
+      "Al hacer clic, abrí un campo grande o un panel de búsqueda.",
+      "Usalo si tu sitio tiene pocas páginas o se navega más por categorías."
+    ],
+    "css": ".search { width: 220px; }",
+    "criteria": {
+      "region": "header",
+      "widthNorm": [
+        0,
+        0.3
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "consultas",
+      "entretener",
+      "educar"
+    ],
+    "clarity": 0.7
+  },
+  {
+    "id": "search-mobile-full",
+    "componentType": "search_bar",
+    "device": "mobile",
+    "name": "Buscador de ancho completo en móvil",
+    "plain": "En el celular, el buscador ocupa casi todo el ancho de la pantalla, en una fila propia debajo del logo.",
+    "howTo": [
+      "Poné el buscador en una segunda fila del header.",
+      "Que ocupe todo el ancho menos los márgenes laterales.",
+      "Altura mínima de 44 px para que sea fácil de tocar."
+    ],
+    "css": ".search { width: 100%; min-height: 44px; }",
+    "criteria": {
+      "region": "header",
+      "widthNorm": [
+        0.75,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "reservar",
+      "informar"
+    ],
+    "clarity": 0.9
+  },
+  {
+    "id": "search-mobile-icon",
+    "componentType": "search_bar",
+    "device": "mobile",
+    "name": "Solo ícono de lupa en móvil",
+    "plain": "En el celular solo aparece una lupa; el campo de búsqueda se abre al tocarla. Ahorra espacio, pero la búsqueda queda menos a la vista.",
+    "howTo": [
+      "Poné la lupa junto al menú, en la esquina superior.",
+      "Que el área táctil mida al menos 44 × 44 px.",
+      "Al tocarla, abrí el campo con el teclado listo."
+    ],
+    "criteria": {
+      "region": "header",
+      "widthNorm": [
+        0,
+        0.25
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "consultas",
+      "entretener",
+      "educar"
+    ],
+    "clarity": 0.6
+  },
+  {
+    "id": "header-desktop-light",
+    "componentType": "header",
+    "device": "desktop",
+    "name": "Header de fondo claro",
+    "plain": "La franja superior tiene fondo blanco o muy claro, con logo y textos oscuros.",
+    "howTo": [
+      "Usá tu color base (el 60 %) como fondo del header.",
+      "Logo y textos en un color oscuro con buen contraste.",
+      "Separá el header del contenido con una línea fina o una sombra suave."
+    ],
+    "criteria": {
+      "background": "claro"
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "consultas",
+      "educar",
+      "reservar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "header-desktop-color",
+    "componentType": "header",
+    "device": "desktop",
+    "name": "Header oscuro o de color",
+    "plain": "La franja superior usa un color fuerte o un fondo oscuro, y la marca se ve con mucha presencia.",
+    "howTo": [
+      "Usá tu color secundario (el 30 %) como fondo del header.",
+      "Textos e íconos en blanco o en un color que tenga contraste suficiente.",
+      "Revisá que el buscador se distinga bien del fondo."
+    ],
+    "criteria": {
+      "background": "oscuro"
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "reservar"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "header-mobile-compact",
+    "componentType": "header",
+    "device": "mobile",
+    "name": "Header compacto en móvil",
+    "plain": "En el celular, el header es bajo (menos de 70 px) y deja más lugar para el contenido.",
+    "howTo": [
+      "Dejá solo logo, menú y una acción principal.",
+      "Pasá el resto de los enlaces al menú desplegable."
+    ],
+    "criteria": {
+      "heightPx": [
+        0,
+        70
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "entretener",
+      "educar",
+      "consultas"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "header-mobile-tall",
+    "componentType": "header",
+    "device": "mobile",
+    "name": "Header alto con buscador en móvil",
+    "plain": "En el celular, el header es más alto porque incluye el buscador u otra fila de opciones.",
+    "howTo": [
+      "Primera fila: menú, logo y carrito o cuenta.",
+      "Segunda fila: buscador de ancho completo."
+    ],
+    "criteria": {
+      "heightPx": [
+        70,
+        200
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "reservar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "nav-desktop-horizontal",
+    "componentType": "main_nav",
+    "device": "desktop",
+    "name": "Menú horizontal visible",
+    "plain": "Las secciones principales se ven todas juntas en una fila, sin tener que abrir nada.",
+    "howTo": [
+      "Elegí entre 4 y 7 secciones principales.",
+      "Ponelas en una fila debajo o dentro del header.",
+      "Marcá con claridad la sección actual."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.4,
+        1
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "vender",
+      "educar",
+      "consultas"
+    ],
+    "clarity": 0.85
+  },
+  {
+    "id": "nav-desktop-collapsed",
+    "componentType": "main_nav",
+    "device": "desktop",
+    "name": "Menú agrupado en un botón",
+    "plain": "Las secciones se esconden en un botón (por ejemplo «Categorías» o un ícono) que despliega el menú.",
+    "howTo": [
+      "Usá un botón con texto, no solo un ícono.",
+      "Al abrirlo, mostrá las categorías en columnas."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.4
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener"
+    ],
+    "clarity": 0.65
+  },
+  {
+    "id": "logo-desktop-left",
+    "componentType": "logo",
+    "device": "desktop",
+    "name": "Logo a la izquierda",
+    "plain": "El logo está en la esquina superior izquierda, que es donde la mayoría de la gente lo busca primero.",
+    "howTo": [
+      "Ubicá el logo arriba a la izquierda.",
+      "Que lleve a la página de inicio al hacer clic."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0,
+        0.3
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.9
+  },
+  {
+    "id": "logo-desktop-center",
+    "componentType": "logo",
+    "device": "desktop",
+    "name": "Logo centrado",
+    "plain": "El logo está en el centro del header. Suele darle más protagonismo a la marca.",
+    "howTo": [
+      "Centrá el logo en el header.",
+      "Repartí menú y acciones a los costados para equilibrar."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0.38,
+        0.62
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "informar"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "hero-desktop-full",
+    "componentType": "hero",
+    "device": "desktop",
+    "name": "Banner principal a todo el ancho",
+    "plain": "La imagen o banner principal ocupa todo el ancho de la pantalla, de borde a borde.",
+    "howTo": [
+      "Usá una imagen o color que llegue a ambos bordes.",
+      "Mantené el texto dentro de un ancho cómodo de lectura."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.92,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "reservar"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "hero-desktop-contained",
+    "componentType": "hero",
+    "device": "desktop",
+    "name": "Banner principal con márgenes",
+    "plain": "El banner principal no toca los bordes: queda dentro de una columna con márgenes a los costados.",
+    "howTo": [
+      "Poné el banner dentro del mismo ancho que el resto del contenido.",
+      "Redondeá levemente las esquinas si el resto del sitio también lo hace."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.3,
+        0.92
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "vender",
+      "educar",
+      "consultas"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "button-desktop-pill",
+    "componentType": "primary_button",
+    "device": "desktop",
+    "name": "Botón principal redondeado",
+    "plain": "El botón más importante tiene los extremos completamente redondos, como una píldora.",
+    "howTo": [
+      "Usá un radio de borde igual a la mitad de la altura del botón.",
+      "Reservá tu color de acento (el 10 %) para este botón."
+    ],
+    "criteria": {
+      "radiusPx": [
+        16,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8,
+    "css": ".btn { border-radius: 999px; }"
+  },
+  {
+    "id": "button-desktop-square",
+    "componentType": "primary_button",
+    "device": "desktop",
+    "name": "Botón principal de esquinas rectas o suaves",
+    "plain": "El botón más importante tiene esquinas rectas o apenas redondeadas.",
+    "howTo": [
+      "Usá un radio de 0 a 8 px.",
+      "Reservá tu color de acento (el 10 %) para este botón."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        8
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8,
+    "css": ".btn { border-radius: 6px; }"
+  },
+  {
+    "id": "card-desktop-rounded",
+    "componentType": "product_card",
+    "device": "desktop",
+    "name": "Tarjetas con esquinas redondeadas",
+    "plain": "Las tarjetas de productos o contenidos tienen esquinas visiblemente redondeadas.",
+    "howTo": [
+      "Usá un radio de 8 px o más.",
+      "Mantené el mismo radio en todas las tarjetas."
+    ],
+    "criteria": {
+      "radiusPx": [
+        8,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "reservar"
+    ],
+    "clarity": 0.8,
+    "page": "categoria"
+  },
+  {
+    "id": "card-desktop-square",
+    "componentType": "product_card",
+    "device": "desktop",
+    "name": "Tarjetas rectas o sin borde",
+    "plain": "Las tarjetas tienen esquinas rectas o casi no se distinguen como caja: el contenido flota sobre el fondo.",
+    "howTo": [
+      "Usá un radio de 0 a 4 px, o ningún borde.",
+      "Separá cada tarjeta con espacio en blanco."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        4
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar"
+    ],
+    "clarity": 0.75,
+    "page": "categoria"
+  },
+  {
+    "id": "footer-desktop-dark",
+    "componentType": "footer",
+    "device": "desktop",
+    "name": "Pie de página oscuro",
+    "plain": "El pie de página usa un fondo oscuro que marca claramente el final del sitio.",
+    "howTo": [
+      "Usá tu color secundario oscuro de fondo.",
+      "Textos claros con buen contraste."
+    ],
+    "criteria": {
+      "background": "oscuro"
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "footer-desktop-light",
+    "componentType": "footer",
+    "device": "desktop",
+    "name": "Pie de página claro",
+    "plain": "El pie de página es claro, igual o parecido al fondo del resto del sitio.",
+    "howTo": [
+      "Separalo del contenido con una línea o un fondo apenas distinto.",
+      "Agrupá los enlaces en columnas con títulos."
+    ],
+    "criteria": {
+      "background": "claro"
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "logo-mobile-left",
+    "componentType": "logo",
+    "device": "mobile",
+    "name": "Logo a la izquierda",
+    "plain": "El logo está en la esquina superior izquierda, que es donde la mayoría de la gente lo busca primero.",
+    "howTo": [
+      "Ubicá el logo arriba a la izquierda.",
+      "Que lleve a la página de inicio al hacer clic."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0,
+        0.3
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.9
+  },
+  {
+    "id": "logo-mobile-center",
+    "componentType": "logo",
+    "device": "mobile",
+    "name": "Logo centrado",
+    "plain": "El logo está en el centro del header. Suele darle más protagonismo a la marca.",
+    "howTo": [
+      "Centrá el logo en el header.",
+      "Repartí menú y acciones a los costados para equilibrar."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0.38,
+        0.62
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "informar"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "hero-mobile-full",
+    "componentType": "hero",
+    "device": "mobile",
+    "name": "Banner principal a todo el ancho",
+    "plain": "La imagen o banner principal ocupa todo el ancho de la pantalla, de borde a borde.",
+    "howTo": [
+      "Usá una imagen o color que llegue a ambos bordes.",
+      "Mantené el texto dentro de un ancho cómodo de lectura."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.92,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "reservar"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "hero-mobile-contained",
+    "componentType": "hero",
+    "device": "mobile",
+    "name": "Banner principal con márgenes",
+    "plain": "El banner principal no toca los bordes: queda dentro de una columna con márgenes a los costados.",
+    "howTo": [
+      "Poné el banner dentro del mismo ancho que el resto del contenido.",
+      "Redondeá levemente las esquinas si el resto del sitio también lo hace."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.3,
+        0.92
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "vender",
+      "educar",
+      "consultas"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "button-mobile-pill",
+    "componentType": "primary_button",
+    "device": "mobile",
+    "name": "Botón principal redondeado",
+    "plain": "El botón más importante tiene los extremos completamente redondos, como una píldora.",
+    "howTo": [
+      "Usá un radio de borde igual a la mitad de la altura del botón.",
+      "Reservá tu color de acento (el 10 %) para este botón."
+    ],
+    "criteria": {
+      "radiusPx": [
+        16,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8,
+    "css": ".btn { border-radius: 999px; }"
+  },
+  {
+    "id": "button-mobile-square",
+    "componentType": "primary_button",
+    "device": "mobile",
+    "name": "Botón principal de esquinas rectas o suaves",
+    "plain": "El botón más importante tiene esquinas rectas o apenas redondeadas.",
+    "howTo": [
+      "Usá un radio de 0 a 8 px.",
+      "Reservá tu color de acento (el 10 %) para este botón."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        8
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8,
+    "css": ".btn { border-radius: 6px; }"
+  },
+  {
+    "id": "card-mobile-rounded",
+    "componentType": "product_card",
+    "device": "mobile",
+    "name": "Tarjetas con esquinas redondeadas",
+    "plain": "Las tarjetas de productos o contenidos tienen esquinas visiblemente redondeadas.",
+    "howTo": [
+      "Usá un radio de 8 px o más.",
+      "Mantené el mismo radio en todas las tarjetas."
+    ],
+    "criteria": {
+      "radiusPx": [
+        8,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "entretener",
+      "reservar"
+    ],
+    "clarity": 0.8,
+    "page": "categoria"
+  },
+  {
+    "id": "card-mobile-square",
+    "componentType": "product_card",
+    "device": "mobile",
+    "name": "Tarjetas rectas o sin borde",
+    "plain": "Las tarjetas tienen esquinas rectas o casi no se distinguen como caja: el contenido flota sobre el fondo.",
+    "howTo": [
+      "Usá un radio de 0 a 4 px, o ningún borde.",
+      "Separá cada tarjeta con espacio en blanco."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        4
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar"
+    ],
+    "clarity": 0.75,
+    "page": "categoria"
+  },
+  {
+    "id": "footer-mobile-dark",
+    "componentType": "footer",
+    "device": "mobile",
+    "name": "Pie de página oscuro",
+    "plain": "El pie de página usa un fondo oscuro que marca claramente el final del sitio.",
+    "howTo": [
+      "Usá tu color secundario oscuro de fondo.",
+      "Textos claros con buen contraste."
+    ],
+    "criteria": {
+      "background": "oscuro"
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "footer-mobile-light",
+    "componentType": "footer",
+    "device": "mobile",
+    "name": "Pie de página claro",
+    "plain": "El pie de página es claro, igual o parecido al fondo del resto del sitio.",
+    "howTo": [
+      "Separalo del contenido con una línea o un fondo apenas distinto.",
+      "Agrupá los enlaces en columnas con títulos."
+    ],
+    "criteria": {
+      "background": "claro"
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "nav-mobile-hamburger",
+    "componentType": "main_nav",
+    "device": "mobile",
+    "name": "Menú escondido tras un botón",
+    "plain": "En el celular, las secciones se esconden detrás de un botón de menú (las tres rayas).",
+    "howTo": [
+      "Poné el botón de menú en una esquina superior.",
+      "Al abrirlo, mostrá las secciones en una lista grande y fácil de tocar."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.3
+      ]
+    },
+    "goodFor": [
+      "vender",
+      "informar",
+      "reservar",
+      "consultas",
+      "educar",
+      "entretener",
+      "herramienta"
+    ],
+    "clarity": 0.7
+  },
+  {
+    "id": "nav-mobile-scroll",
+    "componentType": "main_nav",
+    "device": "mobile",
+    "name": "Menú deslizable en fila",
+    "plain": "En el celular, las secciones aparecen en una fila que se desliza hacia el costado.",
+    "howTo": [
+      "Mostrá 3 o 4 secciones visibles y dejá ver que hay más.",
+      "Que cada opción mida al menos 44 px de alto."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.6,
+        1
+      ]
+    },
+    "goodFor": [
+      "informar",
+      "vender",
+      "entretener"
+    ],
+    "clarity": 0.75
+  },
+  {
+    "id": "gallery-desktop-left",
+    "componentType": "gallery",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Fotos a la izquierda",
+    "plain": "Las fotos del producto ocupan la mitad izquierda y la información para comprar queda a la derecha.",
+    "howTo": [
+      "Poné la galería a la izquierda, ocupando cerca de la mitad del ancho.",
+      "A la derecha: nombre, precio y botón de compra."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0,
+        0.5
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "gallery-desktop-center",
+    "componentType": "gallery",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Fotos centradas o a la derecha",
+    "plain": "Las fotos del producto quedan al centro o a la derecha de la pantalla.",
+    "howTo": [
+      "Ubicá la galería al centro o a la derecha.",
+      "Asegurate de que el precio y el botón se vean sin bajar."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0.5,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "gallery-mobile-full",
+    "componentType": "gallery",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Fotos a todo el ancho",
+    "plain": "En el celular, la foto del producto ocupa todo el ancho de la pantalla.",
+    "howTo": [
+      "Mostrá la foto de borde a borde.",
+      "Permití deslizar para ver más fotos."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.85,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "gallery-mobile-contained",
+    "componentType": "gallery",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Fotos con márgenes",
+    "plain": "En el celular, la foto del producto deja márgenes a los costados.",
+    "howTo": [
+      "Dejá un margen de 12 a 16 px a cada lado."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.85
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "price-desktop-big",
+    "componentType": "price",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Precio grande",
+    "plain": "El precio se muestra con letra grande, de 28 px o más.",
+    "howTo": [
+      "Usá un tamaño de 28 a 36 px para el precio.",
+      "Ponelo cerca del botón de compra."
+    ],
+    "criteria": {
+      "fontPx": [
+        28,
+        200
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "price-desktop-normal",
+    "componentType": "price",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Precio de tamaño moderado",
+    "plain": "El precio se muestra con letra mediana, menos de 28 px.",
+    "howTo": [
+      "Usá entre 18 y 26 px.",
+      "Destacalo con negrita o color."
+    ],
+    "criteria": {
+      "fontPx": [
+        0,
+        27
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "price-mobile-big",
+    "componentType": "price",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Precio grande en celular",
+    "plain": "En el celular el precio va con letra grande, de 24 px o más.",
+    "howTo": [
+      "Usá 24 px o más."
+    ],
+    "criteria": {
+      "fontPx": [
+        24,
+        200
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "price-mobile-normal",
+    "componentType": "price",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Precio moderado en celular",
+    "plain": "En el celular el precio usa letra mediana, menos de 24 px.",
+    "howTo": [
+      "Usá entre 18 y 22 px en negrita."
+    ],
+    "criteria": {
+      "fontPx": [
+        0,
+        23
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "buy-desktop-pill",
+    "componentType": "buy_button",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Botón de compra redondeado",
+    "plain": "El botón de compra tiene los extremos redondos.",
+    "howTo": [
+      "Usá un radio de borde grande (la mitad de la altura).",
+      "Color de acento, el más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        16,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "buy-desktop-square",
+    "componentType": "buy_button",
+    "page": "ficha",
+    "device": "desktop",
+    "name": "Botón de compra recto",
+    "plain": "El botón de compra tiene esquinas rectas o apenas redondeadas.",
+    "howTo": [
+      "Usá un radio de 0 a 8 px.",
+      "Color de acento, el más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        8
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "buy-mobile-full",
+    "componentType": "buy_button",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Botón de compra a todo el ancho",
+    "plain": "En el celular, el botón de compra ocupa todo el ancho de la pantalla.",
+    "howTo": [
+      "Que el botón vaya de margen a margen.",
+      "Altura mínima de 48 px para tocarlo fácil."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.8,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "buy-mobile-partial",
+    "componentType": "buy_button",
+    "page": "ficha",
+    "device": "mobile",
+    "name": "Botón de compra angosto",
+    "plain": "En el celular, el botón de compra no ocupa todo el ancho.",
+    "howTo": [
+      "Ancho de al menos la mitad de la pantalla.",
+      "Altura mínima de 48 px."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.8
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "filters-desktop-side",
+    "componentType": "filters",
+    "page": "categoria",
+    "device": "desktop",
+    "name": "Filtros en columna a la izquierda",
+    "plain": "Los filtros están en una columna a la izquierda, junto al listado.",
+    "howTo": [
+      "Poné los filtros en una columna de unos 250 px a la izquierda.",
+      "Agrupalos por tipo: precio, marca, categoría."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0,
+        0.3
+      ],
+      "heightPx": [
+        250,
+        99999
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "filters-desktop-top",
+    "componentType": "filters",
+    "page": "categoria",
+    "device": "desktop",
+    "name": "Filtros en una barra arriba",
+    "plain": "Los filtros están en una barra horizontal arriba del listado.",
+    "howTo": [
+      "Mostrá los filtros como botones desplegables en una fila.",
+      "Dejá el listado a todo el ancho."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.4,
+        1
+      ],
+      "heightPx": [
+        0,
+        249
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "filters-mobile-button",
+    "componentType": "filters",
+    "page": "categoria",
+    "device": "mobile",
+    "name": "Filtros detrás de un botón",
+    "plain": "En el celular, los filtros se abren desde un botón.",
+    "howTo": [
+      "Poné un botón «Filtrar» arriba del listado.",
+      "Al tocarlo, abrí un panel con todos los filtros."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.6
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "filters-mobile-bar",
+    "componentType": "filters",
+    "page": "categoria",
+    "device": "mobile",
+    "name": "Filtros en una fila deslizable",
+    "plain": "En el celular, los filtros aparecen en una fila que se desliza de costado.",
+    "howTo": [
+      "Mostrá los filtros principales como botones en una fila.",
+      "Que se pueda deslizar hacia el costado."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.6,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "topbar-desktop-dark",
+    "componentType": "top_bar",
+    "device": "desktop",
+    "name": "Barra superior de color",
+    "plain": "Arriba de todo hay una franja fina de color fuerte u oscuro con avisos: envío gratis, cuotas, promociones.",
+    "howTo": [
+      "Poné una franja de 30 a 40 px de alto arriba de todo.",
+      "Un solo mensaje corto, por ejemplo «Envío gratis desde $X».",
+      "Usá un color oscuro o tu color de marca, con letra blanca."
+    ],
+    "criteria": {
+      "background": "oscuro"
+    },
+    "goodFor": [
+      "vender",
+      "reservar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "topbar-desktop-light",
+    "componentType": "top_bar",
+    "device": "desktop",
+    "name": "Barra superior clara",
+    "plain": "Arriba de todo hay una franja fina y clara con avisos o enlaces de ayuda.",
+    "howTo": [
+      "Franja de 30 a 40 px arriba de todo, en gris muy claro.",
+      "Mensajes cortos o enlaces como «Ayuda» o «Seguí tu pedido»."
+    ],
+    "criteria": {
+      "background": "claro"
+    },
+    "goodFor": [
+      "vender",
+      "informar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "summary-desktop-side",
+    "componentType": "cart_summary",
+    "device": "desktop",
+    "name": "Resumen a la derecha",
+    "plain": "El total del pedido está en una columna a la derecha, siempre a la vista.",
+    "howTo": [
+      "Poné el resumen en una columna de un tercio del ancho, a la derecha.",
+      "Mostrá subtotal, envío y total, con el total más grande."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0.55,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "checkout-desktop-pill",
+    "componentType": "checkout_button",
+    "device": "desktop",
+    "name": "Botón de finalizar redondeado",
+    "plain": "El botón para pasar al pago tiene los extremos redondos.",
+    "howTo": [
+      "Radio de borde grande (la mitad del alto).",
+      "El color más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        16,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "checkout-desktop-square",
+    "componentType": "checkout_button",
+    "device": "desktop",
+    "name": "Botón de finalizar recto",
+    "plain": "El botón para pasar al pago tiene esquinas rectas o apenas redondeadas.",
+    "howTo": [
+      "Radio de 0 a 8 px.",
+      "El color más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        8
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "topbar-mobile-dark",
+    "componentType": "top_bar",
+    "device": "mobile",
+    "name": "Barra superior de color",
+    "plain": "Arriba de todo hay una franja fina de color fuerte u oscuro con avisos: envío gratis, cuotas, promociones.",
+    "howTo": [
+      "Poné una franja de 30 a 40 px de alto arriba de todo.",
+      "Un solo mensaje corto, por ejemplo «Envío gratis desde $X».",
+      "Usá un color oscuro o tu color de marca, con letra blanca."
+    ],
+    "criteria": {
+      "background": "oscuro"
+    },
+    "goodFor": [
+      "vender",
+      "reservar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "topbar-mobile-light",
+    "componentType": "top_bar",
+    "device": "mobile",
+    "name": "Barra superior clara",
+    "plain": "Arriba de todo hay una franja fina y clara con avisos o enlaces de ayuda.",
+    "howTo": [
+      "Franja de 30 a 40 px arriba de todo, en gris muy claro.",
+      "Mensajes cortos o enlaces como «Ayuda» o «Seguí tu pedido»."
+    ],
+    "criteria": {
+      "background": "claro"
+    },
+    "goodFor": [
+      "vender",
+      "informar"
+    ],
+    "clarity": 0.8
+  },
+  {
+    "id": "summary-mobile-below",
+    "componentType": "cart_summary",
+    "device": "mobile",
+    "name": "Resumen debajo de los productos",
+    "plain": "En el celular el total aparece debajo de la lista de productos.",
+    "howTo": [
+      "Lista de productos primero y el total después.",
+      "El total en letra grande y negrita."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0.8,
+        1
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "checkout-mobile-pill",
+    "componentType": "checkout_button",
+    "device": "mobile",
+    "name": "Botón de finalizar redondeado",
+    "plain": "El botón para pasar al pago tiene los extremos redondos.",
+    "howTo": [
+      "Radio de borde grande (la mitad del alto).",
+      "El color más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        16,
+        999
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "checkout-mobile-square",
+    "componentType": "checkout_button",
+    "device": "mobile",
+    "name": "Botón de finalizar recto",
+    "plain": "El botón para pasar al pago tiene esquinas rectas o apenas redondeadas.",
+    "howTo": [
+      "Radio de 0 a 8 px.",
+      "El color más llamativo de la página."
+    ],
+    "criteria": {
+      "radiusPx": [
+        0,
+        8
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "summary-desktop-below",
+    "componentType": "cart_summary",
+    "device": "desktop",
+    "name": "Resumen debajo de los productos",
+    "plain": "El total aparece debajo de la lista de productos, no al costado.",
+    "howTo": [
+      "Lista de productos primero, total después."
+    ],
+    "criteria": {
+      "xCenterNorm": [
+        0,
+        0.55
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  },
+  {
+    "id": "summary-mobile-side",
+    "componentType": "cart_summary",
+    "device": "mobile",
+    "name": "Resumen angosto en celular",
+    "plain": "En el celular el resumen no ocupa todo el ancho.",
+    "howTo": [
+      "Ancho completo es lo más común; revisá que se lea bien."
+    ],
+    "criteria": {
+      "widthNorm": [
+        0,
+        0.8
+      ]
+    },
+    "goodFor": [
+      "vender"
+    ],
+    "clarity": 0.8,
+    "page": "carrito"
+  }
+]

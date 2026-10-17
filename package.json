@@ -1,0 +1,23 @@
+{
+  "name": "benchmarking-visual",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "sitio": "node generador/construir.mjs",
+    "ver": "node generador/servidor.mjs",
+    "browsers": "playwright install chromium",
+    "capture": "node pipeline/capture.mjs",
+    "sites": "node pipeline/build-sites.mjs",
+    "validate": "node pipeline/validate.mjs",
+    "demo:data": "node pipeline/demo/generate-demo.mjs",
+    "test": "vitest run",
+    "check": "npm run validate && npm test && npm run sitio"
+  },
+  "devDependencies": {
+    "vitest": "2.1.4"
+  },
+  "optionalDependencies": {
+    "playwright": "1.48.2"
+  }
+}

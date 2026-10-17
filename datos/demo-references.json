@@ -1,0 +1,3392 @@
+[
+  {
+    "id": "demo-ar-1",
+    "name": "Tienda ficticia AR-A",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-ar-2",
+    "name": "Tienda ficticia AR-B",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-ar-3",
+    "name": "Tienda ficticia AR-C",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-ar-4",
+    "name": "Tienda ficticia AR-D",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-ar-5",
+    "name": "Tienda ficticia AR-E",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-ar-6",
+    "name": "Tienda ficticia AR-F",
+    "url": "",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  },
+  {
+    "id": "demo-mx-1",
+    "name": "Tienda ficticia MX-A",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-mx-2",
+    "name": "Tienda ficticia MX-B",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-mx-3",
+    "name": "Tienda ficticia MX-C",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-mx-4",
+    "name": "Tienda ficticia MX-D",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-mx-5",
+    "name": "Tienda ficticia MX-E",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-mx-6",
+    "name": "Tienda ficticia MX-F",
+    "url": "",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  },
+  {
+    "id": "demo-us-1",
+    "name": "Tienda ficticia US-A",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-us-2",
+    "name": "Tienda ficticia US-B",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-us-3",
+    "name": "Tienda ficticia US-C",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-us-4",
+    "name": "Tienda ficticia US-D",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-us-5",
+    "name": "Tienda ficticia US-E",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-us-6",
+    "name": "Tienda ficticia US-F",
+    "url": "",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  },
+  {
+    "id": "demo-de-1",
+    "name": "Tienda ficticia DE-A",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-de-2",
+    "name": "Tienda ficticia DE-B",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-de-3",
+    "name": "Tienda ficticia DE-C",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-de-4",
+    "name": "Tienda ficticia DE-D",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-de-5",
+    "name": "Tienda ficticia DE-E",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-de-6",
+    "name": "Tienda ficticia DE-F",
+    "url": "",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  },
+  {
+    "id": "demo-cn-1",
+    "name": "Tienda ficticia CN-A",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-cn-2",
+    "name": "Tienda ficticia CN-B",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-cn-3",
+    "name": "Tienda ficticia CN-C",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-cn-4",
+    "name": "Tienda ficticia CN-D",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-cn-5",
+    "name": "Tienda ficticia CN-E",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-cn-6",
+    "name": "Tienda ficticia CN-F",
+    "url": "",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  },
+  {
+    "id": "demo-jp-1",
+    "name": "Tienda ficticia JP-A",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-jp-2",
+    "name": "Tienda ficticia JP-B",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-jp-3",
+    "name": "Tienda ficticia JP-C",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "precio"
+  },
+  {
+    "id": "demo-jp-4",
+    "name": "Tienda ficticia JP-D",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-jp-5",
+    "name": "Tienda ficticia JP-E",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "calidad"
+  },
+  {
+    "id": "demo-jp-6",
+    "name": "Tienda ficticia JP-F",
+    "url": "",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Sitio ficticio creado para mostrar cómo funciona el sitio.",
+    "sources": [
+      {
+        "title": "Datos de ejemplo",
+        "kind": "pendiente"
+      }
+    ],
+    "demo": true,
+    "captures": {
+      "desktop": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "desktop_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      },
+      "mobile": {
+        "status": "fallida",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "error": "Bloqueo por CAPTCHA (simulado)"
+      },
+      "mobile_ficha": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_categoria": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      },
+      "mobile_carrito": {
+        "status": "ok",
+        "date": "2026-10-16",
+        "screenshot": null,
+        "viewport": {
+          "w": 390,
+          "h": 844
+        }
+      }
+    },
+    "positioning": "lujo"
+  }
+]

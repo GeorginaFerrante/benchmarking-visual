@@ -1,0 +1,18 @@
+[
+  { "code": "AR", "name": "Argentina", "languages": ["es"], "region": "América" },
+  { "code": "US", "name": "Estados Unidos", "languages": ["en"], "region": "América" },
+  { "code": "CN", "name": "China", "languages": ["zh"], "region": "Asia" },
+  { "code": "MX", "name": "México", "languages": ["es"], "region": "América" },
+  { "code": "BR", "name": "Brasil", "languages": ["pt"], "region": "América" },
+  { "code": "CL", "name": "Chile", "languages": ["es"], "region": "América" },
+  { "code": "JP", "name": "Japón", "languages": ["ja"], "region": "Asia" },
+  { "code": "IN", "name": "India", "languages": ["hi", "en"], "region": "Asia" },
+  { "code": "ID", "name": "Indonesia", "languages": ["id"], "region": "Asia" },
+  { "code": "TR", "name": "Turquía", "languages": ["tr"], "region": "Europa y Asia" },
+  { "code": "DE", "name": "Alemania", "languages": ["de"], "region": "Europa" },
+  { "code": "ES", "name": "España", "languages": ["es"], "region": "Europa" },
+  { "code": "FR", "name": "Francia", "languages": ["fr"], "region": "Europa" },
+  { "code": "GB", "name": "Reino Unido", "languages": ["en"], "region": "Europa" },
+  { "code": "IT", "name": "Italia", "languages": ["it"], "region": "Europa" },
+  { "code": "PL", "name": "Polonia", "languages": ["pl"], "region": "Europa" }
+]

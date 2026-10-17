@@ -1,0 +1,5808 @@
+[
+  {
+    "id": "ar-mercadolibre",
+    "name": "Mercado Libre",
+    "url": "https://www.mercadolibre.com.ar",
+    "country": "AR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios de compras más visitados de Argentina (oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-fravega",
+    "name": "Frávega",
+    "url": "https://www.fravega.com",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "electro",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios de compras más visitados de Argentina (oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-coto",
+    "name": "Coto",
+    "url": "https://www.coto.com.ar",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "super",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios de compras más visitados de Argentina (oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-adidas",
+    "name": "Adidas Argentina",
+    "url": "https://www.adidas.com.ar",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios de compras más visitados de Argentina (oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-carrefour",
+    "name": "Carrefour Argentina",
+    "url": "https://www.carrefour.com.ar",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "super",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Argentina (jul. 2025)",
+        "url": "https://ahrefs.com/websites/argentina/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-musimundo",
+    "name": "Musimundo",
+    "url": "https://www.musimundo.com",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "electro",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Mencionada entre las tiendas online con más ventas del país en la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Statista / ecommerceDB · eCommerce in Argentina (tiendas líderes por ventas netas)",
+        "url": "https://www.statista.com/study/70170/ecommerce-in-argentina-country-report",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-farmacity",
+    "name": "Farmacity",
+    "url": "https://www.farmacity.com",
+    "country": "AR",
+    "siteType": "ecommerce",
+    "sector": "salud",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-infobae",
+    "name": "Infobae",
+    "url": "https://www.infobae.com",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-lanacion",
+    "name": "La Nación",
+    "url": "https://www.lanacion.com.ar",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-clarin",
+    "name": "Clarín",
+    "url": "https://www.clarin.com",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-tn",
+    "name": "TN",
+    "url": "https://tn.com.ar",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-ambito",
+    "name": "Ámbito",
+    "url": "https://www.ambito.com",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-pagina12",
+    "name": "Página/12",
+    "url": "https://www.pagina12.com.ar",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-tycsports",
+    "name": "TyC Sports",
+    "url": "https://www.tycsports.com",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "deportes",
+    "objectives": [
+      "informar",
+      "entretener"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-espn",
+    "name": "ESPN Argentina",
+    "url": "https://www.espn.com.ar",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "deportes",
+    "objectives": [
+      "informar",
+      "entretener"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-ole",
+    "name": "Olé",
+    "url": "https://www.ole.com.ar",
+    "country": "AR",
+    "siteType": "medios",
+    "sector": "deportes",
+    "objectives": [
+      "informar",
+      "entretener"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-argentina-gob",
+    "name": "Argentina.gob.ar",
+    "url": "https://www.argentina.gob.ar",
+    "country": "AR",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-anses",
+    "name": "ANSES",
+    "url": "https://www.anses.gob.ar",
+    "country": "AR",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-afip",
+    "name": "AFIP / ARCA",
+    "url": "https://www.afip.gob.ar",
+    "country": "AR",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-buenosaires-gob",
+    "name": "Buenos Aires Ciudad",
+    "url": "https://buenosaires.gob.ar",
+    "country": "AR",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-bna",
+    "name": "Banco Nación",
+    "url": "https://www.bna.com.ar",
+    "country": "AR",
+    "siteType": "finanzas",
+    "sector": "banca",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-mercadopago",
+    "name": "Mercado Pago",
+    "url": "https://www.mercadopago.com.ar",
+    "country": "AR",
+    "siteType": "finanzas",
+    "sector": "pagos",
+    "objectives": [
+      "herramienta"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-santander",
+    "name": "Santander Argentina",
+    "url": "https://www.santander.com.ar",
+    "country": "AR",
+    "siteType": "finanzas",
+    "sector": "banca",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-bbva",
+    "name": "BBVA Argentina",
+    "url": "https://www.bbva.com.ar",
+    "country": "AR",
+    "siteType": "finanzas",
+    "sector": "banca",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-despegar",
+    "name": "Despegar",
+    "url": "https://www.despegar.com.ar",
+    "country": "AR",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-aerolineas",
+    "name": "Aerolíneas Argentinas",
+    "url": "https://www.aerolineas.com.ar",
+    "country": "AR",
+    "siteType": "turismo",
+    "sector": "aerolinea",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-flybondi",
+    "name": "Flybondi",
+    "url": "https://flybondi.com",
+    "country": "AR",
+    "siteType": "turismo",
+    "sector": "aerolinea",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "ar-jetsmart",
+    "name": "JetSMART",
+    "url": "https://jetsmart.com",
+    "country": "AR",
+    "siteType": "turismo",
+    "sector": "aerolinea",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "AhrefsTop · Sitios más visitados de Argentina (tráfico orgánico estimado, oct. 2026)",
+        "url": "https://ahrefstop.com/websites/argentina",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-amazon",
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "country": "US",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-walmart",
+    "name": "Walmart",
+    "url": "https://www.walmart.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-ebay",
+    "name": "eBay",
+    "url": "https://www.ebay.com",
+    "country": "US",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-target",
+    "name": "Target",
+    "url": "https://www.target.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-bestbuy",
+    "name": "Best Buy",
+    "url": "https://www.bestbuy.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "electro",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-etsy",
+    "name": "Etsy",
+    "url": "https://www.etsy.com",
+    "country": "US",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-costco",
+    "name": "Costco",
+    "url": "https://www.costco.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "super",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-nike",
+    "name": "Nike",
+    "url": "https://www.nike.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-homedepot",
+    "name": "The Home Depot",
+    "url": "https://www.homedepot.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-nytimes",
+    "name": "The New York Times",
+    "url": "https://www.nytimes.com",
+    "country": "US",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-yahoo",
+    "name": "Yahoo",
+    "url": "https://www.yahoo.com",
+    "country": "US",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-espn",
+    "name": "ESPN",
+    "url": "https://www.espn.com",
+    "country": "US",
+    "siteType": "medios",
+    "sector": "deportes",
+    "objectives": [
+      "informar",
+      "entretener"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-mayoclinic",
+    "name": "Mayo Clinic",
+    "url": "https://www.mayoclinic.org",
+    "country": "US",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar",
+      "consultas"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-clevelandclinic",
+    "name": "Cleveland Clinic",
+    "url": "https://my.clevelandclinic.org",
+    "country": "US",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar",
+      "consultas"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-tripadvisor",
+    "name": "Tripadvisor",
+    "url": "https://www.tripadvisor.com",
+    "country": "US",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar",
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Estados Unidos (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-states",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-usagov",
+    "name": "USA.gov",
+    "url": "https://www.usa.gov",
+    "country": "US",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Portal oficial del gobierno: referente obligado para sitios institucionales.",
+    "sources": [
+      {
+        "title": "Portal oficial del gobierno nacional (incluido por su función, no por ranking)",
+        "kind": "sitio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-irs",
+    "name": "IRS",
+    "url": "https://www.irs.gov",
+    "country": "US",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Portal oficial del gobierno: referente obligado para sitios institucionales.",
+    "sources": [
+      {
+        "title": "Portal oficial del gobierno nacional (incluido por su función, no por ranking)",
+        "kind": "sitio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "us-ssa",
+    "name": "Social Security",
+    "url": "https://www.ssa.gov",
+    "country": "US",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar",
+      "herramienta"
+    ],
+    "reason": "Portal oficial del gobierno: referente obligado para sitios institucionales.",
+    "sources": [
+      {
+        "title": "Portal oficial del gobierno nacional (incluido por su función, no por ranking)",
+        "kind": "sitio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-taobao",
+    "name": "Taobao",
+    "url": "https://www.taobao.com",
+    "country": "CN",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Plataforma de compras con más usuarios activos diarios según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Jiemian / QuestMobile · Usuarios activos diarios de Taobao, Pinduoduo y JD en Double 11",
+        "url": "https://en.jiemian.com/article/13655477.html",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-tmall",
+    "name": "Tmall",
+    "url": "https://www.tmall.com",
+    "country": "CN",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Listada entre las principales plataformas de eCommerce de China.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "ecommerceguide.com · Principales sitios de eCommerce en China (abr. 2026)",
+        "url": "https://ecommerceguide.com/top/china/",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-jd",
+    "name": "JD.com",
+    "url": "https://www.jd.com",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Entre las tres plataformas de compras con más usuarios diarios según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Jiemian / QuestMobile · Usuarios activos diarios de Taobao, Pinduoduo y JD en Double 11",
+        "url": "https://en.jiemian.com/article/13655477.html",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-pinduoduo",
+    "name": "Pinduoduo",
+    "url": "https://www.pinduoduo.com",
+    "country": "CN",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Entre las tres plataformas de compras con más usuarios diarios (su uso es mayormente desde la app).",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Jiemian / QuestMobile · Usuarios activos diarios de Taobao, Pinduoduo y JD en Double 11",
+        "url": "https://en.jiemian.com/article/13655477.html",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-suning",
+    "name": "Suning",
+    "url": "https://www.suning.com",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "electro",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Listada entre las principales plataformas de eCommerce de China.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "ecommerceguide.com · Principales sitios de eCommerce en China (abr. 2026)",
+        "url": "https://ecommerceguide.com/top/china/",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-vip",
+    "name": "Vipshop",
+    "url": "https://www.vip.com",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Listada entre las principales plataformas de eCommerce de China.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "ecommerceguide.com · Principales sitios de eCommerce en China (abr. 2026)",
+        "url": "https://ecommerceguide.com/top/china/",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-dangdang",
+    "name": "Dangdang",
+    "url": "https://www.dangdang.com",
+    "country": "CN",
+    "siteType": "ecommerce",
+    "sector": "libros",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Listada entre las principales plataformas de eCommerce de China.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "ecommerceguide.com · Principales sitios de eCommerce en China (abr. 2026)",
+        "url": "https://ecommerceguide.com/top/china/",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-sina",
+    "name": "Sina",
+    "url": "https://www.sina.com.cn",
+    "country": "CN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Mencionado entre los portales de noticias más populares de China.",
+    "sources": [
+      {
+        "title": "Written Chinese · Sitios chinos más populares por categoría",
+        "url": "https://writtenchinese.com/top-10-popular-chinese-websites",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-netease",
+    "name": "NetEase (163)",
+    "url": "https://www.163.com",
+    "country": "CN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Mencionado entre los portales de noticias más populares de China.",
+    "sources": [
+      {
+        "title": "Written Chinese · Sitios chinos más populares por categoría",
+        "url": "https://writtenchinese.com/top-10-popular-chinese-websites",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-sohu",
+    "name": "Sohu",
+    "url": "https://www.sohu.com",
+    "country": "CN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Mencionado entre los portales de noticias más populares de China.",
+    "sources": [
+      {
+        "title": "Written Chinese · Sitios chinos más populares por categoría",
+        "url": "https://writtenchinese.com/top-10-popular-chinese-websites",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-qq",
+    "name": "Tencent QQ",
+    "url": "https://www.qq.com",
+    "country": "CN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar",
+      "entretener"
+    ],
+    "reason": "Mencionado entre los portales de noticias más populares de China.",
+    "sources": [
+      {
+        "title": "Written Chinese · Sitios chinos más populares por categoría",
+        "url": "https://writtenchinese.com/top-10-popular-chinese-websites",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cn-govcn",
+    "name": "Gobierno de China (gov.cn)",
+    "url": "https://www.gov.cn",
+    "country": "CN",
+    "siteType": "institucional",
+    "sector": "gobierno",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Portal oficial del gobierno: referente obligado para sitios institucionales.",
+    "sources": [
+      {
+        "title": "Portal oficial del gobierno nacional (incluido por su función, no por ranking)",
+        "kind": "sitio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-mercadolibre",
+    "name": "Mercado Libre México",
+    "url": "https://www.mercadolibre.com.mx",
+    "country": "MX",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-amazon",
+    "name": "Amazon México",
+    "url": "https://www.amazon.com.mx",
+    "country": "MX",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Versión local de un marketplace que lidera el ranking mundial de compras.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-mercadolivre",
+    "name": "Mercado Livre",
+    "url": "https://www.mercadolivre.com.br",
+    "country": "BR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-amazon",
+    "name": "Amazon Brasil",
+    "url": "https://www.amazon.com.br",
+    "country": "BR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-rakuten",
+    "name": "Rakuten",
+    "url": "https://www.rakuten.co.jp",
+    "country": "JP",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-amazon",
+    "name": "Amazon Japón",
+    "url": "https://www.amazon.co.jp",
+    "country": "JP",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-amazon",
+    "name": "Amazon India",
+    "url": "https://www.amazon.in",
+    "country": "IN",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-flipkart",
+    "name": "Flipkart",
+    "url": "https://www.flipkart.com",
+    "country": "IN",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-amazon",
+    "name": "Amazon Alemania",
+    "url": "https://www.amazon.de",
+    "country": "DE",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "pl-allegro",
+    "name": "Allegro",
+    "url": "https://allegro.pl",
+    "country": "PL",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "pl-olx",
+    "name": "OLX Polonia",
+    "url": "https://www.olx.pl",
+    "country": "PL",
+    "siteType": "marketplace",
+    "sector": "clasificados",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "tr-trendyol",
+    "name": "Trendyol",
+    "url": "https://www.trendyol.com",
+    "country": "TR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "tr-hepsiburada",
+    "name": "Hepsiburada",
+    "url": "https://www.hepsiburada.com",
+    "country": "TR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "tr-sahibinden",
+    "name": "Sahibinden",
+    "url": "https://www.sahibinden.com",
+    "country": "TR",
+    "siteType": "marketplace",
+    "sector": "clasificados",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "id-shopee",
+    "name": "Shopee Indonesia",
+    "url": "https://shopee.co.id",
+    "country": "ID",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "id-tokopedia",
+    "name": "Tokopedia",
+    "url": "https://www.tokopedia.com",
+    "country": "ID",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-leboncoin",
+    "name": "Leboncoin",
+    "url": "https://www.leboncoin.fr",
+    "country": "FR",
+    "siteType": "marketplace",
+    "sector": "clasificados",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-amazon",
+    "name": "Amazon Francia",
+    "url": "https://www.amazon.fr",
+    "country": "FR",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-amazon",
+    "name": "Amazon España",
+    "url": "https://www.amazon.es",
+    "country": "ES",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-zara",
+    "name": "Zara",
+    "url": "https://www.zara.com/es/",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-amazon",
+    "name": "Amazon Reino Unido",
+    "url": "https://www.amazon.co.uk",
+    "country": "GB",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-amazon",
+    "name": "Amazon Italia",
+    "url": "https://www.amazon.it",
+    "country": "IT",
+    "siteType": "marketplace",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 100 sitios de compras del mundo (jul. 2025)",
+        "url": "https://ahrefs.com/websites/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-liverpool",
+    "name": "Liverpool",
+    "url": "https://www.liverpool.com.mx",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-walmart",
+    "name": "Walmart México",
+    "url": "https://www.walmart.com.mx",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-coppel",
+    "name": "Coppel",
+    "url": "https://www.coppel.com",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-homedepot",
+    "name": "The Home Depot México",
+    "url": "https://www.homedepot.com.mx",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-soriana",
+    "name": "Soriana",
+    "url": "https://www.soriana.com",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-fahorro",
+    "name": "Farmacias del Ahorro",
+    "url": "https://www.fahorro.com",
+    "country": "MX",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-volaris",
+    "name": "Volaris",
+    "url": "https://www.volaris.com",
+    "country": "MX",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-vivaaerobus",
+    "name": "Viva Aerobus",
+    "url": "https://www.vivaaerobus.com",
+    "country": "MX",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-aeromexico",
+    "name": "Aeroméxico",
+    "url": "https://aeromexico.com",
+    "country": "MX",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-ado",
+    "name": "ADO",
+    "url": "https://www.ado.com.mx",
+    "country": "MX",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "mx-despegar",
+    "name": "Despegar México",
+    "url": "https://www.despegar.com.mx",
+    "country": "MX",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en México (jul. 2025)",
+        "url": "https://ahrefs.com/websites/mexico/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-magalu",
+    "name": "Magazine Luiza",
+    "url": "https://www.magazineluiza.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-olx",
+    "name": "OLX Brasil",
+    "url": "https://www.olx.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-shopee",
+    "name": "Shopee Brasil",
+    "url": "https://shopee.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-casasbahia",
+    "name": "Casas Bahia",
+    "url": "https://www.casasbahia.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-netshoes",
+    "name": "Netshoes",
+    "url": "https://www.netshoes.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-americanas",
+    "name": "Americanas",
+    "url": "https://www.americanas.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-kabum",
+    "name": "KaBuM!",
+    "url": "https://www.kabum.com.br",
+    "country": "BR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-globo",
+    "name": "Globo",
+    "url": "https://www.globo.com",
+    "country": "BR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de noticias en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/news",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-uol",
+    "name": "UOL",
+    "url": "https://www.uol.com.br",
+    "country": "BR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de noticias en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/news",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-terra",
+    "name": "Terra",
+    "url": "https://www.terra.com.br",
+    "country": "BR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de noticias en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/news",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-cnnbrasil",
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br",
+    "country": "BR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de noticias en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/news",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "br-estadao",
+    "name": "Estadão",
+    "url": "https://www.estadao.com.br",
+    "country": "BR",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de noticias en Brasil (jul. 2025)",
+        "url": "https://ahrefs.com/websites/brazil/news",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-kakaku",
+    "name": "Kakaku.com",
+    "url": "https://kakaku.com",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-mercari",
+    "name": "Mercari",
+    "url": "https://jp.mercari.com",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-biccamera",
+    "name": "Bic Camera",
+    "url": "https://www.biccamera.com",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-zozo",
+    "name": "ZOZOTOWN",
+    "url": "https://zozo.jp",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-muji",
+    "name": "MUJI",
+    "url": "https://www.muji.com/jp/ja/store",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-uniqlo",
+    "name": "Uniqlo Japón",
+    "url": "https://www.uniqlo.com/jp/ja/",
+    "country": "JP",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-jalan",
+    "name": "Jalan",
+    "url": "https://www.jalan.net",
+    "country": "JP",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-jal",
+    "name": "Japan Airlines",
+    "url": "https://www.jal.co.jp",
+    "country": "JP",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-ana",
+    "name": "ANA",
+    "url": "https://www.ana.co.jp",
+    "country": "JP",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Japón (jul. 2025)",
+        "url": "https://ahrefs.com/websites/japan/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-yahoo",
+    "name": "Yahoo! Japan",
+    "url": "https://www.yahoo.co.jp",
+    "country": "JP",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Japón (may. 2025)",
+        "url": "https://ahrefs.com/top/japan",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-nhk",
+    "name": "NHK",
+    "url": "https://www.nhk.or.jp",
+    "country": "JP",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Japón (may. 2025)",
+        "url": "https://ahrefs.com/top/japan",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "jp-nikkei",
+    "name": "Nikkei",
+    "url": "https://www.nikkei.com",
+    "country": "JP",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Japón (may. 2025)",
+        "url": "https://ahrefs.com/top/japan",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-myntra",
+    "name": "Myntra",
+    "url": "https://www.myntra.com",
+    "country": "IN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Mencionado entre los sitios de compras online más grandes de India en la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Spocket · Top 10 sitios de compras online en India (2024)",
+        "url": "https://www.spocket.co/statistics/top-10-online-shopping-sites-in-india",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-snapdeal",
+    "name": "Snapdeal",
+    "url": "https://www.snapdeal.com",
+    "country": "IN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Mencionado entre los sitios de compras online más grandes de India en la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Spocket · Top 10 sitios de compras online en India (2024)",
+        "url": "https://www.spocket.co/statistics/top-10-online-shopping-sites-in-india",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-ajio",
+    "name": "AJIO",
+    "url": "https://www.ajio.com",
+    "country": "IN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Mencionado entre los sitios de compras online más grandes de India en la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Spocket · Top 10 sitios de compras online en India (2024)",
+        "url": "https://www.spocket.co/statistics/top-10-online-shopping-sites-in-india",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-nykaa",
+    "name": "Nykaa",
+    "url": "https://www.nykaa.com",
+    "country": "IN",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Mencionado entre los sitios de compras online más grandes de India en la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Spocket · Top 10 sitios de compras online en India (2024)",
+        "url": "https://www.spocket.co/statistics/top-10-online-shopping-sites-in-india",
+        "accessedAt": "2026-10-16",
+        "kind": "articulo"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-1mg",
+    "name": "Tata 1mg",
+    "url": "https://www.1mg.com",
+    "country": "IN",
+    "siteType": "ecommerce",
+    "sector": "salud",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de India (jun. 2025)",
+        "url": "https://ahrefs.com/top/india",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-makemytrip",
+    "name": "MakeMyTrip",
+    "url": "https://www.makemytrip.com",
+    "country": "IN",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en India (jul. 2025)",
+        "url": "https://ahrefs.com/websites/india/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-goibibo",
+    "name": "Goibibo",
+    "url": "https://www.goibibo.com",
+    "country": "IN",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en India (jul. 2025)",
+        "url": "https://ahrefs.com/websites/india/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-ixigo",
+    "name": "ixigo",
+    "url": "https://www.ixigo.com",
+    "country": "IN",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en India (jul. 2025)",
+        "url": "https://ahrefs.com/websites/india/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-redbus",
+    "name": "redBus",
+    "url": "https://www.redbus.in",
+    "country": "IN",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en India (jul. 2025)",
+        "url": "https://ahrefs.com/websites/india/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-indiatimes",
+    "name": "Indiatimes",
+    "url": "https://www.indiatimes.com",
+    "country": "IN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de India (jun. 2025)",
+        "url": "https://ahrefs.com/top/india",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-hindustantimes",
+    "name": "Hindustan Times",
+    "url": "https://www.hindustantimes.com",
+    "country": "IN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de India (jun. 2025)",
+        "url": "https://ahrefs.com/top/india",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "in-ndtv",
+    "name": "NDTV",
+    "url": "https://www.ndtv.com",
+    "country": "IN",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de India (jun. 2025)",
+        "url": "https://ahrefs.com/top/india",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-kleinanzeigen",
+    "name": "Kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-idealo",
+    "name": "idealo",
+    "url": "https://www.idealo.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-zalando",
+    "name": "Zalando",
+    "url": "https://www.zalando.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-ebay",
+    "name": "eBay Alemania",
+    "url": "https://www.ebay.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-mediamarkt",
+    "name": "MediaMarkt",
+    "url": "https://www.mediamarkt.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-otto",
+    "name": "OTTO",
+    "url": "https://www.otto.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-lidl",
+    "name": "Lidl Alemania",
+    "url": "https://www.lidl.de",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-bahn",
+    "name": "Deutsche Bahn",
+    "url": "https://www.bahn.de",
+    "country": "DE",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-holidaycheck",
+    "name": "HolidayCheck",
+    "url": "https://www.holidaycheck.de",
+    "country": "DE",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-tui",
+    "name": "TUI",
+    "url": "https://www.tui.com",
+    "country": "DE",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-aok",
+    "name": "AOK",
+    "url": "https://www.aok.de",
+    "country": "DE",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de salud en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/health",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-netdoktor",
+    "name": "NetDoktor",
+    "url": "https://www.netdoktor.de",
+    "country": "DE",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de salud en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/health",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-apotheken-umschau",
+    "name": "Apotheken Umschau",
+    "url": "https://www.apotheken-umschau.de",
+    "country": "DE",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de salud en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/health",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "de-tk",
+    "name": "Techniker Krankenkasse",
+    "url": "https://www.tk.de",
+    "country": "DE",
+    "siteType": "salud",
+    "sector": "clinica",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de salud en Alemania (jul. 2025)",
+        "url": "https://ahrefs.com/websites/germany/health",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-elcorteingles",
+    "name": "El Corte Inglés",
+    "url": "https://www.elcorteingles.es",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-carrefour",
+    "name": "Carrefour España",
+    "url": "https://www.carrefour.es",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-mediamarkt",
+    "name": "MediaMarkt España",
+    "url": "https://www.mediamarkt.es",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-milanuncios",
+    "name": "Milanuncios",
+    "url": "https://www.milanuncios.com",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-wallapop",
+    "name": "Wallapop",
+    "url": "https://es.wallapop.com",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-lidl",
+    "name": "Lidl España",
+    "url": "https://www.lidl.es",
+    "country": "ES",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-elmundo",
+    "name": "El Mundo",
+    "url": "https://www.elmundo.es",
+    "country": "ES",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-elpais",
+    "name": "El País",
+    "url": "https://elpais.com",
+    "country": "ES",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-abc",
+    "name": "ABC",
+    "url": "https://www.abc.es",
+    "country": "ES",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "es-rtve",
+    "name": "RTVE",
+    "url": "https://www.rtve.es",
+    "country": "ES",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de España (jul. 2025)",
+        "url": "https://ahrefs.com/websites/spain",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-fnac",
+    "name": "Fnac",
+    "url": "https://www.fnac.com",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-boulanger",
+    "name": "Boulanger",
+    "url": "https://www.boulanger.com",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-cdiscount",
+    "name": "Cdiscount",
+    "url": "https://www.cdiscount.com",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-darty",
+    "name": "Darty",
+    "url": "https://www.darty.com",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-carrefour",
+    "name": "Carrefour Francia",
+    "url": "https://www.carrefour.fr",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-vinted",
+    "name": "Vinted",
+    "url": "https://www.vinted.fr",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-leclerc",
+    "name": "E.Leclerc",
+    "url": "https://www.e.leclerc",
+    "country": "FR",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-sncf",
+    "name": "SNCF Connect",
+    "url": "https://www.sncf-connect.com",
+    "country": "FR",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-airfrance",
+    "name": "Air France",
+    "url": "https://www.airfrance.fr",
+    "country": "FR",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "fr-tripadvisor",
+    "name": "Tripadvisor Francia",
+    "url": "https://www.tripadvisor.fr",
+    "country": "FR",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Francia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/france/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-ebay",
+    "name": "eBay Reino Unido",
+    "url": "https://www.ebay.co.uk",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-argos",
+    "name": "Argos",
+    "url": "https://www.argos.co.uk",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-next",
+    "name": "Next",
+    "url": "https://www.next.co.uk",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-mands",
+    "name": "Marks & Spencer",
+    "url": "https://www.marksandspencer.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-asda",
+    "name": "Asda",
+    "url": "https://www.asda.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-tesco",
+    "name": "Tesco",
+    "url": "https://www.tesco.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-currys",
+    "name": "Currys",
+    "url": "https://www.currys.co.uk",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "gb-johnlewis",
+    "name": "John Lewis",
+    "url": "https://www.johnlewis.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Reino Unido (jul. 2025)",
+        "url": "https://ahrefs.com/websites/united-kingdom/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-subito",
+    "name": "Subito",
+    "url": "https://www.subito.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-zalando",
+    "name": "Zalando Italia",
+    "url": "https://www.zalando.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-ebay",
+    "name": "eBay Italia",
+    "url": "https://www.ebay.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-mediaworld",
+    "name": "MediaWorld",
+    "url": "https://www.mediaworld.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-unieuro",
+    "name": "Unieuro",
+    "url": "https://www.unieuro.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-trovaprezzi",
+    "name": "Trovaprezzi",
+    "url": "https://www.trovaprezzi.it",
+    "country": "IT",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-corriere",
+    "name": "Corriere della Sera",
+    "url": "https://www.corriere.it",
+    "country": "IT",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-repubblica",
+    "name": "la Repubblica",
+    "url": "https://www.repubblica.it",
+    "country": "IT",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-gazzetta",
+    "name": "La Gazzetta dello Sport",
+    "url": "https://www.gazzetta.it",
+    "country": "IT",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "it-libero",
+    "name": "Libero",
+    "url": "https://www.libero.it",
+    "country": "IT",
+    "siteType": "medios",
+    "sector": "noticias",
+    "objectives": [
+      "informar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Sitios más visitados de Italia (jul. 2025)",
+        "url": "https://ahrefs.com/websites/italy",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-falabella",
+    "name": "Falabella",
+    "url": "https://www.falabella.com/falabella-cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "calidad",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-mercadolibre",
+    "name": "Mercado Libre Chile",
+    "url": "https://www.mercadolibre.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-paris",
+    "name": "Paris",
+    "url": "https://www.paris.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-ripley",
+    "name": "Ripley",
+    "url": "https://simple.ripley.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-lider",
+    "name": "Líder",
+    "url": "https://www.lider.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-jumbo",
+    "name": "Jumbo",
+    "url": "https://www.jumbo.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-easy",
+    "name": "Easy Chile",
+    "url": "https://www.easy.cl",
+    "country": "CL",
+    "siteType": "ecommerce",
+    "sector": "general",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los sitios de compras más visitados según la fuente citada.",
+    "positioning": "precio",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de compras en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/shopping",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-latam",
+    "name": "LATAM",
+    "url": "https://www.latamairlines.com/cl/es",
+    "country": "CL",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-sky",
+    "name": "SKY Airline",
+    "url": "https://www.skyairline.com",
+    "country": "CL",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-jetsmart",
+    "name": "JetSMART Chile",
+    "url": "https://jetsmart.com/cl/es/",
+    "country": "CL",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "cl-despegar",
+    "name": "Despegar Chile",
+    "url": "https://www.despegar.cl",
+    "country": "CL",
+    "siteType": "turismo",
+    "sector": "viajes",
+    "objectives": [
+      "reservar"
+    ],
+    "reason": "Figura entre los sitios más visitados del país según la fuente citada.",
+    "sources": [
+      {
+        "title": "Ahrefs · Top 10 sitios de viajes en Chile (jul. 2025)",
+        "url": "https://ahrefs.com/websites/chile/travel-and-transportation",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-farfetch",
+    "name": "Farfetch",
+    "url": "https://www.farfetch.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Una de las tiendas online de lujo con más visitas según la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-mytheresa",
+    "name": "Mytheresa",
+    "url": "https://www.mytheresa.com",
+    "country": "DE",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Una de las tiendas online de lujo con más visitas según la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-netaporter",
+    "name": "Net-a-Porter",
+    "url": "https://www.net-a-porter.com",
+    "country": "GB",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Una de las tiendas online de lujo con más visitas según la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-neimanmarcus",
+    "name": "Neiman Marcus",
+    "url": "https://www.neimanmarcus.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Tienda de lujo de referencia; sus competidores directos figuran en la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-saks",
+    "name": "Saks Fifth Avenue",
+    "url": "https://www.saksfifthavenue.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los competidores directos de las tiendas de lujo en la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  },
+  {
+    "id": "lux-bloomingdales",
+    "name": "Bloomingdale's",
+    "url": "https://www.bloomingdales.com",
+    "country": "US",
+    "siteType": "ecommerce",
+    "sector": "moda",
+    "objectives": [
+      "vender"
+    ],
+    "reason": "Figura entre los competidores directos de las tiendas de lujo en la fuente citada.",
+    "positioning": "lujo",
+    "sources": [
+      {
+        "title": "Semrush · Competidores de neimanmarcus.com por visitas (may. 2025): Farfetch, Mytheresa, Net-a-Porter, Saks, Bloomingdale's",
+        "url": "https://cw.semrush.com/website/neimanmarcus.com/competitors",
+        "accessedAt": "2026-10-16",
+        "kind": "estudio"
+      }
+    ],
+    "demo": false,
+    "captures": {
+      "desktop": {
+        "status": "no_capturada"
+      },
+      "mobile": {
+        "status": "no_capturada"
+      }
+    }
+  }
+]

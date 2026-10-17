@@ -1,0 +1,148 @@
+[
+  {
+    "id": "ecommerce",
+    "name": "Tienda online (eCommerce)",
+    "sectors": [
+      {
+        "id": "electro",
+        "name": "Electrónica y electrodomésticos"
+      },
+      {
+        "id": "moda",
+        "name": "Moda"
+      },
+      {
+        "id": "super",
+        "name": "Supermercado"
+      },
+      {
+        "id": "general",
+        "name": "Multicategoría"
+      },
+      {
+        "id": "salud",
+        "name": "Farmacia y salud"
+      },
+      {
+        "id": "libros",
+        "name": "Libros"
+      }
+    ]
+  },
+  {
+    "id": "marketplace",
+    "name": "Marketplace",
+    "sectors": [
+      {
+        "id": "general",
+        "name": "Multicategoría"
+      },
+      {
+        "id": "clasificados",
+        "name": "Clasificados"
+      }
+    ]
+  },
+  {
+    "id": "corporativa",
+    "name": "Sitio corporativo",
+    "sectors": []
+  },
+  {
+    "id": "institucional",
+    "name": "Institucional / gobierno",
+    "sectors": [
+      {
+        "id": "gobierno",
+        "name": "Gobierno"
+      }
+    ]
+  },
+  {
+    "id": "finanzas",
+    "name": "Bancos y finanzas",
+    "sectors": [
+      {
+        "id": "banca",
+        "name": "Bancos"
+      },
+      {
+        "id": "pagos",
+        "name": "Billeteras y pagos"
+      }
+    ]
+  },
+  {
+    "id": "ong",
+    "name": "ONG",
+    "sectors": []
+  },
+  {
+    "id": "educacion",
+    "name": "Educación",
+    "sectors": []
+  },
+  {
+    "id": "medios",
+    "name": "Medios y noticias",
+    "sectors": [
+      {
+        "id": "noticias",
+        "name": "Noticias"
+      },
+      {
+        "id": "deportes",
+        "name": "Deportes"
+      }
+    ]
+  },
+  {
+    "id": "turismo",
+    "name": "Turismo y reservas",
+    "sectors": [
+      {
+        "id": "viajes",
+        "name": "Agencias y guías"
+      },
+      {
+        "id": "aerolinea",
+        "name": "Aerolíneas"
+      }
+    ]
+  },
+  {
+    "id": "salud",
+    "name": "Salud",
+    "sectors": [
+      {
+        "id": "clinica",
+        "name": "Clínicas y hospitales"
+      }
+    ]
+  },
+  {
+    "id": "saas",
+    "name": "Software (SaaS)",
+    "sectors": []
+  },
+  {
+    "id": "portfolio",
+    "name": "Portfolio",
+    "sectors": []
+  },
+  {
+    "id": "servicios",
+    "name": "Servicios profesionales",
+    "sectors": []
+  },
+  {
+    "id": "comunidad",
+    "name": "Comunidad",
+    "sectors": []
+  },
+  {
+    "id": "entretenimiento",
+    "name": "Entretenimiento",
+    "sectors": []
+  }
+]

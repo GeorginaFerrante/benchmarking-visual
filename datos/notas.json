@@ -1,0 +1,3 @@
+{
+  "_ayuda": "Notas escritas a mano que se muestran junto a los textos automáticos. Clave: PAÍS/tipo-de-sitio/parte. Ejemplo: \"AR/tienda-online/search_bar\": \"Texto\". Partes: header, logo, search_bar, main_nav, hero, primary_button, footer, gallery, price, buy_button, filters, product_card."
+}

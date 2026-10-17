@@ -1,0 +1,26 @@
+{
+  "audiences": [
+    { "id": "general", "name": "Público general" },
+    { "id": "jovenes", "name": "Jóvenes" },
+    { "id": "adultos", "name": "Adultos" },
+    { "id": "b2b", "name": "Empresas (B2B)" }
+  ],
+  "objectives": [
+    { "id": "vender", "name": "Vender" },
+    { "id": "informar", "name": "Informar" },
+    { "id": "reservar", "name": "Reservar" },
+    { "id": "consultas", "name": "Recibir consultas" },
+    { "id": "educar", "name": "Educar" },
+    { "id": "entretener", "name": "Entretener" },
+    { "id": "herramienta", "name": "Usar una herramienta" }
+  ],
+  "positioning": [
+    { "id": "precio", "name": "Buen precio", "onlyFor": ["ecommerce", "marketplace", "turismo", "servicios"] },
+    { "id": "calidad", "name": "Calidad" },
+    { "id": "lujo", "name": "Exclusividad", "onlyFor": ["ecommerce", "turismo", "servicios", "portfolio"] },
+    { "id": "confianza", "name": "Confianza" },
+    { "id": "accesibilidad", "name": "Fácil de usar para todos" },
+    { "id": "rapidez", "name": "Rapidez" },
+    { "id": "innovacion", "name": "Innovación" }
+  ]
+}

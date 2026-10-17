@@ -1,0 +1,17 @@
+[
+  { "id": "rojo-significados", "countries": ["CN", "AR", "US"], "topic": "Color",
+    "claim": "El rojo no tiene un único significado: en muchas interfaces marca errores o alertas, y en tradiciones chinas se asocia también con celebración y buena fortuna.",
+    "context": "Un mismo color puede convivir con varios significados. Eso no quiere decir que los sitios chinos usen rojo «porque sí»: hay que mirar cada caso.",
+    "sources": [{ "title": "Fuente pendiente de cargar por el equipo de curaduría", "kind": "pendiente" }],
+    "evidence": "hipotesis", "caveat": "No deducir reglas de interfaz a partir de simbolismo cultural.", "demo": true },
+  { "id": "densidad-visual", "countries": ["JP", "US"], "topic": "Densidad",
+    "claim": "Se suele comentar que muchos portales japoneses muestran más texto y enlaces por pantalla que sitios equivalentes de otros países.",
+    "context": "Es una observación frecuente en artículos de diseño, no una medición de esta plataforma. Se verificará cuando haya capturas comparables.",
+    "sources": [{ "title": "Fuente pendiente de cargar por el equipo de curaduría", "kind": "pendiente" }],
+    "evidence": "hipotesis", "caveat": "No vale para todos los sitios japoneses ni dice nada de lo que prefieren sus usuarios.", "demo": true },
+  { "id": "buscador-demo", "countries": ["AR", "MX", "ES"], "topic": "Buscadores",
+    "claim": "En los datos de demostración, las tiendas ficticias de Argentina y México tienen el buscador más ancho que las de España.",
+    "context": "Ejemplo armado para mostrar cómo se verá una curiosidad basada en mediciones. No describe sitios reales.",
+    "sources": [{ "title": "Datos de demostración generados", "kind": "pendiente" }],
+    "evidence": "observacion", "demo": true }
+]

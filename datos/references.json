@@ -45,13 +45,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.com.ar/categorias#nav-header",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/ar-mercadolibre-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fl%2Fproductos-sustentables&tid=9b10b3e1-4eac-4802-80c5-778fd5503861"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -67,7 +76,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fc%2Fcelulares-y-telefonos&tid=f91bfd25-f277-4e55-9d79-76120810900e"
+        "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fc%2Fcelulares-y-telefonos&tid=f91bfd25-f277-4e55-9d79-76120810900e",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -77,7 +89,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fofertas%3Fprice%3D0.0-20000.0%26container_id%3DMLA779357-1%26search_mode%3Dcollapsed%26cart_mode%3Ddefault%26navigationcp_mode%3Ddefault%26bar_left_button_style%3Dback%26back_action%3Dclose%26authentication_mode%3Doptional%26webkit-engine%3D2&tid=f9cc2a69-c237-4bab-8b58-397866eda454#da_id=low_price_products&da_position=1&id_origin=/home/dynamic_access&da_sort_algorithm=static"
+        "url": "https://www.mercadolibre.com.ar/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fl%2Fproductos-sustentables&tid=00e8d3d0-fbba-4374-9dd6-2d3a3bfc12d6"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -117,7 +129,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.fravega.com/"
+        "url": "https://www.fravega.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -127,7 +142,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.fravega.com/"
+        "url": "https://www.fravega.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -245,7 +263,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.coto.com.ar/productos/banner/todas-las-ofertas-aniversario"
+        "url": "https://www.coto.com.ar/productos/ofertas/exclusivas"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -384,10 +402,14 @@
         "error": "No se encontró un enlace a esta página"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/ar-carrefour-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.carrefour.com.ar/hogar-y-electro"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -402,10 +424,14 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/ar-carrefour-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 862
+        },
+        "url": "https://www.carrefour.com.ar/hogar-y-electro"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -445,7 +471,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.musimundo.com/"
+        "url": "https://www.musimundo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -455,7 +484,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.musimundo.com/"
+        "url": "https://www.musimundo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -548,10 +580,14 @@
         "url": "https://www.farmacity.com/hogar-y-alimentos?initialMap=c&initialQuery=hogar-y-alimentos&map=category-1,category-2,category-2&order=OrderByTopSaleDESC&query=/hogar-y-alimentos/alimentacion-saludable/desayuno-y-merienda&searchState"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/ar-farmacity-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.farmacity.com/3769?map=productClusterIds&order=OrderByTopSaleDESC"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -573,7 +609,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.farmacity.com/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -1259,13 +1300,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.santander.com.ar/\nCall log:\n  - navigating to \"https://www.santa"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.santander.com.ar/\nCall log:\n  - navigating to \"https://www.santa"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
       }
     }
   },
@@ -1420,7 +1461,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://flybondi.com/"
+        "url": "https://flybondi.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -1430,7 +1474,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://flybondi.com/"
+        "url": "https://flybondi.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -1527,7 +1574,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com/Audible-Books-and-Originals/b/?ie=UTF8&node=18145289011&ref_=nav_cs_audible"
+        "url": "https://www.amazon.com/Audible-Books-and-Originals/b/?ie=UTF8&node=18145289011&ref_=nav_cs_audible",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -1537,7 +1587,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com/Hersheys-Chocolate-Almonds-Candy-Hec24100/dp/B0B99VCPCM/?_encoding=UTF8&pd_rd_w=cIfhG&content-id=amzn1.sym.af30c189-cc7f-480d-9d32-9cb42ddf5c3b&pf_rd_p=af30c189-cc7f-480d-9d32-9cb42ddf5c3b&pf_rd_r=KW1TMFMAX30VJEP84FZH&pd_rd_wg=kWY4Z&pd_rd_r=f3b4e619-79eb-44d7-93a9-302b59fbb638&ref_=pd_hp_d_r_atf_trick-or-treat-u25"
+        "url": "https://www.amazon.com/Flavored-Deliciously-Vegetarian-Candies-Strawberry/dp/B0CSZ8MR85/?_encoding=UTF8&pd_rd_w=7ENkn&content-id=amzn1.sym.af30c189-cc7f-480d-9d32-9cb42ddf5c3b&pf_rd_p=af30c189-cc7f-480d-9d32-9cb42ddf5c3b&pf_rd_r=PQX0FG809MQ40F3TPSB6&pd_rd_wg=lsQtM&pd_rd_r=ab03fd5b-7bf6-4143-a7c1-74a6f42428e8&ref_=pd_hp_d_r_atf_trick-or-treat-u25&th=1"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -1547,7 +1597,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com/gp/cart/view.html?ref_=nav_cart"
+        "url": "https://www.amazon.com/gp/cart/view.html?ref_=nav_cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -1567,7 +1620,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com/Devialet-Distortion-Bluetooth-Audiophile-High-Resolution/dp/B0FJ8WHMR4/?_encoding=UTF8&pd_rd_w=KKiZ1&content-id=amzn1.sym.64bdc035-2238-4fa5-9b8c-45891b940f2b&pf_rd_p=64bdc035-2238-4fa5-9b8c-45891b940f2b&pf_rd_r=B9S3F587GGCKXVCSXEHS&pd_rd_wg=npaUT&pd_rd_r=fd53b479-b204-428a-b544-7d021d4184ba&ref_=pd_hp_mw_atf_fabric-np-npack-edv-premium-elec"
+        "url": "https://www.amazon.com/Lumify-Redness-Reliever-Drops-7-5mL/dp/B07BVYZL88?_encoding=UTF8&fpw=new&fpl=fresh&ref_=eemb_p_m_3760901_ai_3760941_0_1_i&pd_rd_w=Aw6kk&content-id=amzn1.sym.844716ca-38a7-4983-9f77-d9fe05593431&pf_rd_p=844716ca-38a7-4983-9f77-d9fe05593431&pf_rd_r=6DN0WN81ECS6MY354C05&pd_rd_wg=zx1hH&pd_rd_r=37d783cf-219d-44d2-8b65-cf45ee76c5e4&pd_rd_i=B07BVYZL88"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -1629,7 +1682,7 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "No se encontró un enlace a esta página"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -1687,7 +1740,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ebay.com/"
+        "url": "https://www.ebay.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -1697,7 +1753,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ebay.com/"
+        "url": "https://www.ebay.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -1797,7 +1856,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://corporate.target.com/about/products-services/target-brands"
+        "url": "https://corporate.target.com/about/products-services/target-brands",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Bloqueo o CAPTCHA"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -1813,13 +1875,13 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true"
+        "url": "https://www.target.com/l/target-circle/-/N-pzno9"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -1859,7 +1921,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.bestbuy.com/"
+        "url": "https://www.bestbuy.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
@@ -1979,7 +2044,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.costco.com/DNSMIView",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -2001,7 +2071,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.costco.com/DNSMIView",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -2054,10 +2129,14 @@
         "url": "https://www.nike.com/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/us-nike-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.nike.com/accessibility#introduction"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -2067,7 +2146,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.nike.com/product-advice"
+        "url": "https://www.nike.com/product-advice",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -2077,13 +2159,20 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.nike.com/basketball"
+        "url": "https://www.nike.com/basketball",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/us-nike-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.nike.com/accessibility#introduction"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -2093,7 +2182,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.nike.com/t/tampa-bay-rays-authentic-collection-mens-nike-dri-fit-mlb-1-2-zip-long-sleeve-top-e3OKtIl1/04H944BTPA-KRR"
+        "url": "https://www.nike.com/t/tampa-bay-rays-authentic-collection-mens-nike-dri-fit-mlb-1-2-zip-long-sleeve-top-e3OKtIl1/04H944BTPA-KRR",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "ok",
@@ -2103,7 +2195,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.nike.com/basketball"
+        "url": "https://www.nike.com/basketball",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       }
     }
   },
@@ -2157,7 +2252,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.homedepot.com/c/appliance-sales"
+        "url": "https://www.homedepot.com/c/appliance-sales",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -2167,7 +2265,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.homedepot.com/p/LG-36-in-28-cu-ft-3-Door-French-Door-Refrigerator-w-Ice-and-Water-Dispenser-and-Craft-Ice-in-PrintProof-Stainless-Steel-LHFS28XBS/325158253"
+        "url": "https://www.homedepot.com/p/LG-36-in-28-cu-ft-3-Door-French-Door-Refrigerator-w-Ice-and-Water-Dispenser-and-Craft-Ice-in-PrintProof-Stainless-Steel-LHFS28XBS/325158253",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -2183,7 +2284,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.homedepot.com/c/gift-ideas"
+        "url": "https://www.homedepot.com/c/gift-ideas",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -2193,7 +2297,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.homedepot.com/p/LG-36-in-28-cu-ft-3-Door-French-Door-Refrigerator-w-Ice-and-Water-Dispenser-and-Craft-Ice-in-PrintProof-Stainless-Steel-LHFS28XBS/325158253"
+        "url": "https://www.homedepot.com/p/LG-36-in-28-cu-ft-3-Door-French-Door-Refrigerator-w-Ice-and-Water-Dispenser-and-Craft-Ice-in-PrintProof-Stainless-Steel-LHFS28XBS/325158253",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -2228,13 +2335,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.nytimes.com/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "viewport": {
+          "w": 980,
+          "h": 2121
+        },
+        "url": "https://www.nytimes.com/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -2613,10 +2730,10 @@
         "date": "2026-10-17",
         "screenshot": "capturas/cn-taobao-desktop-categoria.png",
         "viewport": {
-          "w": 1440,
+          "w": 522,
           "h": 900
         },
-        "url": "https://pingjia.taobao.com/category-kongdiao_3724"
+        "url": "https://zc-paimai.taobao.com/wow/pm/default/pc/3c3e0d?disableNav=YES&spm=a2129.27064540.puimod-zc-focus-2021_2860107850.category-2-1&pmid=7358650616_1712715877294&pmtk=20140647.0.0.0.27064540.puimod-zc-focus-2021_2860107850.category-2-1&path=27064540&car_condition=[%221%22]&structFieldMap={%22car_condition%22:[%221%22]}&page=1"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -2626,7 +2743,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=http%3A%2F%2Fbuyertrade.taobao.com%2Ftrade%2Fitemlist%2Flist_bought_items.htm"
+        "url": "https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=http%3A%2F%2Fbuyertrade.taobao.com%2Ftrade%2Fitemlist%2Flist_bought_items.htm",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -2644,7 +2764,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://m.intl.taobao.com/detail/detail.html?id=4501762573&scm=1007.18975.478378.0&pvid=6b979a44-9e60-4396-aa45-f55fcd67fee2&utparam=%7B%22ranger_buckets_native%22%3A%22%22%2C%22x_object_type%22%3A%22item%22%2C%22x_match_type%22%3A%22makeup%22%2C%22scm%22%3A%221007.18975.478378.0%22%2C%22x_object_id%22%3A%224501762573%22%7D&spm=a2141.8138988.guess.0",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -2700,7 +2825,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://pingjia.taobao.com/category-yundongwa_1685"
+        "url": "https://pingjia.taobao.com/category-yundongwa_1685",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -2710,7 +2838,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=http%3A%2F%2Fbuyertrade.taobao.com%2Ftrade%2Fitemlist%2Flist_bought_items.htm"
+        "url": "https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=http%3A%2F%2Fbuyertrade.taobao.com%2Ftrade%2Fitemlist%2Flist_bought_items.htm",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -2916,19 +3047,33 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_TIMED_OUT at https://www.suning.com/\nCall log:\n  - navigating to \"https://www.suning.com/\", waiting "
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://m.suning.com/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/cn-suning-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://search.suning.com/%E6%B4%97%E8%A1%A3%E6%9C%BA/"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://passport.suning.com/ids/login?service=https%3A%2F%2Floginst.suning.com%2F%2Fauth%3FtargetUrl%3Dhttps%253A%252F%252Fproduct.suning.com%252F0070143049%252F12447997633.html&method=GET&loginTheme=b2c",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -2978,7 +3123,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.vip.com/v3/index.html?source=www#/"
+        "url": "https://m.vip.com/v3/index.html?source=www#/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -2990,7 +3138,7 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -3068,13 +3216,21 @@
           "w": 1440,
           "h": 900
         },
-        "url": "http://category.dangdang.com/?ref=www-0-C"
+        "url": "http://category.dangdang.com/?ref=www-0-C",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "http://giftcard.dangdang.com/goods?type=mall",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -3090,13 +3246,21 @@
           "w": 980,
           "h": 2165
         },
-        "url": "http://category.dangdang.com/?ref=www-0-C"
+        "url": "http://category.dangdang.com/?ref=www-0-C",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 980,
+          "h": 2619
+        },
+        "url": "http://giftcard.dangdang.com/goods?type=mall",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3146,7 +3310,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://sina.cn/index/feed?from=touch&Ver=10&from=web"
+        "url": "https://sina.cn/?from=web"
       }
     }
   },
@@ -3367,13 +3531,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.com.mx/categorias#nav-header",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/mx-mercadolibre-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.com.mx/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.mx%2Fl%2Fproductos-sustentables&tid=ca24be75-a055-4afd-8949-63668116daa5"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -3389,7 +3562,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.mx/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.mx%2Fc%2Fcelulares-y-telefonia&tid=abd436a3-4703-4a18-9800-8848ed1caece"
+        "url": "https://www.mercadolibre.com.mx/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.mx%2Fc%2Fcelulares-y-telefonia&tid=abd436a3-4703-4a18-9800-8848ed1caece",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -3399,7 +3575,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.mx/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.mx%2Fofertas%2Fcompritas&tid=dad8bc8f-a674-421d-86ca-be63265b1680#c_id=/home/exhibitors-carousel/element&c_campaign=display%2Fclicks%2FMLM%2Fcount&c_element_order=2&c_uid=52be8985-b88e-468c-bf33-3d138a4b08b1"
+        "url": "https://www.mercadolibre.com.mx/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.com.mx%2Fl%2Fproductos-sustentables&tid=03a65b8f-e835-4d4e-b4c0-d7e3809f9b85"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3459,7 +3635,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.mx/vender-en-amazon/b/?ie=UTF8&ld=AZMXSOA-sell-header_t1&node=13885828011&ref_=nav_cs_sell"
+        "url": "https://www.amazon.com.mx/vender-en-amazon/b/?ie=UTF8&ld=AZMXSOA-sell-header_t1&node=13885828011&ref_=nav_cs_sell",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -3469,7 +3648,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.mx/BanDxin-0-8313-W-Victorinox-Cheese-Master/dp/B083YLG28K/?_encoding=UTF8&pd_rd_w=jtz9l&content-id=amzn1.sym.4a7032cc-941c-4976-8b30-66b9cc00c03e&pf_rd_p=4a7032cc-941c-4976-8b30-66b9cc00c03e&pf_rd_r=E2734BWVBGMMHQM75X3S&pd_rd_wg=Wh0V7&pd_rd_r=e40e6ff1-a0d0-46a5-aafc-b181e7d28f8b&ref_=pd_hp_d_r_atf_dealz_wd_des"
+        "url": "https://www.amazon.com.mx/Amazon-Basics-Almacenamiento-Alambre-Est%C3%A1ndar/dp/B07TTTCGJ6/?_encoding=UTF8&pd_rd_w=K7WSn&content-id=amzn1.sym.4a7032cc-941c-4976-8b30-66b9cc00c03e&pf_rd_p=4a7032cc-941c-4976-8b30-66b9cc00c03e&pf_rd_r=F3PDF9T5G1MZ5J7MCTAB&pd_rd_wg=oAV1A&pd_rd_r=4304b8e1-5efe-4b44-b33d-2ec9dee84e16&ref_=pd_hp_d_r_atf_dealz_wd_des&th=1"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -3479,7 +3658,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.mx/gp/cart/view.html?ref_=nav_cart"
+        "url": "https://www.amazon.com.mx/gp/cart/view.html?ref_=nav_cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -3495,7 +3677,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.amazon.com.mx/Amazon-eGift-Card-Amazon-Logo-Animated/dp/B07PMMFSPC/ref=lp_19117234011_1_1?pf_rd_p=056223a9-a7d3-4809-8100-c0f72742d851&pf_rd_r=NC5B9GSHXX0SRF706F20&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3551,13 +3738,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolivre.com.br/categorias#nav-header",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-mercadolivre-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fc%2Flivros-revistas-e-comics&tid=24fba82c-43a1-4be1-8fad-0f91b999dd21#c_id=/home/categories/category-l1/category-l1&c_category_id=MLB1196&c_uid=1b972322-9af9-11f1-ad91-ff2581a34c74"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -3573,7 +3769,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fc%2Fcarros-motos-e-outros&tid=5d05f2f5-8089-4162-a94f-7e40bd46d4b5"
+        "url": "https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fc%2Fcarros-motos-e-outros&tid=5d05f2f5-8089-4162-a94f-7e40bd46d4b5",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -3583,7 +3782,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fofertas%3Fprice%3D0.0-100.0%26container_id%3DMLB779362-1%26search_mode%3Dcollapsed%26cart_mode%3Ddefault%26navigationcp_mode%3Ddefault%26bar_left_button_style%3Dback%26back_action%3Dclose%26authentication_mode%3Doptional%26webkit-engine%3D2&tid=aa7c4343-07d9-42be-9032-94f7a72a6ede#da_id=low_price_products&da_position=1&id_origin=/home/dynamic_access&da_sort_algorithm=static"
+        "url": "https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Fwww.mercadolivre.com.br%2Fc%2Flivros-revistas-e-comics&tid=e6ab1401-abcf-4036-a570-b8ed476bf2cd#c_id=/home/categories/category-l1/category-l1&c_category_id=MLB1196&c_uid=1b972322-9af9-11f1-ad91-ff2581a34c74"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3643,7 +3842,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.br/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell"
+        "url": "https://www.amazon.com.br/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -3653,7 +3855,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.br/Caneca-cer%C3%A2mica-Divinity-Boutique-Bird/dp/B01IRUPWMA/?_encoding=UTF8&pd_rd_w=jKBUT&content-id=amzn1.sym.934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_p=934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_r=BR5YK99KH1MXXW33S284&pd_rd_wg=TjNsS&pd_rd_r=bbdd0fd3-ff31-4f31-b6a2-bf8deb4051e3&ref_=pd_hp_d_r_atf_nonftac-home&th=1"
+        "url": "https://www.amazon.com.br/Toalha-Dakota-Buettner-Penteado-Algod%C3%A3o/dp/B0GZ4TB5XX/?_encoding=UTF8&pd_rd_w=BLGGy&content-id=amzn1.sym.934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_p=934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_r=8GZPN03D5XRC2T8XB0SW&pd_rd_wg=HS14p&pd_rd_r=83a13450-a820-43c6-b92e-22db88ee1a19&ref_=pd_hp_d_r_atf_nonftac-home&th=1"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -3663,7 +3865,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart"
+        "url": "https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -3673,7 +3878,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com.br/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_mWeb&ref_=navm_cs_sell"
+        "url": "https://www.amazon.com.br/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_mWeb&ref_=navm_cs_sell",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -3683,7 +3891,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com.br/Papel-Higi%C3%AAnico-Personal-Folha-Tripla/dp/B0C4CFDJVJ/?_encoding=UTF8&pd_rd_w=i5vwu&content-id=amzn1.sym.1f53b99b-7864-4ba1-9a6c-fbd806f4672d&pf_rd_p=1f53b99b-7864-4ba1-9a6c-fbd806f4672d&pf_rd_r=VFS721HVCM7FY3PVWPN7&pd_rd_wg=tzXdl&pd_rd_r=c9343506-c001-4352-b67c-1defc7769a2d&ref_=pd_hp_mw_atf_mtech_trd_wd_bs"
+        "url": "https://www.amazon.com.br/Mor-PRATELEIRA-MULTIUSO-M-BRANCA/dp/B0DXRGXNDV/?_encoding=UTF8&pd_rd_w=xYM7j&content-id=amzn1.sym.934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_p=934aea6c-5f34-462e-86d0-f1c487130e00&pf_rd_r=1839AVRMBAK8GK7FE5PN&pd_rd_wg=omntk&pd_rd_r=36f8e97d-2836-4974-8953-d945c111d3d2&ref_=pd_hp_mw_atf_nonftac-home"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3759,7 +3967,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://cart.step.rakuten.co.jp/cart?l-id=pc_header_func_cart"
+        "url": "https://cart.step.rakuten.co.jp/cart?l-id=pc_header_func_cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "fallida",
@@ -3768,10 +3979,14 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/jp-rakuten-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://network.mobile.rakuten.co.jp/product/iphone/fee/?scid=wi_ich_rmb_mkdiv_toppage-header-pitari_sp_new-alluser-2-webcx_product-iphone_20261005&rmai=ZMhPE4GP.rgp_mno_012391"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -3811,7 +4026,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.co.jp/"
+        "url": "https://www.amazon.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -3821,7 +4039,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.co.jp/"
+        "url": "https://www.amazon.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3891,7 +4112,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.in/"
+        "url": "https://www.amazon.in/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -3901,7 +4125,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.in/"
+        "url": "https://www.amazon.in/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3981,7 +4208,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.flipkart.com/"
+        "url": "https://www.flipkart.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3993,7 +4223,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: Navigation to \"https://www.flipkart.com/motorola-edge-70-fusion-snapdragon-pantone-blue-surf-128-gb/p/itmde3f"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.flipkart.com/realme-p4s-5g-titanium-gray-128-gb/p/itmcb2e7e552a5ef?pid=MOBHPBHATYTBGZXN&param=29992&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=F28ORW1A4CB2_IAD",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -4063,7 +4298,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.de/"
+        "url": "https://www.amazon.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4073,7 +4311,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.de/"
+        "url": "https://www.amazon.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4175,7 +4416,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.olx.pl/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4185,7 +4431,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.olx.pl/"
+        "url": "https://m.olx.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -4241,7 +4490,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.trendyol.com/"
+        "url": "https://www.trendyol.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4251,7 +4503,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.trendyol.com/"
+        "url": "https://www.trendyol.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4321,7 +4576,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.hepsiburada.com/"
+        "url": "https://www.hepsiburada.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4331,7 +4589,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.hepsiburada.com/"
+        "url": "https://www.hepsiburada.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4401,7 +4662,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.sahibinden.com/"
+        "url": "https://www.sahibinden.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4411,7 +4675,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.sahibinden.com/"
+        "url": "https://www.sahibinden.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4481,7 +4748,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.co.id/verify/traffic/error?home_url=https%3A%2F%2Fshopee.co.id&is_logged_in=false&tracking_id=9975e3dccca-000a-49ec-b746-168d5daeeb98"
+        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP8AAAADOh34lNNwV8nhmFbOeZrz6MdxCOlXVgKKxMQkW9pQU2Wgo5zXV-9u6lFDL1Ogqgud6Xbshp7g4b5vHNR0iVxc0IiE0yNudtO3aQj_KV2iYXo_FMtdXh97XEoYU2IyN6jl81nwTV-SlP9i_M3mWiYjTug1NQpa1bQKKqKi9kbcES3-MQRdcAl2YlRNueyIaIYLxHxPt8ULqIULKjaREJBKM8uDyqr0sNl0Ll_SGOub8sYvcZKjX_jArehkFLKK-cWQUAV7SW5Qw-VpIKHMJgRtn_MnCYMejrET_T2X9YbisFjPnVHythtBUFPTgenFdCrf5Hr-NMeREZCT1fZ_sS5kTNCR5dk_-R22APesj0aZjod-DQg7vwam9DCJlnb757cH5wFzIlk3O9GXdNFMNnt8Zz92dACtkR_ipEaPqia9fjmMuJ4iiiyLtrR3oC6PSeGiSylWOXjOO9CsY34wmJe72j1tTbxltKho0xanJZSx0ETUzH8eTVvWeAYlPNWznV2gBfY69xPXx2SZHQBjHz5t1itIEJAnhfsBD1end6BCbf-r-rIpEVnV_tvXXYnJLsTsndH_k5CTV5kIJRwR85cUnrjcFjX3oA0SjUjS4Gp_IKSK_Gbth98yySQQj5lDrlObTS3nWTyj-C7-EchqW_T3bWH9Q-OeGuikvgQyAJYdkW-QGvjh-SRU4Ye13bekkUdYBVOv9hETPEfmA6k5tYXe13-ZWB9N3FVvpUj7qQCqWIQxY5TJQW1o-aeyvrY2iEXeGzJVZ_ZE0iDgfH-ZHpETbxdxKsC7yWwiNMJ_d4ZIHLQL0bNx4TtVdnVWjHBHSW2DvPFpCXVK0ZMoB-tHSjsQUVvVabqZpWC-yE1XmdhoRMVKDxq1f9oTOnY2bsXJiPTikeJpgMwaAVjgya_t7oCoY5Abg3288hA4XZ89FuZdOCrooJ2lhyEGaE637HF23kb7MQSq27rl4opLHbF-dtrHeR7jEOpr_Gz-KWmvYAUyzU680cPiMwCF7Uq5u-inkzgpBTwt0ZS85OxGW8Spnj_ws66O1C9rFirXi65n4Nf8XpIiNdYmjk-GRW3FEXbJEwg_UiB-1K_2SqfedRaFmwKMX6pGcZrDSk1rIeRAMk1lDXOBFarEJyzs4y7svbZg5QhHY5zc3UlnQ2PgiMvKv7kfP0gY9L1zeJT9fP_3vkD9Ex2ktunvro1qM5f75Maw9s6ap6-h-pdu9gDqZGSmUrZU67AO9F1UEu6UwylihO9KMQUzeoI5fk0OrVArMuRACXvoSG5Iko8AKidzOE9jdGOqhZgIp89_2p6EKXoWs9brD55BidGXpGvtsLZLte8MOFFuT7skSGsjuvt&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -4491,13 +4758,21 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://shopee.co.id/verify/traffic/error?home_url=https%3A%2F%2Fshopee.co.id&is_logged_in=false&tracking_id=369486e8ee0-909e-4988-a013-18cf146fd913"
+        "url": "https://shopee.co.id/verify/traffic/error?home_url=https%3A%2F%2Fshopee.co.id&is_logged_in=false&tracking_id=369486e8ee0-909e-4988-a013-18cf146fd913",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://help.shopee.co.id/portal/4/s",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
@@ -4557,13 +4832,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tokopedia.com/\nCall log:\n  - navigating to \"https://www.tokopedi"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tokopedia.com/\nCall log:\n  - navigating to \"https://www.tokopedi"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -4633,7 +4908,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.fr/"
+        "url": "https://www.amazon.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4643,7 +4921,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.fr/"
+        "url": "https://www.amazon.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4713,7 +4994,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.es/"
+        "url": "https://www.amazon.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4744,16 +5028,24 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/es-amazon-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.amazon.es/gp/browse.html?node=2454133031&ref_=navm_cs_home_improvement"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/es-amazon-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.amazon.es/Guantes-desechables-nitrilo-polvo-Talla/dp/B07T8TR863?pd_rd_w=3FLRB&content-id=amzn1.sym.8934d0a3-d588-4587-a704-12e9fc53b385&pf_rd_p=8934d0a3-d588-4587-a704-12e9fc53b385&pf_rd_r=TYN3Y891N7D1SYXPWQPX&pd_rd_wg=3PyGQ&pd_rd_r=87e0369a-4a35-41bd-9295-037cee48272f&pd_rd_i=B07T8TR863&ref_=Oct_d_obs_B07T8TR863"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -4829,7 +5121,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.co.uk/"
+        "url": "https://www.amazon.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4839,7 +5134,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.co.uk/"
+        "url": "https://www.amazon.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4909,7 +5207,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.it/"
+        "url": "https://www.amazon.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -4919,7 +5220,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.it/"
+        "url": "https://www.amazon.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5081,7 +5385,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.coppel.com/l/chat"
+        "url": "https://www.coppel.com/l/chat",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -5101,25 +5408,42 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.coppel.com/carrito"
+        "url": "https://www.coppel.com/carrito",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.coppel.com/l/chat",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/mx-coppel-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.coppel.com/ca/productos-ecologicos-sustentables"
       },
       "mobile_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.coppel.com/carrito",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -5183,7 +5507,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.homedepot.com.mx/p/home-decorators-collection-ventilador-de-techo-ashby-park-52-led-integrado-para-interior-niquel-59252-142413"
+        "url": "https://www.homedepot.com.mx/p/sochic-sala-esquinera-sofa-linea-niagara-poliester-260-x-240-cm-gris-claro-sin-cojines-niagesqiz-mous-223217"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -5209,7 +5533,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.homedepot.com.mx/p/home-decorators-collection-ventilador-de-techo-ashby-park-52-led-integrado-para-interior-niquel-59252-142413"
+        "url": "https://www.homedepot.com.mx/p/sochic-sala-esquinera-sofa-linea-niagara-poliester-260-x-240-cm-gris-claro-sin-cojines-niagesqiz-mous-223217"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -5265,7 +5589,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.soriana.com/iniciar-sesion",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -5287,7 +5616,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.soriana.com/iniciar-sesion",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -5353,13 +5687,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.fahorro.com/catalog/category/view/s/juguetes-eroticos/id/14290/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.fahorro.com/hogar/aspiracion-y-limpieza/productos-de-limpieza.html",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -5375,7 +5719,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.fahorro.com/catalog/category/view/s/juguetes-eroticos/id/14290/"
+        "url": "https://www.fahorro.com/catalog/category/view/s/juguetes-eroticos/id/14290/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -5385,7 +5732,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.fahorro.com/hogar/aspiracion-y-limpieza/productos-de-limpieza.html"
+        "url": "https://www.fahorro.com/hogar/aspiracion-y-limpieza/productos-de-limpieza.html",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -5463,13 +5813,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.vivaaerobus.com/\nCall log:\n  - navigating to \"https://www.vivaae"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.vivaaerobus.com/\nCall log:\n  - navigating to \"https://www.vivaae"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
       }
     }
   },
@@ -5502,7 +5852,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://aeromexico.com/"
+        "url": "https://aeromexico.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -5512,7 +5865,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://aeromexico.com/"
+        "url": "https://aeromexico.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -5624,7 +5980,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.magazineluiza.com.br/"
+        "url": "https://www.magazineluiza.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -5634,7 +5993,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.magazineluiza.com.br/"
+        "url": "https://www.magazineluiza.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5717,16 +6079,24 @@
         "url": "https://www.olx.com.br/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-olx-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://pb.olx.com.br/paraiba/eletro/ar-condicionados/ar-condicionado-vix-neo-invert-18-000-mil-btus-lacrado-nota-fiscal-e-garantia-1542440581?rec=h&custom_tag=homefeed&gallery_id=recents_20010&tab_id=tudo&is_fallback=false&page=home&rec_detail_location=home&rec_detail_engine=recents&rec_detail_recommendation=recents_filtered_by_category"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-olx-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/suv?sf=1&ic=branding&local=carrossel&campaign=suvseminovo"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -5738,13 +6108,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://sp.olx.com.br/sao-paulo-e-regiao/imoveis/casa-para-venda-tem-65-metros-quadrados-com-2-quartos-em-jardim-arco-iris-salto-sao-pa-1514341465?rec=h&custom_tag=homefeed&gallery_id=recents_1040&tab_id=tudo&is_fallback=false&page=home&rec_detail_location=home&rec_detail_engine=recents&rec_detail_recommendation=recents_filtered_by_category",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-olx-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.olx.com.br/autos-e-pecas"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -5784,7 +6163,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.com.br/verify/traffic/error?home_url=https%3A%2F%2Fshopee.com.br&is_logged_in=false&tracking_id=239d15e5398-9784-41ab-a7b7-200bae633cad"
+        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQPKAAAADNskp6CRwajzG92Wz6OKJc8xUa_NiD8tC9TBGeRk97sKIg-nzEFUqPooRip3A3Ztt23W4Zg9iJYa-zE6deIaI8zWx9k6q3mJmwoX5G6ckcyXqgA7buX1JY2nV8v3edb_6AtV_iJcmAK3vROfamiFD0qrDL4Id_uf_sMRrYAmNgPTXyhEjvCVaC3XFnh5Q-_2xdzNUv6fNpVvVjdW0szTxLuLfo88vMSIzWmtSt8pOK0JPom4Q1_6ysvqPrc2neYufS3GodkwnLz3MPMoV7jDl4bNAPQx_R5BeH-y3twxTySYAaaBVgq0Zmds0g200oLEHAUR1Wdl6FVX0qZUYZTvdfUxkzvkLl3oxk7psllBBJDx7cOzBJ1HyVSTZ_nH-hoVR6mOnR-Gkd5rNxtt85vxddOnQxs2OcrYqxenVkKHKyKow0xO3_UI5DyGhos58oCypWwn5Kg7h7QsSLv8YP9SOzcRN2q3g8CnZ_K3M89zOLqU7D5tIAL5ttG_-RFD95DlP0IFkOrlCjLfhXsxr_U_yBK0OXl5cXRKnjc0G8-kNfD4dUO74oA5pFBEPNQeo_i-D0vOzGkeEjws5PGccpNcFZLQIMaPR8G6TIpQR5KKrglruj1kLDFf8FVJdg2F5NYnDDK7sHYBItziYzaamt26wme_AEBFgaZzG_QhHzMAyGhF5mQReDzdWLV5_mEB-Hdt1lIC-WuMyc_VAayGHLMR5ElmIPhIYkMYyB5MOlaDq-IYKEoKAFeB6afOvP9qPgf6Nnke9JyS5_DSn1lWJ9BQtFjUeKWjv7-r5Zs0JvaBoTN4SL4r_DoxVn-oIJBvAHLjF5iMXDd-jGtiiyZ13pvq6jACDW_yHUyD5FDziqF14g5-53KF7_Ohd-wppdsGTUungQQmgx9XOsitoFgtPaMZ5eq00I_2AjqJLveKutVaUKFaYc7lh4gJS54IYBGEwsg1l4HFIfetHBY4OcFr1vwgj-lefyKFoIe3JQJGtSXjzlo8tEt5IfUmidT26D_bkI4Z1hTIDmz2yFJUvU0pFO2Dtje7wmaiH6mMMYkRLJ5gcK4M-oq7Rr9VEW0ovKnT6SgFGRP0yqpEu8lbrtGgpM7EJYA1DoIAzT_8CO74ryYHfLCEvOUxgdlzmLU2LwMe9X77Cz6OFikxu5m-wXdX9Uwl1ROhwSU6jpgEYsiNS5FQLttLIpognTiyxM-tVvOW5CrAp8brP1Tc8_hbDMNxl98cJiwIHtT9bzrY6IK33PT6vCnV2d7hlH33nUstlEMqPF6GTj9-mujJMA&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -5794,13 +6173,21 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://shopee.com.br/verify/traffic/error?home_url=https%3A%2F%2Fshopee.com.br&is_logged_in=false&tracking_id=94660805438-a550-416a-a56d-b55c4410861a"
+        "url": "https://shopee.com.br/verify/traffic/error?home_url=https%3A%2F%2Fshopee.com.br&is_logged_in=false&tracking_id=94660805438-a550-416a-a56d-b55c4410861a",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://help.shopee.com.br/portal/4",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
@@ -5864,7 +6251,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.casasbahia.com.br/"
+        "url": "https://www.casasbahia.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -5874,7 +6264,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.casasbahia.com.br/"
+        "url": "https://www.casasbahia.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -6000,37 +6393,59 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.americanas.com.br/categoria/mercado?chave=pc_cat_menu_mercado"
+        "url": "https://www.americanas.com.br/categoria/mercado?productClusterIds=4104&fuzzy=0&operator=and&facets=productClusterIds%2Cfuzzy%2Coperator&sort=score_desc&page=0&chave=pc_cat_menu_mercado"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-americanas-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.americanas.com.br/eletroportateis/fritadeira-eletrica/air-fryer?chave=pc_cat_acom_mercado_airfryer"
       },
       "desktop_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.americanas.com.br/especial/cliente-a/cartao-de-credito?chave=prf_hs_0_dt_1_00_cartao",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-americanas-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.americanas.com.br/categoria/mercado?productClusterIds=4104&fuzzy=0&operator=and&facets=productClusterIds%2Cfuzzy%2Coperator&sort=score_desc&page=0&chave=pc_cat_menu_mercado"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-americanas-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.americanas.com.br/biscoito-salgado-club-social-original-144g-27947075/p"
       },
       "mobile_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.americanas.com.br/especial/cliente-a/cartao-de-credito?chave=prf_hs_0_dt_1_00_cartao",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -6077,22 +6492,30 @@
         "url": "https://www.kabum.com.br/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-kabum-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.kabum.com.br/hotsite/cupons/"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/br-kabum-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.kabum.com.br/produto/941249/placa-mae-msi-pro-x870e-p-wifi-amd-am5-atx-ddr5-wi-fi-x870epwifi"
       },
       "desktop_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "No se pudo llegar al carrito"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -6102,7 +6525,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.kabum.com.br/promocao/PERIFERICOSCATEGORIA"
+        "url": "https://www.kabum.com.br/promocao/PERIFERICOSCATEGORIA",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -6367,7 +6793,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://kakaku.com/"
+        "url": "https://kakaku.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -6409,7 +6838,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://search.kakaku.com/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/?category=1001_1003"
+        "url": "https://search.kakaku.com/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/?category=1001_1003",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -6479,7 +6911,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://jp.mercari.com/categories"
+        "url": "https://jp.mercari.com/categories",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -6489,7 +6924,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://jp.mercari.com/item/m43593163846"
+        "url": "https://jp.mercari.com/item/m17674556593"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -6515,7 +6950,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://jp.mercari.com/item/m43593163846"
+        "url": "https://jp.mercari.com/item/m43593163846",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -6551,13 +6989,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.biccamera.com/\nCall log:\n  - navigating to \"https://www.biccamer"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.biccamera.com/\nCall log:\n  - navigating to \"https://www.biccamer"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -6623,13 +7061,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.muji.com/jp/ja/store\nCall log:\n  - navigating to \"https://www.mu"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.muji.com/jp/ja/store\nCall log:\n  - navigating to \"https://www.mu"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
       }
     }
   },
@@ -6858,13 +7296,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.nhk.or.jp/\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.nhk.or.jp/\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
       }
     }
   },
@@ -6941,7 +7379,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.myntra.com/"
+        "url": "https://www.myntra.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -6951,7 +7392,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.myntra.com/"
+        "url": "https://www.myntra.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7021,7 +7465,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.snapdeal.com/"
+        "url": "https://www.snapdeal.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -7031,7 +7478,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.snapdeal.com/"
+        "url": "https://www.snapdeal.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7133,13 +7583,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.nykaa.com/\nCall log:\n  - navigating to \"https://www.nykaa.com/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.nykaa.com/\nCall log:\n  - navigating to \"https://www.nykaa.com/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
       }
     }
   },
@@ -7196,16 +7646,25 @@
         "url": "https://www.1mg.com/categories/hair-care/top-picks-hair-care-1353"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/in-1mg-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.1mg.com/otc/pilgrim-3-redensyl-4-anagain-5-capilia-stem-cell-complex-advanced-hair-growth-serum-otc988798"
       },
       "desktop_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.1mg.com/cart",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -7218,10 +7677,14 @@
         "url": "https://www.1mg.com/labs/tests?test_type=package&browse_by=health-categories&browse_by_id=Full-Body-Checkup-for-Children-739"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/in-1mg-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.1mg.com/labs/test/children-health-checkup-with-smart-report-45265"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -7256,13 +7719,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.makemytrip.com/\nCall log:\n  - navigating to \"https://www.makemyt"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.makemytrip.com/\nCall log:\n  - navigating to \"https://www.makemyt"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
       }
     }
   },
@@ -7291,13 +7754,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.goibibo.com/\nCall log:\n  - navigating to \"https://www.goibibo.co"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.goibibo.com/\nCall log:\n  - navigating to \"https://www.goibibo.co"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
       }
     }
   },
@@ -7369,13 +7832,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  - navigating to \"https://www.redbus.in/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  - navigating to \"https://www.redbus.in/\","
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
       }
     }
   },
@@ -7546,13 +8009,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.kleinanzeigen.de/m-benutzer-anmeldung.html",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/de-kleinanzeigen-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.kleinanzeigen.de/s-anzeige/traum-diamantring-mit-2-17-carat-in-750er-gold/3239360638-157-6202"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -7561,16 +8033,24 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/de-kleinanzeigen-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.kleinanzeigen.de/s-suchen.html"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/de-kleinanzeigen-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.kleinanzeigen.de/s-anzeige/schuttrutsche-bauschuttrutsche-7x110-cm-durchmesser-51-5cm/3524581012-84-9075"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -7696,7 +8176,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.zalando.de/supported-browsers"
+        "url": "https://www.zalando.de/supported-browsers",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "fallida",
@@ -7748,7 +8231,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ebay.de/"
+        "url": "https://www.ebay.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -7758,7 +8244,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ebay.de/"
+        "url": "https://www.ebay.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7821,16 +8310,64 @@
     "demo": false,
     "captures": {
       "desktop": {
+        "status": "ok",
+        "date": "2026-10-17",
+        "screenshot": "capturas/de-mediamarkt-desktop-home.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mediamarkt.de/"
+      },
+      "mobile": {
+        "status": "ok",
+        "date": "2026-10-17",
+        "screenshot": "capturas/de-mediamarkt-mobile-home.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.mediamarkt.de/"
+      },
+      "desktop_categoria": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
-      "mobile": {
+      "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-17",
+        "screenshot": "capturas/de-mediamarkt-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mediamarkt.de/de/product/_blackview-playpop-8-182797394.html"
+      },
+      "desktop_carrito": {
+        "status": "fallida",
+        "date": "2026-10-17",
+        "screenshot": null,
+        "error": "No se encontró un enlace a esta página"
+      },
+      "mobile_categoria": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
+      },
+      "mobile_ficha": {
+        "status": "fallida",
+        "date": "2026-10-17",
+        "screenshot": null,
+        "error": "Bloqueo o CAPTCHA"
+      },
+      "mobile_carrito": {
+        "status": "fallida",
+        "date": "2026-10-17",
+        "screenshot": null,
+        "error": "No se encontró un enlace a esta página"
       }
     }
   },
@@ -7877,10 +8414,14 @@
         "url": "https://www.otto.de/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/de-otto-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.otto.de/service/"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -7890,7 +8431,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.otto.de/p/calvin-klein-jeans-chinohose-mit-guertelschlaufen-1917917223/"
+        "url": "https://www.otto.de/p/calvin-klein-jeans-chinohose-mit-guertelschlaufen-1917917223/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -7902,7 +8446,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 980,
+          "h": 2121
+        },
+        "url": "https://www.otto.de/wishlist-view/",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -7912,7 +8461,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.otto.de/p/adidas-performance-trainingshose-adidas-herren-trainingshose-essentials-3s-fleece-tapered-cuffed-C2038168508/"
+        "url": "https://www.otto.de/p/adidas-performance-trainingshose-adidas-herren-trainingshose-essentials-3s-fleece-tapered-cuffed-C2038168508/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -7982,7 +8534,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.de/p/fjoedur-ganzjahresbettdecke-daunen/p100396759"
+        "url": "https://www.lidl.de/p/fjoedur-ganzjahresbettdecke-daunen/p100396759",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -7992,7 +8547,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.de/otc/cart"
+        "url": "https://www.lidl.de/otc/cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -8012,7 +8570,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.de/p/fjoedur-ganzjahresbettdecke-daunen/p100396759"
+        "url": "https://www.lidl.de/p/fjoedur-ganzjahresbettdecke-daunen/p100396759",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "ok",
@@ -8022,7 +8583,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.de/otc/cart"
+        "url": "https://www.lidl.de/otc/cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       }
     }
   },
@@ -8098,7 +8662,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.holidaycheck.de/"
+        "url": "https://www.holidaycheck.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -8108,7 +8675,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.holidaycheck.de/"
+        "url": "https://www.holidaycheck.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -8409,13 +8979,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.carrefour.es/tiendas-carrefour/buscador-de-tiendas/?category=cb1",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.carrefour.es/campanas/hinchate-a-ganar.e",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -8427,13 +9007,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.carrefour.es/tiendas-carrefour/buscador-de-tiendas/?category=cb1",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.carrefour.es/campanas/hinchate-a-ganar.e",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -8473,7 +9063,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediamarkt.es/"
+        "url": "https://www.mediamarkt.es/es/"
       },
       "mobile": {
         "status": "ok",
@@ -8483,19 +9073,23 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediamarkt.es/"
+        "url": "https://www.mediamarkt.es/es/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/es-mediamarkt-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mediamarkt.es/es/category/electrodom%C3%A9sticos-553.html"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -8504,16 +9098,20 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/es-mediamarkt-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.mediamarkt.es/es/category/electrodom%C3%A9sticos-553.html"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -8589,7 +9187,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://es.wallapop.com/"
+        "url": "https://es.wallapop.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -8599,7 +9200,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://es.wallapop.com/"
+        "url": "https://es.wallapop.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -8699,7 +9303,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.es/p/silvercrest-sandwichera-ssmw-750-e1/p100409102"
+        "url": "https://www.lidl.es/p/silvercrest-sandwichera-ssmw-750-e1/p100409102",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "ok",
@@ -8709,7 +9316,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.es/otc/cart"
+        "url": "https://www.lidl.es/otc/cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -8729,7 +9339,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.es/p/silvercrest-sandwichera-ssmw-750-e1/p100409102"
+        "url": "https://www.lidl.es/p/silvercrest-sandwichera-ssmw-750-e1/p100409102",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "ok",
@@ -8739,7 +9352,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.es/otc/cart"
+        "url": "https://www.lidl.es/otc/cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "No se encontró un enlace a esta página"
       }
     }
   },
@@ -8808,16 +9424,24 @@
     "demo": false,
     "captures": {
       "desktop": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "screenshot": "capturas/es-elpais-desktop-home.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://elpais.com/us/"
       },
       "mobile": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "screenshot": "capturas/es-elpais-mobile-home.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://elpais.com/us/"
       }
     }
   },
@@ -8937,7 +9561,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.fnac.com/"
+        "url": "https://www.fnac.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -8947,7 +9574,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.fnac.com/"
+        "url": "https://www.fnac.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9017,7 +9647,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.boulanger.com/"
+        "url": "https://www.boulanger.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -9027,7 +9660,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.boulanger.com/"
+        "url": "https://www.boulanger.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9110,40 +9746,64 @@
         "url": "https://www.cdiscount.com/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.cdiscount.com/basket.html"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.cdiscount.com/telephonie/telephone-mobile/apple-iphone-15-128gb-black-2023-reconditionne/f-14404-rcdappvdgpoacexe.html?sw=b5c51950607998b49c32102716e3a408b6e6305785b05c1f283fbc36d3210e4727ca0d5c74327c91e4869333038b83d29851aef32a37c82a4e6bd5e34002ce9bd67a1eb0574bd32e5c859fec7aa4d13007c3bb22e9472274399d116e1ef36188a648c9e63c8fc42816c59fa9916c70ea47d9345a42e411bb4741a171a7bea50a177625c32d180927db261ef4c1033d166adf0a4e6bae0933e60e894d6b266e08&idOffre=4304545865#cm_rr=BA:11780086:SW:CAR"
       },
       "desktop_carrito": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-desktop-carrito.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.cdiscount.com/basket.html"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.cdiscount.com/basket.html"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.cdiscount.com/telephonie/telephone-mobile/apple-iphone-15-128gb-black-2023-reconditionne/f-14404-rcdappvdgpoacexe.html?sw=22ba485fe2bd39534ed1927db0254f6c9236c66c372e3f499ad4a4c0e0315254bf061ad8ae07e40f30227ed9ff47644b61dbbf6b44501d1dc02ec4b9a28c41213d0d7a7b9d4b818004a871ac9805810c69106beb4ea2eb0cb4852f3003c0b294b50a2987f6ce3c6041a5d5d82463dc598a33f7724b628c8028c3e3a7302001d9f21096d1c59a0438015dbb18d99030b462da22ba2c6c4b65bf3d69a9892d05a5&idOffre=4304545865#cm_rr=BA:11780086:SW:CAR"
       },
       "mobile_carrito": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-cdiscount-mobile-carrito.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.cdiscount.com/basket.html"
       }
     }
   },
@@ -9177,7 +9837,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.darty.com/"
+        "url": "https://www.darty.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -9187,7 +9850,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.darty.com/"
+        "url": "https://www.darty.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9257,7 +9923,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.carrefour.fr/"
+        "url": "https://www.carrefour.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -9267,7 +9936,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.carrefour.fr/"
+        "url": "https://www.carrefour.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9353,7 +10025,12 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.vinted.fr/member/register/select_type?ref_url=%2F",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -9363,7 +10040,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.vinted.fr/items/10416125145-pantalon-de-lino-para-ancha-lxl?homepage_session_id=1f65977c-43b8-4b15-a947-5709ba4dde0a"
+        "url": "https://www.vinted.fr/items/10417088096-nike-trail-l?homepage_session_id=ffcfd883-2895-47da-bad3-55cef9a911f6"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -9385,7 +10062,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.vinted.fr/items/10416125145-pantalon-de-lino-para-ancha-lxl?homepage_session_id=c5cc68ff-61f9-4b22-b449-7bb05228e92b"
+        "url": "https://www.vinted.fr/items/10417088096-nike-trail-l?homepage_session_id=13857745-27f7-4da8-a845-cb62daa7ab96"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -9448,16 +10125,24 @@
         "url": "https://www.e.leclerc/cat/granules-de-bois"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-leclerc-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.e.leclerc/cat/journee-star-tv"
       },
       "desktop_carrito": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-leclerc-desktop-carrito.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.e.leclerc/e/carte-eleclerc"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -9470,16 +10155,24 @@
         "url": "https://www.e.leclerc/cat/granules-de-bois"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-leclerc-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.e.leclerc/cat/journee-star-tv"
       },
       "mobile_carrito": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/fr-leclerc-mobile-carrito.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.e.leclerc/e/carte-eleclerc"
       }
     }
   },
@@ -9543,13 +10236,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.airfrance.fr/\nCall log:\n  - navigating to \"https://www.airfrance"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.airfrance.fr/\nCall log:\n  - navigating to \"https://www.airfrance"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
       }
     }
   },
@@ -9618,7 +10311,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ebay.co.uk/"
+        "url": "https://www.ebay.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -9628,7 +10324,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ebay.co.uk/"
+        "url": "https://www.ebay.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9734,7 +10433,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.next.co.uk/"
+        "url": "https://www.next.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -9744,7 +10446,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.next.co.uk/"
+        "url": "https://www.next.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9844,7 +10549,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.marksandspencer.com/the-beauty-advent-calender-2026/p/hbp61228694#intid=sitestripe_3_our%20best-ever%20beauty%20advent%20calendar"
+        "url": "https://www.marksandspencer.com/leather-flat-round-toe-mary-jane-ballet-pumps/p/clp61266422#intid=pid_pg1pip48g4r1c1%7Cprodflag_20%25%20off"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -9870,7 +10575,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.marksandspencer.com/the-beauty-advent-calender-2026/p/hbp61228694#intid=sitestripe_3_our%20best-ever%20beauty%20advent%20calendar"
+        "url": "https://www.marksandspencer.com/leather-flat-round-toe-mary-jane-ballet-pumps/p/clp61266422#intid=pid_pg1pip48g2r1c1%7Cprodflag_20%25%20off"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -9926,13 +10631,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.asda.com/groceries/special-offers/all-offers",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://corporate.asda.com/product-recalls",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -9944,13 +10659,23 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.asda.com/groceries",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://corporate.asda.com/product-recalls",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -10026,7 +10751,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.currys.co.uk/"
+        "url": "https://www.currys.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -10036,7 +10764,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.currys.co.uk/"
+        "url": "https://www.currys.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10102,13 +10833,13 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.johnlewis.com/\nCall log:\n  - navigating to \"https://www.johnlewi"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.johnlewis.com/\nCall log:\n  - navigating to \"https://www.johnlewi"
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -10178,7 +10909,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.zalando.it/supported-browsers"
+        "url": "https://www.zalando.it/supported-browsers",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
       },
       "mobile": {
         "status": "ok",
@@ -10188,7 +10922,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.zalando.it/supported-browsers"
+        "url": "https://www.zalando.it/supported-browsers",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10258,7 +10995,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ebay.it/"
+        "url": "https://www.ebay.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -10268,7 +11008,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ebay.it/"
+        "url": "https://www.ebay.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10354,13 +11097,18 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mediaworld.it/it/category/telefonia-10.html",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -10372,13 +11120,18 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.mediaworld.it/it/category/telefonia-10.html",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "Bloqueo o CAPTCHA"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -10437,6 +11190,16 @@
         "error": "No se encontró un enlace a esta página"
       },
       "desktop_ficha": {
+        "status": "ok",
+        "date": "2026-10-17",
+        "screenshot": "capturas/it-unieuro-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.unieuro.it/online/products?q=Da%20non%20perdere"
+      },
+      "desktop_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
@@ -10444,14 +11207,8 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.unieuro.it/online/products?q=Da%20non%20perdere",
-        "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n"
-      },
-      "desktop_carrito": {
-        "status": "fallida",
-        "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "url": "https://www.unieuro.it/online/cart",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
         "status": "fallida",
@@ -10477,7 +11234,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.unieuro.it/online/cart"
+        "url": "https://www.unieuro.it/online/cart",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -10739,7 +11499,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.falabella.com/falabella-cl/collection/halloween2026?sid=HO_B1_HAL_346"
+        "url": "https://www.falabella.com/falabella-cl/category/cat20002/Moda-Mujer?sid=HO_V2_VES_304&facetSelected=true&f.range.derived.variant.discount=20%25+dcto+y+m%C3%A1s"
       },
       "desktop_ficha": {
         "status": "fallida",
@@ -10761,19 +11521,28 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.falabella.com/falabella-cl/collection/halloween2026?sid=HO_B1_HAL_346"
+        "url": "https://www.falabella.com/falabella-cl/category/cat20002/Moda-Mujer?sid=HO_V2_VES_304&facetSelected=true&f.range.derived.variant.discount=20%25+dcto+y+m%C3%A1s"
       },
       "mobile_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/cl-falabella-mobile-ficha.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.falabella.com/falabella-cl/product/17776888/iphone-duo-256gb-night-sky/17776887?sid=HO_V1_IPH_344"
       },
       "mobile_carrito": {
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://carters.cl/carters-cl",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -10823,13 +11592,22 @@
         "status": "fallida",
         "date": "2026-10-17",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.cl/categorias#nav-header",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/cl-mercadolibre-desktop-ficha.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.mercadolibre.cl/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.cl%2Fl%2Fproductos-sustentables&tid=93da7afd-a23e-46dd-80e8-6961d9e2624f"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -10845,7 +11623,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.cl/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.cl%2Fc%2Finmuebles&tid=387753ee-135d-4705-8243-e5ed18e7a5c1"
+        "url": "https://www.mercadolibre.cl/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.cl%2Fc%2Finmuebles&tid=387753ee-135d-4705-8243-e5ed18e7a5c1",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -10855,7 +11636,7 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.cl/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.cl%2Fandromaco-vitamina-d3-dvidamax-capsula%2Fup%2FMLCU3356823420&tid=88e8a165-9d91-49f9-b3d4-7ab91993f924#c_id=/home/collections/item&c_campaign=20260413_cc_farmacias_ao&c_uid=fccfe0f9-b723-4a29-b75d-588d487a4915"
+        "url": "https://www.mercadolibre.cl/gz/account-verification?go=https%3A%2F%2Fwww.mercadolibre.cl%2Fl%2Fproductos-sustentables&tid=e3a9b184-c5f3-4ad5-968e-26d222d232fa"
       },
       "mobile_carrito": {
         "status": "fallida",
@@ -10895,7 +11676,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.paris.cl/"
+        "url": "https://www.paris.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -10905,7 +11689,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.paris.cl/"
+        "url": "https://www.paris.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10975,7 +11762,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://simple.ripley.cl/"
+        "url": "https://simple.ripley.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "ok",
@@ -10985,7 +11775,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://simple.ripley.cl/"
+        "url": "https://simple.ripley.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Bloqueo o CAPTCHA"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11104,10 +11897,14 @@
         "url": "https://www.jumbo.cl/"
       },
       "desktop_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/cl-jumbo-desktop-categoria.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.jumbo.cl/login-page?callback=%2Fmis-compras"
       },
       "desktop_ficha": {
         "status": "ok",
@@ -11117,7 +11914,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tarjetacencosud.cl/publico/producto/avance/landing/simulador?utm_medium=header%20tarjeta&utm_source=jumbo_cl&utm_campaign=simula%20tu%20avance"
+        "url": "https://www.jumbo.cl/experiencias-jumbo/productos-importados"
       },
       "desktop_carrito": {
         "status": "fallida",
@@ -11126,10 +11923,14 @@
         "error": "No se encontró un enlace a esta página"
       },
       "mobile_categoria": {
-        "status": "fallida",
+        "status": "ok",
         "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "screenshot": "capturas/cl-jumbo-mobile-categoria.png",
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "url": "https://www.jumbo.cl/login-page?callback=%2Fmis-compras"
       },
       "mobile_ficha": {
         "status": "ok",
@@ -11179,7 +11980,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.easy.cl/"
+        "url": "https://www.easy.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -11189,7 +11993,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.easy.cl/"
+        "url": "https://www.easy.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11258,7 +12065,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.latamairlines.com/cl/es"
+        "url": "https://www.latamairlines.com/cl/es",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -11268,7 +12078,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.latamairlines.com/cl/es"
+        "url": "https://www.latamairlines.com/cl/es",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
   },
@@ -11459,7 +12272,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mytheresa.com/"
+        "url": "https://www.mytheresa.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -11469,7 +12285,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mytheresa.com/"
+        "url": "https://www.mytheresa.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11647,7 +12466,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.bloomingdales.com/"
+        "url": "https://www.bloomingdales.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -11657,7 +12479,10 @@
           "w": 980,
           "h": 2121
         },
-        "url": "https://www.bloomingdales.com/"
+        "url": "https://www.bloomingdales.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-17",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",

@@ -1,0 +1,61 @@
+# Saca las fotos de los sitios líderes y regenera el sitio. No hace falta tocar nada:
+#  · Al subir el proyecto (y cada vez que subas cambios): fotografía los sitios que todavía no tienen fotos.
+#  · El día 1 de cada mes: actualiza las fotos de todos los sitios.
+#  · También se puede correr a mano desde la pestaña Actions.
+name: Fotos y sitio
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "0 6 1 * *"   # día 1 de cada mes, 3 de la mañana (hora argentina)
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "País (ej. US), id de sitio o vacío para todos"
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: fotos-y-sitio
+  cancel-in-progress: false
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: ¿Qué hay que fotografiar?
+        id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            FALTAN=$(node -e "const r=require('./datos/references.json');console.log(r.filter(x=>x.captures?.desktop?.status!=='ok').length)")
+            echo "args=--faltantes" >> $GITHUB_OUTPUT
+            echo "faltan=$FALTAN" >> $GITHUB_OUTPUT
+          else
+            echo "args=${{ github.event.inputs.target }}" >> $GITHUB_OUTPUT
+            echo "faltan=1" >> $GITHUB_OUTPUT
+          fi
+      - run: npm install
+      - name: Instalar navegador
+        if: steps.plan.outputs.faltan != '0'
+        run: npx playwright install --with-deps chromium
+      - name: Sacar fotos
+        if: steps.plan.outputs.faltan != '0'
+        continue-on-error: true
+        run: npm run capture -- ${{ steps.plan.outputs.args }}
+        env:
+          CONCURRENCY: 4
+      - name: Validar y generar el sitio
+        run: npm run check
+      - name: Guardar
+        run: |
+          git config user.name "calco-bot"
+          git config user.email "calco-bot@users.noreply.github.com"
+          git add datos docs
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Fotos y sitio actualizados $(date +%F)"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push

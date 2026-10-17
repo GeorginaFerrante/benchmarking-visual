@@ -20,7 +20,8 @@ fs.mkdirSync(path.join(imgRoot, "recortes"), { recursive: true });
 
 const LOCALES = { AR: ["es-AR", "America/Argentina/Buenos_Aires"], US: ["en-US", "America/New_York"], CN: ["zh-CN", "Asia/Shanghai"], MX: ["es-MX", "America/Mexico_City"], BR: ["pt-BR", "America/Sao_Paulo"], CL: ["es-CL", "America/Santiago"], JP: ["ja-JP", "Asia/Tokyo"], IN: ["en-IN", "Asia/Kolkata"], DE: ["de-DE", "Europe/Berlin"], PL: ["pl-PL", "Europe/Warsaw"], TR: ["tr-TR", "Europe/Istanbul"], ID: ["id-ID", "Asia/Jakarta"], FR: ["fr-FR", "Europe/Paris"], ES: ["es-ES", "Europe/Madrid"], GB: ["en-GB", "Europe/London"], IT: ["it-IT", "Europe/Rome"] };
 const DEVICES = {
-  desktop: { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 },
+  desktop: { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1,
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" },
   mobile: { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true,
     userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1" },
 };
@@ -66,13 +67,21 @@ let comps = [];
 try { comps = JSON.parse(fs.readFileSync(compsPath, "utf8")); } catch {}
 const targets = refs
   .filter((r) => !args.length || args.includes(r.country) || args.includes(r.id))
-  .filter((r) => !onlyMissing || r.captures?.desktop?.status !== "ok");
+  .filter((r) => !onlyMissing || needsCapture(r, comps));
 console.log(`${targets.length} sitios para capturar.`);
 if (!targets.length) process.exit(0);
 const today = new Date().toISOString().slice(0, 10);
+/** Un sitio necesita fotos si alguna página esperada no tiene captura válida con partes medidas. */
+export function needsCapture(ref, list) {
+  const pages = STORE_TYPES.includes(ref.siteType) ? ["home", "categoria", "ficha", "carrito"] : ["home"];
+  return ["desktop", "mobile"].some((d) => pages.some((pg) => {
+    const key = pg === "home" ? d : `${d}_${pg}`;
+    return ref.captures?.[key]?.status !== "ok" || !list.some((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === pg);
+  }));
+}
 const save = () => { fs.writeFileSync(refsPath, JSON.stringify(refs, null, 2)); fs.writeFileSync(compsPath, JSON.stringify(comps, null, 2)); };
 
-const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH, args: ["--headless=new"] } : {}) });
+const browser = await chromium.launch({ headless: true, args: ["--disable-http2", ...(process.env.CHROME_PATH ? ["--headless=new"] : [])], ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
 const queue = [...targets];
 const workers = Array.from({ length: Math.max(1, Number(process.env.CONCURRENCY) || 4) }, async () => {
   for (let ref = queue.shift(); ref; ref = queue.shift()) {
@@ -84,7 +93,7 @@ await browser.close();
 const meta = JSON.parse(fs.readFileSync(path.join(root, "datos/meta.json"), "utf8"));
 meta.dataVersion = `${today}-capturas`; meta.generatedAt = today;
 fs.writeFileSync(path.join(root, "datos/meta.json"), JSON.stringify(meta, null, 2));
-console.log("Capturas listas. Ahora corré: npm run sitio");
+console.log("Capturas listas.");
 
 async function captureSite(ref) {
   const [locale, timezoneId] = LOCALES[ref.country] ?? ["en-US", "UTC"];
@@ -100,8 +109,7 @@ async function captureSite(ref) {
       const capture = { status: "fallida", date: today, screenshot: null };
       try {
         if (!url) throw new Error("No se encontró un enlace a esta página");
-        await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-        await page.waitForTimeout(3500);
+        await openPage(page, url);
         await acceptCookies(page);
         const text = (await page.textContent("body").catch(() => "")) ?? "";
         if (BLOCK_RE.test(text.slice(0, 5000))) throw new Error("Bloqueo o CAPTCHA");
@@ -113,10 +121,8 @@ async function captureSite(ref) {
         const shot = `capturas/${ref.id}-${device}-${pg}.png`;
         await page.screenshot({ path: path.join(imgRoot, shot) });
         capture.screenshot = shot;
-        capture.status = "ok";
-        comps = comps.filter((c) => !(c.siteId === ref.id && c.device === device && (c.page ?? "home") === pg));
         const sel = { ...SELECTORS[pg], ...(ref.selectors?.[pg] ?? {}) };
-        let found = 0;
+        const measured = [];
         for (const [type, list] of Object.entries(sel)) {
           const handle = await findVisible(page, list, type);
           if (!handle) continue;
@@ -124,15 +130,24 @@ async function captureSite(ref) {
           if (!info) continue;
           const crop = `recortes/${ref.id}-${device}-${pg}-${type}.png`;
           await handle.screenshot({ path: path.join(imgRoot, crop), timeout: 8000 }).catch(() => null);
-          comps.push({
+          measured.push({
             id: `${ref.id}-${device}-${pg}-${type}`, siteId: ref.id, page: pg, device, type,
             region: type === "footer" ? "footer" : info.inHeader ? "header" : "body",
             box: info.box, viewport: layout, styles: info.styles, hasIcon: info.hasIcon,
             crop: fs.existsSync(path.join(imgRoot, crop)) ? crop : null, method: "dom", confidence: info.confidence,
           });
-          found++;
         }
-        console.log(`${tag}: ok (${found} partes)`);
+        // Una página que cargó pero sin partes reconocibles casi siempre es un bloqueo silencioso o una página vacía.
+        if (measured.length < (pg === "home" ? 2 : 1)) throw new Error("Página vacía o bloqueada: no se reconoció ninguna parte");
+        capture.status = "ok";
+        comps = comps.filter((c) => !(c.siteId === ref.id && c.device === device && (c.page ?? "home") === pg));
+        comps.push(...measured);
+        console.log(`${tag}: ok (${measured.length} partes)`);
+        if (pg === "categoria") {
+          // La ficha se toma del primer producto del listado: es lo más confiable.
+          const fromList = await productFromListing(page);
+          if (fromList) links.ficha = fromList;
+        }
         if (pg === "ficha") {
           // Intenta agregar el producto para poder ver el carrito con algo adentro.
           const add = page.locator("button, a, input[type=submit]").filter({ hasText: ADD_RE }).first();
@@ -141,6 +156,7 @@ async function captureSite(ref) {
           if (cartHref) links.carrito = cartHref;
         }
       } catch (e) {
+        capture.screenshot = null;
         capture.error = String(e.message ?? e).slice(0, 120);
         console.log(`${tag}: falló (${capture.error})`);
       }
@@ -165,10 +181,48 @@ async function acceptCookies(page) {
   }
 }
 
+async function openPage(page, url) {
+  let last;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+      await page.waitForLoadState("networkidle", { timeout: 12000 }).catch(() => {});
+      await page.evaluate(() => window.scrollTo(0, 700)).catch(() => {});
+      await page.waitForTimeout(1200);
+      await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
+      await page.waitForTimeout(800);
+      return;
+    } catch (e) { last = e; await page.waitForTimeout(3000); }
+  }
+  throw last;
+}
+
+/** Enlaces internos: la categoría sale del menú; la ficha, de un producto con foto. */
 async function findLinks(page) {
-  const hrefs = await page.$$eval("a[href]", (as) => as.filter((a) => a.offsetParent !== null).map((a) => a.href)).catch(() => []);
-  const same = hrefs.filter((h) => /^https?:/.test(h));
-  return { ficha: same.find((h) => PRODUCT_RE.test(h)), categoria: same.find((h) => CATEGORY_RE.test(h) && !PRODUCT_RE.test(h)) };
+  return page.evaluate(({ P, C }) => {
+    const base = location.hostname.replace(/^www\./, "").split(".").slice(-2).join(".");
+    const prodRe = new RegExp(P, "i"), catRe = new RegExp(C, "i");
+    const ok = (a) => { try { const u = new URL(a.href); return /^https?:$/.test(u.protocol) && u.hostname.endsWith(base) && u.pathname.length > 1 && !/login|account|cuenta|ayuda|help|signin|registr/i.test(u.pathname); } catch { return false; } };
+    const visible = (a) => { const r = a.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
+    const all = [...document.querySelectorAll("a[href]")].filter(ok);
+    let categoria = all.find((a) => catRe.test(a.href) && !prodRe.test(a.href));
+    if (!categoria) categoria = [...document.querySelectorAll("header nav a[href], nav a[href], [role=navigation] a[href], header a[href]")].filter(ok).find((a) => visible(a) && !prodRe.test(a.href) && (a.textContent || "").trim().length > 2);
+    let ficha = all.find((a) => prodRe.test(a.href));
+    if (!ficha) ficha = all.find((a) => a.querySelector("img") && visible(a) && a.getBoundingClientRect().top > 150 && /\d{4,}|[a-z0-9]+-[a-z0-9]+-[a-z0-9]+/i.test(new URL(a.href).pathname));
+    return { categoria: categoria?.href, ficha: ficha?.href };
+  }, { P: PRODUCT_RE.source, C: CATEGORY_RE.source }).catch(() => ({}));
+}
+
+/** Primer producto de un listado: un enlace con foto dentro del contenido principal. */
+async function productFromListing(page) {
+  return page.evaluate(({ P }) => {
+    const prodRe = new RegExp(P, "i");
+    const base = location.hostname.replace(/^www\./, "").split(".").slice(-2).join(".");
+    const as = [...document.querySelectorAll("main a[href], [class*=product i] a[href], [class*=item i] a[href], li a[href]")].filter((a) => {
+      try { const u = new URL(a.href); const r = a.getBoundingClientRect(); return u.hostname.endsWith(base) && u.href !== location.href && r.width > 60 && r.top > 120 && a.querySelector("img"); } catch { return false; }
+    });
+    return (as.find((a) => prodRe.test(a.href)) ?? as[0])?.href ?? null;
+  }, { P: PRODUCT_RE.source }).catch(() => null);
 }
 
 async function findVisible(page, list, type) {

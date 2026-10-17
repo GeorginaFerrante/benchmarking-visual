@@ -65,7 +65,9 @@ export const pageOf = (x) => x.page ?? "home";
  */
 export function computePattern(rule, sites, comps) {
   const key = captureKey(rule.device, pageOf(rule));
-  const valid = sites.filter((s) => s.captures?.[key]?.status === "ok").map((s) => s.id);
+  // Válido = la captura salió bien Y se midió al menos una parte en esa página y dispositivo.
+  const measured = new Set(comps.filter((c) => c.device === rule.device && pageOf(c) === pageOf(rule)).map((c) => c.siteId));
+  const valid = sites.filter((s) => s.captures?.[key]?.status === "ok" && measured.has(s.id)).map((s) => s.id);
   const validSet = new Set(valid);
   const relevant = comps.filter((c) => c.type === rule.componentType && c.device === rule.device && pageOf(c) === pageOf(rule) && validSet.has(c.siteId));
   const withComp = [...new Set(relevant.map((c) => c.siteId))];

@@ -10,7 +10,8 @@ const rule = { id: "t", componentType: "search_bar", device: "desktop", criteria
 
 describe("frecuencia", () => {
   it("usa solo capturas válidas y distingue ausentes de fallidas", () => {
-    const r = computePattern(rule, [site("a"), site("b"), site("c"), site("d"), site("e", "fallida")], [comp("a", 500), comp("b", 600), comp("c", 100)]);
+    const header = { ...comp("d", 1000), id: "d-h", type: "header" };
+    const r = computePattern(rule, [site("a"), site("b"), site("c"), site("d"), site("e", "fallida")], [comp("a", 500), comp("b", 600), comp("c", 100), header]);
     expect(r.validSites).toHaveLength(4);
     expect(r.matching).toEqual(["a", "b"]);
     expect(r.exceptions).toEqual(["c"]);
@@ -73,5 +74,13 @@ describe("lo que comparten y lo que no", () => {
   it("agrupa países parecidos", () => {
     const g = groupCountries({ AR: { x: 0.8, y: 0.2 }, MX: { x: 0.75, y: 0.25 }, US: { x: 0.1, y: 0.9 } });
     expect(g).toEqual([["AR", "MX"], ["US"]]);
+  });
+});
+
+describe("capturas vacías", () => {
+  it("una captura «ok» sin partes medidas no cuenta como válida", () => {
+    const r = computePattern(rule, [site("a"), site("vacia")], [comp("a", 500)]);
+    expect(r.validSites).toEqual(["a"]);
+    expect(r.absent).toEqual([]);
   });
 });

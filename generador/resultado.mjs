@@ -119,7 +119,7 @@ export function resultBody(o) {
     return { k, share: best.best.frequency };
   }).filter(Boolean);
   const yes = agreement.filter((a) => a.share >= SHARED_MIN).length, no = agreement.length - yes;
-  const hasCap = (s) => Object.values(s.captures ?? {}).some((c) => c?.status === "ok");
+  const hasCap = (s) => comps.some((c) => c.siteId === s.id);
   const steps = [
     { id: "lideres", title: "Los seleccionados" },
     { id: "resumen", title: "En qué coinciden" },

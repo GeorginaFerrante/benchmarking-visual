@@ -55,7 +55,9 @@ function build({ sites, comps, demo }) {
   };
   const sitesIn = (code, seg) => sites.filter((s) => s.country === code && (!seg || seg.types.includes(s.siteType)));
   const segsOf = (code) => SEGMENTS.filter((g) => sitesIn(code, g).length);
-  const hasCaptures = (ss) => ss.some((s) => Object.values(s.captures ?? {}).some((c) => c?.status === "ok"));
+  const withPhotos = new Set(comps.map((c) => c.siteId));
+  const hasCaptures = (ss) => ss.some((s) => withPhotos.has(s.id));
+  const photoCount = (ss) => ss.filter((s) => withPhotos.has(s.id)).length;
   const index = Object.fromEntries(countries.map((c) => [c.code, { slug: cSlug(c.code), name: c.name, segs: segsOf(c.code).map((g) => g.slug) }]));
   const demoLink = (ctx, to = "resultado/argentina/tienda-online/") => (demo ? "" : `<p style="margin:14px 0 0">${btn2(`${ctx.root}demo/${to}index.html`, "Ver un ejemplo de cómo se verá")}</p>`);
 
@@ -250,8 +252,8 @@ ${rel.length ? `<section class="section"><h2>Curiosidades</h2><div class="stack"
   { const p = "como-funciona/", ctx = ctxFor(p); write(p, page(ctx, { path: p, title: "Cómo funciona DesignTrust", description: "Cómo elegimos a los sitios líderes, cómo medimos su diseño y cómo decidimos qué comparten.", body: howBody(ctx) })); }
   {
     const p = "cobertura/", ctx = ctxFor(p);
-    const rows = countries.flatMap((c) => { const sg = segsOf(c.code); return sg.length ? sg.map((g) => { const ss = sitesIn(c.code, g); return `<tr><td>${esc(c.name)}</td><td><a href="${link(ctx, `resultado/${cSlug(c.code)}/${g.slug}/`)}">${esc(g.name)}</a></td><td>${ss.length}</td><td>${hasCaptures(ss) ? '<span class="tag ok">Con fotos</span>' : '<span class="tag warn">Fotos en camino</span>'}</td></tr>`; }) : [`<tr><td>${esc(c.name)}</td><td>—</td><td>0</td><td><span class="tag">Próximamente</span></td></tr>`]; });
-    write(p, page(ctx, { path: p, title: "Qué países y rubros tenemos", description: "Países y tipos de sitio analizados en DesignTrust.", body: `<h1>Qué países y rubros tenemos</h1><p class="muted">Actualizado el ${esc(meta.generatedAt)}.</p><div class="table-wrap card"><table><thead><tr><th>País</th><th>Tipo de sitio</th><th>Líderes</th><th>Estado</th></tr></thead><tbody>${rows.join("")}</tbody></table></div>` }));
+    const rows = countries.flatMap((c) => { const sg = segsOf(c.code); return sg.length ? sg.map((g) => { const ss = sitesIn(c.code, g), n = photoCount(ss); const st = n === ss.length ? '<span class="tag ok">Completo</span>' : n >= MIN_SAMPLE ? '<span class="tag ok">Alcanza para comparar</span>' : n ? '<span class="tag warn">Faltan fotos</span>' : '<span class="tag warn">Fotos en camino</span>'; return `<tr><td>${esc(c.name)}</td><td><a href="${link(ctx, `resultado/${cSlug(c.code)}/${g.slug}/`)}">${esc(g.name)}</a></td><td>${ss.length}</td><td>${n} de ${ss.length}</td><td>${st}</td></tr>`; }) : [`<tr><td>${esc(c.name)}</td><td>—</td><td>0</td><td>—</td><td><span class="tag">Próximamente</span></td></tr>`]; });
+    write(p, page(ctx, { path: p, title: "Qué países y rubros tenemos", description: "Países y tipos de sitio analizados en DesignTrust.", body: `<h1>Qué países y rubros tenemos</h1><p class="muted">Actualizado el ${esc(meta.generatedAt)}. «Con fotos» cuenta los sitios con al menos una parte medida. Para comparar hacen falta ${MIN_SAMPLE} o más.</p><div class="table-wrap card"><table><thead><tr><th>País</th><th>Tipo de sitio</th><th>Líderes</th><th>Con fotos</th><th>Estado</th></tr></thead><tbody>${rows.join("")}</tbody></table></div>` }));
   }
   if (!demo) {
     const ctx = { rel: "/benchmarking-visual/", root: "/benchmarking-visual/", prefix: "", demo: false, meta };

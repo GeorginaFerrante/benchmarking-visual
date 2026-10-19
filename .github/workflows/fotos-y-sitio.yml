@@ -27,6 +27,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+      - name: Actualizar lista de sitios
+        run: node pipeline/build-sites.mjs
       - name: ¿Qué hay que fotografiar?
         id: plan
         run: |

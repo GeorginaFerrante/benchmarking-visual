@@ -107,7 +107,13 @@ ${blocks}`;
  */
 export function resultBody(o) {
   const { ctx, ss, comps, rules } = o;
-  const parts = COMPONENTS.filter((k) => o.pages.includes(k.page));
+  const allParts = COMPONENTS.filter((k) => o.pages.includes(k.page));
+  const verdictsOf = (k) => ["desktop", "mobile"].map((d) => componentVerdict(rules, ss, comps, k.type, d, k.page));
+  const withData = allParts.filter((k) => verdictsOf(k).some((v) => v && v.status !== "sin-datos"));
+  // Se muestran solo las partes con fotos suficientes; si todavía no hay ninguna, se muestran todas como «en camino».
+  const parts = withData.length ? withData : allParts;
+  const pages = o.pages.filter((pg) => parts.some((k) => k.page === pg));
+  const hidden = allParts.filter((k) => !parts.includes(k));
   const V = {};
   for (const d of ["desktop", "mobile"]) V[d] = parts.map((k) => componentVerdict(rules, ss, comps, k.type, d, k.page));
   const verdictOf = (k, d) => V[d][parts.indexOf(k)];
@@ -124,7 +130,7 @@ export function resultBody(o) {
     { id: "lideres", title: "Los seleccionados" },
     { id: "resumen", title: "En qué coinciden" },
     { id: "estructura", title: "Estructura general" },
-    ...parts.map((k) => ({ id: stepId(k), title: k.name, group: o.pages.length > 1 ? PAGES[k.page] : "" })),
+    ...parts.map((k) => ({ id: stepId(k), title: k.name, group: pages.length > 1 ? PAGES[k.page] : "" })),
   ];
   const sections = [];
   sections.push(`<h2 class="h-flag">${greenFlag()}Los seleccionados</h2>
@@ -134,13 +140,14 @@ ${o.intlNote ? `<p class="notice" style="margin-top:16px">${esc(o.intlNote)}</p>
   sections.push(`<h2>¿En qué coinciden?</h2>
 ${!agreement.length ? `<div class="notice"><b>Las fotos de estos sitios se están sacando.</b><p style="margin:6px 0 0">En unas horas aparecen acá las comparaciones con sus gráficos.</p>${o.demoLinkHtml ?? ""}</div>` : `
 <p class="muted">Cuántos líderes usan la forma más común en cada parte. En verde, donde coinciden 7 de cada 10 o más.</p>
-<div class="card"><div class="obars">${agreement.map((a) => `<a class="obar link${a.share >= SHARED_MIN ? " top" : ""}" href="#${stepId(a.k)}" data-goto="${stepId(a.k)}"><span class="ol">${esc(a.k.name)}${o.pages.length > 1 ? `<small>${esc(PAGES[a.k.page])}</small>` : ""}</span><div class="track"><i style="width:${Math.round(a.share * 100)}%;background:${a.share >= SHARED_MIN ? MAJORITY : "#F08A1C"}"></i></div><span class="ov">${Math.round(a.share * 100)} %</span></a>`).join("")}</div></div>
+<div class="card"><div class="obars">${agreement.map((a) => `<a class="obar link${a.share >= SHARED_MIN ? " top" : ""}" href="#${stepId(a.k)}" data-goto="${stepId(a.k)}"><span class="ol">${esc(a.k.name)}${pages.length > 1 ? `<small>${esc(PAGES[a.k.page])}</small>` : ""}</span><div class="track"><i style="width:${Math.round(a.share * 100)}%;background:${a.share >= SHARED_MIN ? MAJORITY : "#F08A1C"}"></i></div><span class="ov">${Math.round(a.share * 100)} %</span></a>`).join("")}</div></div>
 <div class="verdicts" style="margin-top:18px">
 <div class="verdict-col yes"><h3>${icon("check", "#16A34A", 3)}Comparten (${yes})</h3><p class="muted" style="margin:-6px 0 0">Decisión segura: seguí lo que hace la mayoría.</p></div>
 <div class="verdict-col no"><h3>${icon("split", "#C2410C", 2.6)}No comparten (${no})</h3><p class="muted" style="margin:-6px 0 0">Tenés libertad para elegir.</p></div>
-</div>`}`);
-  sections.push(structureStep(ctx, ss, comps, o.pages, o.segName));
-  for (const k of parts) sections.push(componentPanel(ctx, k, ["desktop", "mobile"].map((d) => verdictOf(k, d)), ss, comps, o.notes?.[o.noteKey ? `${o.noteKey}/${k.type}` : ""], o.pages.length > 1));
+</div>
+${hidden.length && withData.length ? `<p class="muted" style="margin-top:14px">Todavía no hay fotos suficientes para comparar: ${esc(hidden.map((k) => k.name.toLowerCase()).join(", "))}. Aparecen cuando las haya.</p>` : ""}`}`);
+  sections.push(structureStep(ctx, ss, comps, pages, o.segName));
+  for (const k of parts) sections.push(componentPanel(ctx, k, ["desktop", "mobile"].map((d) => verdictOf(k, d)), ss, comps, o.notes?.[o.noteKey ? `${o.noteKey}/${k.type}` : ""], pages.length > 1));
   const stepNav = (i) => `<div class="step-nav">
 ${i > 0 ? `<a class="btn2" href="#${steps[i - 1].id}" data-goto="${steps[i - 1].id}">${icon("back")}<span>${esc(steps[i - 1].title)}</span></a>` : "<span></span>"}
 ${i < steps.length - 1 ? `<a class="pill" href="#${steps[i + 1].id}" data-goto="${steps[i + 1].id}"><span>Siguiente: ${esc(steps[i + 1].title)}</span><span class="ico">${icon("arrow", "#fff")}</span></a>` : btn2(link(ctx, "paleta/"), "Armar mi paleta de colores", "palette")}

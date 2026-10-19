@@ -73,11 +73,8 @@ if (!targets.length) process.exit(0);
 const today = new Date().toISOString().slice(0, 10);
 /** Un sitio necesita fotos si alguna página esperada no tiene captura válida con partes medidas. */
 export function needsCapture(ref, list) {
-  const pages = STORE_TYPES.includes(ref.siteType) ? ["home", "categoria", "ficha", "carrito"] : ["home"];
-  return ["desktop", "mobile"].some((d) => pages.some((pg) => {
-    const key = pg === "home" ? d : `${d}_${pg}`;
-    return ref.captures?.[key]?.status !== "ok" || !list.some((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === pg);
-  }));
+  // Solo se reintenta si falta la página de inicio; categoría, ficha y carrito se intentan cuando se puede.
+  return ["desktop", "mobile"].some((d) => ref.captures?.[d]?.status !== "ok" || !list.some((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === "home"));
 }
 const save = () => { fs.writeFileSync(refsPath, JSON.stringify(refs, null, 2)); fs.writeFileSync(compsPath, JSON.stringify(comps, null, 2)); };
 
@@ -113,7 +110,7 @@ async function captureSite(ref) {
         await acceptCookies(page);
         const text = (await page.textContent("body").catch(() => "")) ?? "";
         if (BLOCK_RE.test(text.slice(0, 5000))) throw new Error("Bloqueo o CAPTCHA");
-        if (pg === "home") links = await findLinks(page);
+        if (pg === "home") { links = await findLinks(page); if (!links.ficha) links.ficha = await productFromListing(page); }
         if (pg === "carrito" && !CART_RE.test(page.url())) throw new Error("No se pudo llegar al carrito");
         const layout = await page.evaluate(() => ({ w: document.documentElement.clientWidth, h: window.innerHeight }));
         capture.viewport = layout;
@@ -185,14 +182,14 @@ async function openPage(page, url) {
   let last;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
-      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 35000 });
       await page.waitForLoadState("networkidle", { timeout: 12000 }).catch(() => {});
       await page.evaluate(() => window.scrollTo(0, 700)).catch(() => {});
       await page.waitForTimeout(1200);
       await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
       await page.waitForTimeout(800);
       return;
-    } catch (e) { last = e; await page.waitForTimeout(3000); }
+    } catch (e) { last = e; if (/timeout/i.test(String(e.message))) break; await page.waitForTimeout(3000); }
   }
   throw last;
 }
@@ -200,13 +197,15 @@ async function openPage(page, url) {
 /** Enlaces internos: la categoría sale del menú; la ficha, de un producto con foto. */
 async function findLinks(page) {
   return page.evaluate(({ P, C }) => {
-    const base = location.hostname.replace(/^www\./, "").split(".").slice(-2).join(".");
+    const host = location.hostname.replace(/^www\./, "");
+    const same = (h) => { h = h.replace(/^www\./, ""); return h === host || h.endsWith("." + host) || host.endsWith("." + h); };
     const prodRe = new RegExp(P, "i"), catRe = new RegExp(C, "i");
-    const ok = (a) => { try { const u = new URL(a.href); return /^https?:$/.test(u.protocol) && u.hostname.endsWith(base) && u.pathname.length > 1 && !/login|account|cuenta|ayuda|help|signin|registr/i.test(u.pathname); } catch { return false; } };
+    const ok = (a) => { try { const u = new URL(a.href); return /^https?:$/.test(u.protocol) && same(u.hostname) && u.pathname.length > 1 && !/login|account|cuenta|ayuda|help|signin|registr/i.test(u.pathname); } catch { return false; } };
     const visible = (a) => { const r = a.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
     const all = [...document.querySelectorAll("a[href]")].filter(ok);
     let categoria = all.find((a) => catRe.test(a.href) && !prodRe.test(a.href));
-    if (!categoria) categoria = [...document.querySelectorAll("header nav a[href], nav a[href], [role=navigation] a[href], header a[href]")].filter(ok).find((a) => visible(a) && !prodRe.test(a.href) && (a.textContent || "").trim().length > 2);
+    const navLinks = [...document.querySelectorAll("header nav a[href], nav a[href], [role=navigation] a[href], header a[href], [class*=menu i] a[href]")].filter(ok).filter((a) => !prodRe.test(a.href) && (a.textContent || "").trim().length > 2 && new URL(a.href).pathname.length > 3);
+    if (!categoria) categoria = navLinks.find(visible) ?? navLinks[0];
     let ficha = all.find((a) => prodRe.test(a.href));
     if (!ficha) ficha = all.find((a) => a.querySelector("img") && visible(a) && a.getBoundingClientRect().top > 150 && /\d{4,}|[a-z0-9]+-[a-z0-9]+-[a-z0-9]+/i.test(new URL(a.href).pathname));
     return { categoria: categoria?.href, ficha: ficha?.href };
@@ -217,9 +216,10 @@ async function findLinks(page) {
 async function productFromListing(page) {
   return page.evaluate(({ P }) => {
     const prodRe = new RegExp(P, "i");
-    const base = location.hostname.replace(/^www\./, "").split(".").slice(-2).join(".");
+    const host = location.hostname.replace(/^www\./, "");
+    const same = (h) => { h = h.replace(/^www\./, ""); return h === host || h.endsWith("." + host) || host.endsWith("." + h); };
     const as = [...document.querySelectorAll("main a[href], [class*=product i] a[href], [class*=item i] a[href], li a[href]")].filter((a) => {
-      try { const u = new URL(a.href); const r = a.getBoundingClientRect(); return u.hostname.endsWith(base) && u.href !== location.href && r.width > 60 && r.top > 120 && a.querySelector("img"); } catch { return false; }
+      try { const u = new URL(a.href); const r = a.getBoundingClientRect(); return same(u.hostname) && u.href !== location.href && r.width > 60 && r.top > 120 && a.querySelector("img"); } catch { return false; }
     });
     return (as.find((a) => prodRe.test(a.href)) ?? as[0])?.href ?? null;
   }, { P: PRODUCT_RE.source }).catch(() => null);

@@ -4214,7 +4214,12 @@
         "status": "fallida",
         "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: net::ERR_CONNECTION_RESET at http://stories.flipkart.com/category/top-stories/news/\nCall log:\n  - navigating "
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://www.flipkart.com/watches/pr?sid=r18%2Cf13&otracker=categorytree&sort=popularity&p[]=facets.discount_range_v1%255B%255D%3D10%2525%2Bor%2Bmore&p[]=facets.brand%255B%255D%3DFOSSIL&param=213&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=ZISRHU9EDQU5_AD",
+        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_ficha": {
         "status": "fallida",
@@ -4224,7 +4229,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.flipkart.com/hmd-vibe2-5g-nordic-blue-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYNGZQCBWB&marketplace=FLIPKART&lid=LSTMOBHN6XYNGZQCBWBVAYNRE&hl_lid=LSTMOBHN6XYNGZQCBWBUESAVS&pageUID=1792339525384&param=32142&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=O456DXVOPKEG_AD",
+        "url": "https://www.flipkart.com/samsung-galaxy-s25-5g-snapdragon-silver-shadow-128-gb/p/itm957543a944c80?pid=MOBHQDMKYG8JCE4R&lid=LSTMOBHQDMKYG8JCE4RZTNP8N&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=A2CWP0QMPTME_AD",
         "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
@@ -4745,7 +4750,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP8AAAADBTc_PNEc-AUBnJsqKNhgTSOR6pNOM31wSAt5aoj3sXQNRWr-IldOyqzwfq6_UtIB6_K6hT_5EypFzgIxpMiFKjJeJqXw6ksUxoGNozdlTEsn6Fxzhes2Yi1TRWK0NrQ1hXtekBjTgjtTWOgDqdoqVV-D4XyPLJzekuXphncXfmT_ZIa_VYKxJthILIgcFT9b8uQfK2K-8JYtRMsJP7sGL6ZJ5QF2oChqHheT-oVcdJ9z-IaPisc5HI9trc8TxF1SMvL1N6vowdoaHoSSFRKG_Yx-8NyLB3b420dUayo2FIyMVFR2rj8WTzPkoSzdFgGpuXey4N1R6LUasBSu_L6J1S9GpXcWS6bUk7_AIsv__p0HzdhZDuwKUIi3QPgU5ZCyingWiYGS3egfZcMzvEJtzfvUyF7lAE4aLMHbf2rMHsqXRI4_oKaWO3pHGEtEI-cdRcOUIlkmX-VlE-Bn2LIGfpwgwP1tHwRPPNInr9s1b5EwItsVd6Espg9RxjkzVB3HynX0nElBcayI1F8gOJzghaIky_Cn1x1T5OAj2472Z9bpkvQkLdxYORLFVEVwY0a3GIh9Q7CAE3DxhHyhVdLVPELvtYDdH1BB63xMPqFUutZGqOKpodB3TY_s-Qpc6jazbnUiBvja7VD_TrCUry80hzEjKduC6sPGLdn5_BIn7Q79e2qguMMvTgHyN03ed0ok18dZt4UCUdRPHtjkcC8Dx2K3nISCBuECLpOI3b4gj2kk2v6rVc7sjdQuaMSZX_RTsV1ocED4g-F5W8GgTE2aBaT2xnxIXvDEZVfCn45GKZ8Vj8nbmq0IyZVOUCcclZTPGg32SslVl4ewdfbGpeWzdW2OimgEsw9pJztRVQlf1sdA9CGPExt31Rkaw4688nH9RYOU72ZTB7zG64dqCVW2jpl12x0JGOi3EsFIvHrLsLHIPVO4c-PvkFNRMEvpb_G7_KFen3NuBX39lkk03xH6z8DeclHf9XT-myfooSRSBEwNdibKm6vq-Gg7vGY5bbF0YE0xkeZGz6jRzjSLghK42qa2uD14iiJbqlmSGWBlVnySPoI_5cdl_e8ckFpQrVdnEqM22zVVj9tuhLlKyWdPJLXPibDR_eh0R81JmseggxtvBqW7tAB-CWZRdSsnHrDjRuUCgJ3-NKnm8GZXYYnSVA-2LVpvQjdylJA_s3QEM40cR37NS5Bl7WqnAXNLAydSelp8ZgE39GpHhJ6f4nFl7UkaejA2FXaVwM1F4o79uuelNIbGmxthqQA6kINUbdSl6m67pAdib6Pq8AfyDc426sSoBwfd4TYlCWdSvtbqjtqHWlpeZI36tTop_1CBAn9pOhtVaVXQWyD&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQQAAAAADPusmie5Nf7jidtstY9JZh9x7jVCwlYcDJGx013meC90ol797mj326VSVWx3Jb8umvvQHmQjRH6rxUsHAFFWVCsHoMdHmqMndalCJ2AQZqn2CnD5BEcnugwjDsGfKEjVGe_yuTO4TrKnP7GCL5lDnsDoZSRj3FuL1kzQc9bXoOYPzmxXLaUdZl5PpVYr3SufFquX6iUNdtZBEQVQHafazY2rb5qakml1TFIkXVM-5Kk03CRaJEAdLgRnSSl-2vN9sGf59dCfhi0fYDzTZg649bIxJHW-arVA-4VUrt-hy9XlXDSipduPfxAieZEFPqrCaQJgd8TaojnWLjkNJt1lbPq7ROFVShlnk7h_6tYlrXXuYroB_Qzz5kIOIHxt3xWJuE6kl4wRhiyNwdwizS1xTGi47qFTCnPVOCgW0LR7oZr2yKeaUrmCt_7rRdy1YF3ooEihKr8YVGWEpfKdtQUnk_rVGbjC62Ahfqb2ypmzcUUI4QoUVGnmRUzM16uK8S44ZdIslFIUgAZgBD8zQs98XlwtNwDjVtRZOXwJQ0keqlAtl9YNsQ13eZG2v_X_L_27-mkuBOgq7sbd0ruCDBB1_zvznEUv6WNaYRCwUS7hMsJ9GC1wrKjkfC0Pp1yHyb1Apy-J74QNIg2SUQeI5JWvqGPu1PkMRtIUxhFZu_4Sly2TrW1wAOgTHp3FPuvxyYd2M1FaGSCQbFDygGyh7ZYFov1JLkkHgt85CArUzy3_QeGNi9dGosd668D3hLp4IDQJxdEQtPXChktcWcbFAJpHdiRsEecFeE_DqOJyvkhj27KBFLfnPCaRzHtTAAcJcXFEa4jB0RLsi11suXgTr31--1734jWnzGChJj8-VEC4ACKS_KE6-fwZygP7Ub_dMUbptAKD9vNlvrWY3anPpMGsKisRzunHIEoHivxAEQ7pWI4WxYm1hG1N-eEmaY6RAWprIXRrSxjAi-M_hJzFX1nMeOyIqKIYS1TPjuZpbKwNt6vu9ojwcOjtf5VzmjhZoVS7pcpw_DmdPzCz2fWYr__wxDSV29Z2CkLsga_hoONZReEEDLnQUL1Ln1iz8HSofpCPOvE07A-FrfyCSn1kVSFu_EKFXkjlOxvhXau2u7VSoRHgKSU8G9PJQJQVBvpMgkot6o4hXVquE2C3LDQkJnNrP7pfDI0UuP2HVGn4v3TCOBbbSPMpmHJnOSzGuGbbtqRZOt-K-Q0mP82DlWUWT92_3UB65AirI8pNpNzBMkAT97GsSizWHJzK3k-DUsEprKmw1MmNVsodmjMwXn5zmEwDfvWN9jVI62v6QZ2PhPXE_PES7AQcS-xUZjLZvZl6R-cWs9COFAMCiqemRqP7qw&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -6155,7 +6160,7 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP9AAAADBJUb_hwQBk4qvx6kUBmoP_lTc1b6BLZfJbX5z3E5O0YeobLeNLDj-gZhTRIYbo_KDhOh38tPhzDMhQ33Bu5c9FSbb_kiX-fyWkX0G93B2GyRn3tXloDKlH_Khnef2ypqk1Udrd9GOtZplPtJYzMnabyILLvQRA3dYaW0ALLwqK8Sw4dxfIRKtyppGVrJoYH-bg4xDKj1l3gpzXOs9tpdKGvhzOqyU8z8ydTfMoZoEwfBA6JJf0tp48EdtslylnK_hjkAnLhGdLbpN7OO3ifLr1dVo2IY2MefA0axJVfPnZ7rCIOa1IHAols9qlWYpGNDJicdQlH3tCLfpfW1wB6WRSedjf0TIMCcaQLAx5dZg7Ten4xsoas-_mnDuQyZDCSxgRsJ8ETV13pb-Mzsiy5nyMW3lf29W_vt6etRKqtXFWRPcFhIT0B1FWqI8sH7tzVec5_rWxVoTNfSzZiKm3B0ZL1OFBG6dUBNLZu7dlTSPQvM4N1Zj2ZXZur69qIRN50KStvQnkD-_L7IPcKnK4C-v2-RTIFaXcvkNs-GRcRFbff3Qyf07q0Ms0I9sl9XfImK8cf-MWuqgeq039_m3ugSWKp-TOX-5bjugKs9BxCYQ813O6iUf5GbpmZrEGzOXu-FvDtHhsjHOjhBdM0rPB73B_hPPwGRVVaekzcI5cfe-G2Teb70p6FfXRJDvImwbmUfftdKH9Iiv8iMQe9Cn4GN0GfY_6j719QLjTQG0Z9KnvWSolxtuEMcb-Ck5HWWC6BaYVjfxcXSGQA0echRCR_G8eFC_OimcwhA5OklgZXeCo2kkTFEaZtK6Mfc8m8n73YqqcoMEBQb0OEAgoxRWCJv1RdL0F-DkMURgvlC0JjpqGTukuuIG-b3oAGZKey_kygH0mszYVcGekem7_dNg1XURuMgiSbIl_R2XIyy784zAv7l-Zvo87BIguFk4XGJxkE8InYxXKbLFKDDg5rfLdBfBrVcLCVGYv6D2QQDtqkY86wgi4X8VVBjZXz9Hde4EF3to5d-VJUxUGOIjz1iuGbLd4FaJr9Y9G79nYb-CJPAnGgOnJr6GDcvx-NmgL-oN2cFw_gOL5CHsdbqRijpRnZ7kK9UgwZmq5mAsehAfM_ElBULJpnCbRFagPmV767E269oziaWkFG3RnhwmaZuICExrA0GXC2Hab0vZh7nW0CjmcH6VJYHwhDmmSvxKSEFo50VYSCodpmBENBZ0iij4qd4uknccc-snjk-v6piHdwwC8B_tqzHFqDvRVbW13niVLdRuXyWzq4BIZQ6T0ZU7QgNT2dbjydfjtNZxWTHPi5n56MXRMaZ5XWx-etNsT7kf13GQAugbzv_UukkA&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQQBAAAADPWO8HQldrVE_iiGiD0b9HFpJy-pGyqu7EW8Xx8FZiIwjpSxVb4VXsAMgnTeehkXIzteBAbCA6DYBI3Iwb7fjicxNIvSaDnmLex13T85QdoqUxydSKYiIfuNsCQ6hzj_7YqK2hA01sEtLEbW12g-raRtwyah8iwKXHkcxNHH9luZ4BysPDYtaoKAPgqtz86h6ozdZQrkB3jgke52_3USnNoo6kiKo9seSg1AvPm-G-X-zzOEJyWpVuo2OPM-okPpzz_XrrpnlewPYzgnq5DKqV1AEhYFv0UcwfWE3dma-5hh2c6DvKRZuWmdDuPxUEPmIcINc8Df8vf5NSMy2d6yjyJrcra0BgiEsTzI_wqCcDIrXxC8lKRUK4x_2FryLWNwIs7YMBpB7Aa_wQwuULOomZ1DkHEtVTCaMo2_WfWzDWPUpFjoSWX_g3vrzR4m6AE6oSnQZb3Vtbn8MeuoN3nyLzJWGOHOdoA1k6A87JJgvEz5pfA4A3UcbmtMDwKt-4IyCCiraKQuUpLSVpoMkjIz41ZspchAxoj-o9RVCelie38d5zi3frIgdDxTpc4-mF3tMj4Jz6ixFkCCfeMc6WwFLHKzloaSfCxy7dP2NSA3mnkeGuk9A3o93HIT35H6axtCF7U6ENHJ9RR7Fd6X4feCOO_aQC9O8PvCVBmOoi2FGQpXVx_N_C4mAYnm_KWlgbijCuzqd0Y1o_bf1GsN8equvoQxNUd55vEfaaZntMAI47f185pbr2bmSPnoWJWLLUnIBwFqLsRHaD-Q8bfYNEsdQc3o0KJyhCTWEB8HTmG4zgU-AySuOHhwdHMHIwNkrBZWLP44-FzX0ZfwaYyyUyz5vEk66cUKHHD_Pe9iBVoIcs5AoqQ_BAmiF6fqW35K-6dj8lQ-1pJbLHBNUFLy40CxqhtqTJ_sd5dgZ9P7JsPN8KZ48oCOgfO7mvgADFR3uL-WT5sFFrfyJZ7SgtcQKGXf5sB-H51N4VZKRxrkFHbXhqYOFH_x9C0RO05o8j7G2CS2vGhazMsGVsRY_7ibPw4oWQEvsts98IyyfOMBibSwAwVH7KDRFoCb7oEJq3G8BUnc_CRXxPz5YnbYJPpnqj7Ty8ELy8TMoPi993FNgbX_pNXXjXn7uRMjSdQb9MTui5kJLnL6IGqfBHd15mLJzAfqWbsb8V0Aqyet_pleZe2sjDiM-bjGsOVQyCfbNDFwSLNBhdsTO540aae79dG5kr4cCCxaWWeaEZy_pM7ZjfsvcLcfZ6sE3CGK3Vkyi8bJ4WUOinEAkYGpQqCiF6wcnU_a8rqXFTrDXZsRV7JLZIyVkJXc1Wfz74GgLuEGWCCr2tivrH-YzlfMeNfmcZQohVY&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -8171,7 +8176,7 @@
         "url": "https://www.zalando.de/supported-browsers",
         "stale": true,
         "lastAttempt": "2026-10-19",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.de/\", waiting until \"domcontentloa"
       },
       "mobile_categoria": {
         "status": "fallida",
@@ -10917,7 +10922,7 @@
         "url": "https://www.zalando.it/supported-browsers",
         "stale": true,
         "lastAttempt": "2026-10-19",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
       },
       "desktop_categoria": {
         "status": "fallida",

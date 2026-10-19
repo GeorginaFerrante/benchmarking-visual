@@ -131,7 +131,7 @@
         },
         "url": "https://www.fravega.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -144,7 +144,7 @@
         },
         "url": "https://www.fravega.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -1298,15 +1298,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
       }
     }
   },
@@ -1377,13 +1377,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -1463,7 +1463,7 @@
         },
         "url": "https://flybondi.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -1476,7 +1476,7 @@
         },
         "url": "https://flybondi.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
@@ -1923,12 +1923,12 @@
         },
         "url": "https://www.bestbuy.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
@@ -1976,13 +1976,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -2333,7 +2333,7 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 1440,
@@ -2344,7 +2344,7 @@
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 980,
@@ -2466,13 +2466,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -2546,13 +2546,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -2803,7 +2803,7 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-tmall-desktop-home.png",
         "viewport": {
           "w": 1440,
@@ -2813,41 +2813,35 @@
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tmall.com/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tmall.com/\", waiting until \"domcontentload"
       },
       "desktop_categoria": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-tmall-desktop-categoria.png",
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://pingjia.taobao.com/category-yundongwa_1685",
-        "stale": true,
-        "lastAttempt": "2026-10-17",
-        "lastError": "No se encontró un enlace a esta página"
+        "url": "https://helpcenter.tmall.com/servicehall/home"
       },
       "desktop_ficha": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-tmall-desktop-ficha.png",
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://login.taobao.com/havanaone/login/login.htm?bizName=taobao&redirectURL=http%3A%2F%2Fbuyertrade.taobao.com%2Ftrade%2Fitemlist%2Flist_bought_items.htm",
-        "stale": true,
-        "lastAttempt": "2026-10-17",
-        "lastError": "No se encontró un enlace a esta página"
+        "url": "https://www.tmall.com/#"
       },
       "desktop_carrito": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "error": "No se pudo llegar al carrito"
       }
     }
   },
@@ -3035,7 +3029,7 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-suning-desktop-home.png",
         "viewport": {
           "w": 1440,
@@ -3045,7 +3039,7 @@
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 390,
@@ -3056,7 +3050,7 @@
       },
       "desktop_categoria": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-suning-desktop-categoria.png",
         "viewport": {
           "w": 1440,
@@ -3065,21 +3059,24 @@
         "url": "https://search.suning.com/%E6%B4%97%E8%A1%A3%E6%9C%BA/"
       },
       "desktop_ficha": {
-        "status": "fallida",
-        "date": "2026-10-17",
-        "screenshot": null,
+        "status": "ok",
+        "date": "2026-10-19",
+        "screenshot": "capturas/cn-suning-desktop-ficha.png",
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://passport.suning.com/ids/login?service=https%3A%2F%2Floginst.suning.com%2F%2Fauth%3FtargetUrl%3Dhttps%253A%252F%252Fproduct.suning.com%252F0070143049%252F12447997633.html&method=GET&loginTheme=b2c",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "url": "https://search.suning.com/%E6%B4%97%E8%A1%A3%E6%9C%BA/&iy=0&isNoResult=0&cf=brand_Name_FacetAll:%E6%B5%B7%E5%B0%94(Haier)"
       },
       "desktop_carrito": {
-        "status": "fallida",
-        "date": "2026-10-17",
-        "screenshot": null,
-        "error": "No se encontró un enlace a esta página"
+        "status": "ok",
+        "date": "2026-10-19",
+        "screenshot": "capturas/cn-suning-desktop-carrito.png",
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "url": "https://shopping.suning.com/cart.do"
       }
     }
   },
@@ -3107,7 +3104,7 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-vip-desktop-home.png",
         "viewport": {
           "w": 1440,
@@ -3125,24 +3122,24 @@
         },
         "url": "https://m.vip.com/v3/index.html?source=www#/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "desktop_ficha": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "desktop_carrito": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
@@ -3293,7 +3290,7 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 1440,
@@ -3304,7 +3301,7 @@
       },
       "mobile": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/cn-sina-mobile-home.png",
         "viewport": {
           "w": 390,
@@ -4192,7 +4189,7 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/in-flipkart-desktop-home.png",
         "viewport": {
           "w": 1440,
@@ -4210,29 +4207,29 @@
         },
         "url": "https://www.flipkart.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: net::ERR_EMPTY_RESPONSE at http://stories.flipkart.com/category/top-stories/news/\nCall log:\n  - navigating to"
+        "error": "page.goto: net::ERR_CONNECTION_RESET at http://stories.flipkart.com/category/top-stories/news/\nCall log:\n  - navigating "
       },
       "desktop_ficha": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.flipkart.com/realme-p4s-5g-titanium-gray-128-gb/p/itmcb2e7e552a5ef?pid=MOBHPBHATYTBGZXN&param=29992&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=F28ORW1A4CB2_IAD",
+        "url": "https://www.flipkart.com/hmd-vibe2-5g-nordic-blue-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYNGZQCBWB&marketplace=FLIPKART&lid=LSTMOBHN6XYNGZQCBWBVAYNRE&hl_lid=LSTMOBHN6XYNGZQCBWBUESAVS&pageUID=1792339525384&param=32142&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=O456DXVOPKEG_AD",
         "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_carrito": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
@@ -4378,13 +4375,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -4414,7 +4411,7 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 1440,
@@ -4433,7 +4430,7 @@
         },
         "url": "https://m.olx.pl/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
@@ -4492,7 +4489,7 @@
         },
         "url": "https://www.trendyol.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -4505,7 +4502,7 @@
         },
         "url": "https://www.trendyol.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -4578,7 +4575,7 @@
         },
         "url": "https://www.hepsiburada.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -4591,7 +4588,7 @@
         },
         "url": "https://www.hepsiburada.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -4664,7 +4661,7 @@
         },
         "url": "https://www.sahibinden.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -4677,7 +4674,7 @@
         },
         "url": "https://www.sahibinden.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -4742,13 +4739,13 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/id-shopee-desktop-home.png",
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP8AAAADOh34lNNwV8nhmFbOeZrz6MdxCOlXVgKKxMQkW9pQU2Wgo5zXV-9u6lFDL1Ogqgud6Xbshp7g4b5vHNR0iVxc0IiE0yNudtO3aQj_KV2iYXo_FMtdXh97XEoYU2IyN6jl81nwTV-SlP9i_M3mWiYjTug1NQpa1bQKKqKi9kbcES3-MQRdcAl2YlRNueyIaIYLxHxPt8ULqIULKjaREJBKM8uDyqr0sNl0Ll_SGOub8sYvcZKjX_jArehkFLKK-cWQUAV7SW5Qw-VpIKHMJgRtn_MnCYMejrET_T2X9YbisFjPnVHythtBUFPTgenFdCrf5Hr-NMeREZCT1fZ_sS5kTNCR5dk_-R22APesj0aZjod-DQg7vwam9DCJlnb757cH5wFzIlk3O9GXdNFMNnt8Zz92dACtkR_ipEaPqia9fjmMuJ4iiiyLtrR3oC6PSeGiSylWOXjOO9CsY34wmJe72j1tTbxltKho0xanJZSx0ETUzH8eTVvWeAYlPNWznV2gBfY69xPXx2SZHQBjHz5t1itIEJAnhfsBD1end6BCbf-r-rIpEVnV_tvXXYnJLsTsndH_k5CTV5kIJRwR85cUnrjcFjX3oA0SjUjS4Gp_IKSK_Gbth98yySQQj5lDrlObTS3nWTyj-C7-EchqW_T3bWH9Q-OeGuikvgQyAJYdkW-QGvjh-SRU4Ye13bekkUdYBVOv9hETPEfmA6k5tYXe13-ZWB9N3FVvpUj7qQCqWIQxY5TJQW1o-aeyvrY2iEXeGzJVZ_ZE0iDgfH-ZHpETbxdxKsC7yWwiNMJ_d4ZIHLQL0bNx4TtVdnVWjHBHSW2DvPFpCXVK0ZMoB-tHSjsQUVvVabqZpWC-yE1XmdhoRMVKDxq1f9oTOnY2bsXJiPTikeJpgMwaAVjgya_t7oCoY5Abg3288hA4XZ89FuZdOCrooJ2lhyEGaE637HF23kb7MQSq27rl4opLHbF-dtrHeR7jEOpr_Gz-KWmvYAUyzU680cPiMwCF7Uq5u-inkzgpBTwt0ZS85OxGW8Spnj_ws66O1C9rFirXi65n4Nf8XpIiNdYmjk-GRW3FEXbJEwg_UiB-1K_2SqfedRaFmwKMX6pGcZrDSk1rIeRAMk1lDXOBFarEJyzs4y7svbZg5QhHY5zc3UlnQ2PgiMvKv7kfP0gY9L1zeJT9fP_3vkD9Ex2ktunvro1qM5f75Maw9s6ap6-h-pdu9gDqZGSmUrZU67AO9F1UEu6UwylihO9KMQUzeoI5fk0OrVArMuRACXvoSG5Iko8AKidzOE9jdGOqhZgIp89_2p6EKXoWs9brD55BidGXpGvtsLZLte8MOFFuT7skSGsjuvt&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP8AAAADBTc_PNEc-AUBnJsqKNhgTSOR6pNOM31wSAt5aoj3sXQNRWr-IldOyqzwfq6_UtIB6_K6hT_5EypFzgIxpMiFKjJeJqXw6ksUxoGNozdlTEsn6Fxzhes2Yi1TRWK0NrQ1hXtekBjTgjtTWOgDqdoqVV-D4XyPLJzekuXphncXfmT_ZIa_VYKxJthILIgcFT9b8uQfK2K-8JYtRMsJP7sGL6ZJ5QF2oChqHheT-oVcdJ9z-IaPisc5HI9trc8TxF1SMvL1N6vowdoaHoSSFRKG_Yx-8NyLB3b420dUayo2FIyMVFR2rj8WTzPkoSzdFgGpuXey4N1R6LUasBSu_L6J1S9GpXcWS6bUk7_AIsv__p0HzdhZDuwKUIi3QPgU5ZCyingWiYGS3egfZcMzvEJtzfvUyF7lAE4aLMHbf2rMHsqXRI4_oKaWO3pHGEtEI-cdRcOUIlkmX-VlE-Bn2LIGfpwgwP1tHwRPPNInr9s1b5EwItsVd6Espg9RxjkzVB3HynX0nElBcayI1F8gOJzghaIky_Cn1x1T5OAj2472Z9bpkvQkLdxYORLFVEVwY0a3GIh9Q7CAE3DxhHyhVdLVPELvtYDdH1BB63xMPqFUutZGqOKpodB3TY_s-Qpc6jazbnUiBvja7VD_TrCUry80hzEjKduC6sPGLdn5_BIn7Q79e2qguMMvTgHyN03ed0ok18dZt4UCUdRPHtjkcC8Dx2K3nISCBuECLpOI3b4gj2kk2v6rVc7sjdQuaMSZX_RTsV1ocED4g-F5W8GgTE2aBaT2xnxIXvDEZVfCn45GKZ8Vj8nbmq0IyZVOUCcclZTPGg32SslVl4ewdfbGpeWzdW2OimgEsw9pJztRVQlf1sdA9CGPExt31Rkaw4688nH9RYOU72ZTB7zG64dqCVW2jpl12x0JGOi3EsFIvHrLsLHIPVO4c-PvkFNRMEvpb_G7_KFen3NuBX39lkk03xH6z8DeclHf9XT-myfooSRSBEwNdibKm6vq-Gg7vGY5bbF0YE0xkeZGz6jRzjSLghK42qa2uD14iiJbqlmSGWBlVnySPoI_5cdl_e8ckFpQrVdnEqM22zVVj9tuhLlKyWdPJLXPibDR_eh0R81JmseggxtvBqW7tAB-CWZRdSsnHrDjRuUCgJ3-NKnm8GZXYYnSVA-2LVpvQjdylJA_s3QEM40cR37NS5Bl7WqnAXNLAydSelp8ZgE39GpHhJ6f4nFl7UkaejA2FXaVwM1F4o79uuelNIbGmxthqQA6kINUbdSl6m67pAdib6Pq8AfyDc426sSoBwfd4TYlCWdSvtbqjtqHWlpeZI36tTop_1CBAn9pOhtVaVXQWyD&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -4760,29 +4757,24 @@
         },
         "url": "https://shopee.co.id/verify/traffic/error?home_url=https%3A%2F%2Fshopee.co.id&is_logged_in=false&tracking_id=369486e8ee0-909e-4988-a013-18cf146fd913",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://help.shopee.co.id/portal/4/s",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "No se encontró un enlace a esta página"
       },
       "desktop_ficha": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
       "desktop_carrito": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
@@ -4830,15 +4822,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -4866,13 +4858,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -5079,13 +5071,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -5287,13 +5279,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -5323,13 +5315,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -5811,15 +5803,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
       }
     }
   },
@@ -5854,7 +5846,7 @@
         },
         "url": "https://aeromexico.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -5867,7 +5859,7 @@
         },
         "url": "https://aeromexico.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
@@ -5938,13 +5930,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -6157,13 +6149,13 @@
     "captures": {
       "desktop": {
         "status": "ok",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": "capturas/br-shopee-desktop-home.png",
         "viewport": {
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQPKAAAADNskp6CRwajzG92Wz6OKJc8xUa_NiD8tC9TBGeRk97sKIg-nzEFUqPooRip3A3Ztt23W4Zg9iJYa-zE6deIaI8zWx9k6q3mJmwoX5G6ckcyXqgA7buX1JY2nV8v3edb_6AtV_iJcmAK3vROfamiFD0qrDL4Id_uf_sMRrYAmNgPTXyhEjvCVaC3XFnh5Q-_2xdzNUv6fNpVvVjdW0szTxLuLfo88vMSIzWmtSt8pOK0JPom4Q1_6ysvqPrc2neYufS3GodkwnLz3MPMoV7jDl4bNAPQx_R5BeH-y3twxTySYAaaBVgq0Zmds0g200oLEHAUR1Wdl6FVX0qZUYZTvdfUxkzvkLl3oxk7psllBBJDx7cOzBJ1HyVSTZ_nH-hoVR6mOnR-Gkd5rNxtt85vxddOnQxs2OcrYqxenVkKHKyKow0xO3_UI5DyGhos58oCypWwn5Kg7h7QsSLv8YP9SOzcRN2q3g8CnZ_K3M89zOLqU7D5tIAL5ttG_-RFD95DlP0IFkOrlCjLfhXsxr_U_yBK0OXl5cXRKnjc0G8-kNfD4dUO74oA5pFBEPNQeo_i-D0vOzGkeEjws5PGccpNcFZLQIMaPR8G6TIpQR5KKrglruj1kLDFf8FVJdg2F5NYnDDK7sHYBItziYzaamt26wme_AEBFgaZzG_QhHzMAyGhF5mQReDzdWLV5_mEB-Hdt1lIC-WuMyc_VAayGHLMR5ElmIPhIYkMYyB5MOlaDq-IYKEoKAFeB6afOvP9qPgf6Nnke9JyS5_DSn1lWJ9BQtFjUeKWjv7-r5Zs0JvaBoTN4SL4r_DoxVn-oIJBvAHLjF5iMXDd-jGtiiyZ13pvq6jACDW_yHUyD5FDziqF14g5-53KF7_Ohd-wppdsGTUungQQmgx9XOsitoFgtPaMZ5eq00I_2AjqJLveKutVaUKFaYc7lh4gJS54IYBGEwsg1l4HFIfetHBY4OcFr1vwgj-lefyKFoIe3JQJGtSXjzlo8tEt5IfUmidT26D_bkI4Z1hTIDmz2yFJUvU0pFO2Dtje7wmaiH6mMMYkRLJ5gcK4M-oq7Rr9VEW0ovKnT6SgFGRP0yqpEu8lbrtGgpM7EJYA1DoIAzT_8CO74ryYHfLCEvOUxgdlzmLU2LwMe9X77Cz6OFikxu5m-wXdX9Uwl1ROhwSU6jpgEYsiNS5FQLttLIpognTiyxM-tVvOW5CrAp8brP1Tc8_hbDMNxl98cJiwIHtT9bzrY6IK33PT6vCnV2d7hlH33nUstlEMqPF6GTj9-mujJMA&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP9AAAADBJUb_hwQBk4qvx6kUBmoP_lTc1b6BLZfJbX5z3E5O0YeobLeNLDj-gZhTRIYbo_KDhOh38tPhzDMhQ33Bu5c9FSbb_kiX-fyWkX0G93B2GyRn3tXloDKlH_Khnef2ypqk1Udrd9GOtZplPtJYzMnabyILLvQRA3dYaW0ALLwqK8Sw4dxfIRKtyppGVrJoYH-bg4xDKj1l3gpzXOs9tpdKGvhzOqyU8z8ydTfMoZoEwfBA6JJf0tp48EdtslylnK_hjkAnLhGdLbpN7OO3ifLr1dVo2IY2MefA0axJVfPnZ7rCIOa1IHAols9qlWYpGNDJicdQlH3tCLfpfW1wB6WRSedjf0TIMCcaQLAx5dZg7Ten4xsoas-_mnDuQyZDCSxgRsJ8ETV13pb-Mzsiy5nyMW3lf29W_vt6etRKqtXFWRPcFhIT0B1FWqI8sH7tzVec5_rWxVoTNfSzZiKm3B0ZL1OFBG6dUBNLZu7dlTSPQvM4N1Zj2ZXZur69qIRN50KStvQnkD-_L7IPcKnK4C-v2-RTIFaXcvkNs-GRcRFbff3Qyf07q0Ms0I9sl9XfImK8cf-MWuqgeq039_m3ugSWKp-TOX-5bjugKs9BxCYQ813O6iUf5GbpmZrEGzOXu-FvDtHhsjHOjhBdM0rPB73B_hPPwGRVVaekzcI5cfe-G2Teb70p6FfXRJDvImwbmUfftdKH9Iiv8iMQe9Cn4GN0GfY_6j719QLjTQG0Z9KnvWSolxtuEMcb-Ck5HWWC6BaYVjfxcXSGQA0echRCR_G8eFC_OimcwhA5OklgZXeCo2kkTFEaZtK6Mfc8m8n73YqqcoMEBQb0OEAgoxRWCJv1RdL0F-DkMURgvlC0JjpqGTukuuIG-b3oAGZKey_kygH0mszYVcGekem7_dNg1XURuMgiSbIl_R2XIyy784zAv7l-Zvo87BIguFk4XGJxkE8InYxXKbLFKDDg5rfLdBfBrVcLCVGYv6D2QQDtqkY86wgi4X8VVBjZXz9Hde4EF3to5d-VJUxUGOIjz1iuGbLd4FaJr9Y9G79nYb-CJPAnGgOnJr6GDcvx-NmgL-oN2cFw_gOL5CHsdbqRijpRnZ7kK9UgwZmq5mAsehAfM_ElBULJpnCbRFagPmV767E269oziaWkFG3RnhwmaZuICExrA0GXC2Hab0vZh7nW0CjmcH6VJYHwhDmmSvxKSEFo50VYSCodpmBENBZ0iij4qd4uknccc-snjk-v6piHdwwC8B_tqzHFqDvRVbW13niVLdRuXyWzq4BIZQ6T0ZU7QgNT2dbjydfjtNZxWTHPi5n56MXRMaZ5XWx-etNsT7kf13GQAugbzv_UukkA&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
       },
       "mobile": {
         "status": "ok",
@@ -6175,12 +6167,12 @@
         },
         "url": "https://shopee.com.br/verify/traffic/error?home_url=https%3A%2F%2Fshopee.com.br&is_logged_in=false&tracking_id=94660805438-a550-416a-a56d-b55c4410861a",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "viewport": {
           "w": 1440,
@@ -6191,13 +6183,13 @@
       },
       "desktop_ficha": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
       "desktop_carrito": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "No se encontró un enlace a esta página"
       },
@@ -6253,7 +6245,7 @@
         },
         "url": "https://www.casasbahia.com.br/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -6266,7 +6258,7 @@
         },
         "url": "https://www.casasbahia.com.br/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -6331,13 +6323,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -6987,15 +6979,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -7023,15 +7015,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
       }
     }
   },
@@ -7059,15 +7051,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
       }
     }
   },
@@ -7095,13 +7087,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -7173,13 +7165,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -7294,15 +7286,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
       }
     }
   },
@@ -7381,7 +7373,7 @@
         },
         "url": "https://www.myntra.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -7394,7 +7386,7 @@
         },
         "url": "https://www.myntra.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -7467,7 +7459,7 @@
         },
         "url": "https://www.snapdeal.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -7480,7 +7472,7 @@
         },
         "url": "https://www.snapdeal.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -7545,13 +7537,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -7581,15 +7573,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
       }
     }
   },
@@ -7717,15 +7709,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
       }
     }
   },
@@ -7752,15 +7744,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
       }
     }
   },
@@ -7830,15 +7822,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
       }
     }
   },
@@ -7951,13 +7943,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -8164,9 +8156,9 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.de/\", waiting until \"domcontentloa"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.de/\", waiting until \"domcontentloa"
       },
       "mobile": {
         "status": "ok",
@@ -8178,7 +8170,7 @@
         },
         "url": "https://www.zalando.de/supported-browsers",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile_categoria": {
@@ -8664,7 +8656,7 @@
         },
         "url": "https://www.holidaycheck.de/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -8677,7 +8669,7 @@
         },
         "url": "https://www.holidaycheck.de/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
@@ -8921,13 +8913,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -9145,13 +9137,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -9189,7 +9181,7 @@
         },
         "url": "https://es.wallapop.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -9202,7 +9194,7 @@
         },
         "url": "https://es.wallapop.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -9649,7 +9641,7 @@
         },
         "url": "https://www.boulanger.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -9662,7 +9654,7 @@
         },
         "url": "https://www.boulanger.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -10199,13 +10191,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -10234,15 +10226,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
       }
     }
   },
@@ -10269,13 +10261,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -10391,13 +10383,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -10435,7 +10427,7 @@
         },
         "url": "https://www.next.co.uk/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -10448,7 +10440,7 @@
         },
         "url": "https://www.next.co.uk/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -10709,13 +10701,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -10753,7 +10745,7 @@
         },
         "url": "https://www.currys.co.uk/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -10766,7 +10758,7 @@
         },
         "url": "https://www.currys.co.uk/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -10831,15 +10823,15 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
+        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
       }
     }
   },
@@ -10867,13 +10859,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -10911,8 +10903,8 @@
         },
         "url": "https://www.zalando.it/supported-browsers",
         "stale": true,
-        "lastAttempt": "2026-10-17",
-        "lastError": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
+        "lastAttempt": "2026-10-19",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
         "status": "ok",
@@ -10924,8 +10916,8 @@
         },
         "url": "https://www.zalando.it/supported-browsers",
         "stale": true,
-        "lastAttempt": "2026-10-17",
-        "lastError": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
+        "lastAttempt": "2026-10-19",
+        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11265,13 +11257,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -11678,7 +11670,7 @@
         },
         "url": "https://www.paris.cl/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -11691,7 +11683,7 @@
         },
         "url": "https://www.paris.cl/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -11842,13 +11834,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -11982,7 +11974,7 @@
         },
         "url": "https://www.easy.cl/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -11995,7 +11987,7 @@
         },
         "url": "https://www.easy.cl/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -12067,7 +12059,7 @@
         },
         "url": "https://www.latamairlines.com/cl/es",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -12080,7 +12072,7 @@
         },
         "url": "https://www.latamairlines.com/cl/es",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       }
     }
@@ -12194,13 +12186,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -12230,13 +12222,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -12274,7 +12266,7 @@
         },
         "url": "https://www.mytheresa.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -12287,7 +12279,7 @@
         },
         "url": "https://www.mytheresa.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {
@@ -12352,13 +12344,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -12388,13 +12380,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -12424,13 +12416,13 @@
     "captures": {
       "desktop": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       },
       "mobile": {
         "status": "fallida",
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "screenshot": null,
         "error": "Bloqueo o CAPTCHA"
       }
@@ -12468,7 +12460,7 @@
         },
         "url": "https://www.bloomingdales.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "mobile": {
@@ -12481,7 +12473,7 @@
         },
         "url": "https://www.bloomingdales.com/",
         "stale": true,
-        "lastAttempt": "2026-10-17",
+        "lastAttempt": "2026-10-19",
         "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
       },
       "desktop_categoria": {

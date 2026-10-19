@@ -6944,37 +6944,6 @@
     "confidence": "alta"
   },
   {
-    "id": "cn-tmall-desktop-categoria-product_card",
-    "siteId": "cn-tmall",
-    "page": "categoria",
-    "device": "desktop",
-    "type": "product_card",
-    "region": "body",
-    "box": {
-      "x": 116,
-      "y": 271,
-      "w": 853,
-      "h": 104
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "tahoma",
-      "borderWidth": 0,
-      "borderColor": "#000000"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-tmall-desktop-categoria-product_card.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
     "id": "cn-sohu-desktop-home-header",
     "siteId": "cn-sohu",
     "page": "home",
@@ -22940,130 +22909,6 @@
     "confidence": "media"
   },
   {
-    "id": "cn-tmall-desktop-home-logo",
-    "siteId": "cn-tmall",
-    "page": "home",
-    "device": "desktop",
-    "type": "logo",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 36
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "system-ui",
-      "borderWidth": 0,
-      "borderColor": "#000000"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-tmall-desktop-home-logo.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-tmall-desktop-home-search_bar",
-    "siteId": "cn-tmall",
-    "page": "home",
-    "device": "desktop",
-    "type": "search_bar",
-    "region": "header",
-    "box": {
-      "x": 354,
-      "y": 114,
-      "w": 624,
-      "h": 40
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "system-ui",
-      "borderWidth": 0,
-      "borderColor": "#11192D"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-tmall-desktop-home-search_bar.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-tmall-desktop-home-main_nav",
-    "siteId": "cn-tmall",
-    "page": "home",
-    "device": "desktop",
-    "type": "main_nav",
-    "region": "body",
-    "box": {
-      "x": 80,
-      "y": 191,
-      "w": 1280,
-      "h": 34
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#1F1F1F",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "system-ui",
-      "borderWidth": 0,
-      "borderColor": "#1F1F1F"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-tmall-desktop-home-main_nav.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-tmall-desktop-home-hero",
-    "siteId": "cn-tmall",
-    "page": "home",
-    "device": "desktop",
-    "type": "hero",
-    "region": "body",
-    "box": {
-      "x": 352,
-      "y": 233,
-      "w": 360,
-      "h": 158
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 12,
-      "fontSize": 12,
-      "fontFamily": "system-ui",
-      "borderWidth": 0,
-      "borderColor": "#000000"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-tmall-desktop-home-hero.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
     "id": "cn-taobao-desktop-categoria-filters",
     "siteId": "cn-taobao",
     "page": "categoria",
@@ -23529,254 +23374,6 @@
     "confidence": "media"
   },
   {
-    "id": "cn-vip-desktop-home-header",
-    "siteId": "cn-vip",
-    "page": "home",
-    "device": "desktop",
-    "type": "header",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 173
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 2,
-      "fontSize": 12,
-      "fontFamily": "tahoma",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-vip-desktop-home-header.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
-    "id": "cn-vip-desktop-home-logo",
-    "siteId": "cn-vip",
-    "page": "home",
-    "device": "desktop",
-    "type": "logo",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 30,
-      "w": 1440,
-      "h": 100
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 2,
-      "fontSize": 12,
-      "fontFamily": "tahoma",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-vip-desktop-home-logo.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-vip-desktop-home-main_nav",
-    "siteId": "cn-vip",
-    "page": "home",
-    "device": "desktop",
-    "type": "main_nav",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 30
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#F5F5F5",
-      "color": "#777777",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "tahoma",
-      "borderWidth": 0,
-      "borderColor": "#777777"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-vip-desktop-home-main_nav.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
-    "id": "cn-vip-desktop-home-hero",
-    "siteId": "cn-vip",
-    "page": "home",
-    "device": "desktop",
-    "type": "hero",
-    "region": "body",
-    "box": {
-      "x": 0,
-      "y": 173,
-      "w": 1440,
-      "h": 442
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "tahoma",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-vip-desktop-home-hero.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-home-logo",
-    "siteId": "cn-suning",
-    "page": "home",
-    "device": "desktop",
-    "type": "logo",
-    "region": "body",
-    "box": {
-      "x": 125,
-      "y": 146,
-      "w": 190,
-      "h": 90
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "Microsoft Yahei",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": false,
-    "crop": "recortes/cn-suning-desktop-home-logo.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-home-search_bar",
-    "siteId": "cn-suning",
-    "page": "home",
-    "device": "desktop",
-    "type": "search_bar",
-    "region": "body",
-    "box": {
-      "x": 485,
-      "y": 166,
-      "w": 540,
-      "h": 0
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "Microsoft YaHei",
-      "borderWidth": 0,
-      "borderColor": "#BBBBBB"
-    },
-    "hasIcon": false,
-    "crop": null,
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-home-main_nav",
-    "siteId": "cn-suning",
-    "page": "home",
-    "device": "desktop",
-    "type": "main_nav",
-    "region": "body",
-    "box": {
-      "x": 125,
-      "y": 284,
-      "w": 200,
-      "h": 476
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "Microsoft Yahei",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-suning-desktop-home-main_nav.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-home-hero",
-    "siteId": "cn-suning",
-    "page": "home",
-    "device": "desktop",
-    "type": "hero",
-    "region": "body",
-    "box": {
-      "x": 0,
-      "y": 284,
-      "w": 1440,
-      "h": 476
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#F2F2F2",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "Microsoft Yahei",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-suning-desktop-home-hero.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
     "id": "cn-dangdang-mobile-home-logo",
     "siteId": "cn-dangdang",
     "page": "home",
@@ -23835,68 +23432,6 @@
     },
     "hasIcon": true,
     "crop": "recortes/cn-dangdang-mobile-home-footer.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-categoria-filters",
-    "siteId": "cn-suning",
-    "page": "categoria",
-    "device": "desktop",
-    "type": "filters",
-    "region": "body",
-    "box": {
-      "x": 125,
-      "y": 199,
-      "w": 1190,
-      "h": 32
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 14,
-      "fontFamily": "Microsoft Yahei",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-suning-desktop-categoria-filters.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-suning-desktop-categoria-product_card",
-    "siteId": "cn-suning",
-    "page": "categoria",
-    "device": "desktop",
-    "type": "product_card",
-    "region": "body",
-    "box": {
-      "x": 325,
-      "y": 146,
-      "w": 110,
-      "h": 38
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#333333",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "Microsoft Yahei",
-      "borderWidth": 0,
-      "borderColor": "#333333"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-suning-desktop-categoria-product_card.png",
     "method": "dom",
     "confidence": "media"
   },
@@ -25358,130 +24893,6 @@
     "confidence": "alta"
   },
   {
-    "id": "cn-sina-mobile-home-header",
-    "siteId": "cn-sina",
-    "page": "home",
-    "device": "mobile",
-    "type": "header",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 89,
-      "w": 390,
-      "h": 154
-    },
-    "viewport": {
-      "w": 390,
-      "h": 844
-    },
-    "styles": {
-      "background": "#E8E8E8",
-      "color": "#1A1A1A",
-      "radius": 0,
-      "fontSize": 16,
-      "fontFamily": "Microsoft YaHei",
-      "borderWidth": 0,
-      "borderColor": "#1A1A1A"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-sina-mobile-home-header.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
-    "id": "cn-sina-mobile-home-main_nav",
-    "siteId": "cn-sina",
-    "page": "home",
-    "device": "mobile",
-    "type": "main_nav",
-    "region": "header",
-    "box": {
-      "x": 150,
-      "y": 109,
-      "w": 99,
-      "h": 22
-    },
-    "viewport": {
-      "w": 390,
-      "h": 844
-    },
-    "styles": {
-      "background": "#000000",
-      "color": "#1A1A1A",
-      "radius": 15,
-      "fontSize": 16,
-      "fontFamily": "Microsoft YaHei",
-      "borderWidth": 0,
-      "borderColor": "#1A1A1A"
-    },
-    "hasIcon": false,
-    "crop": "recortes/cn-sina-mobile-home-main_nav.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
-    "id": "cn-sina-mobile-home-hero",
-    "siteId": "cn-sina",
-    "page": "home",
-    "device": "mobile",
-    "type": "hero",
-    "region": "body",
-    "box": {
-      "x": -1100,
-      "y": 339,
-      "w": 370,
-      "h": 17
-    },
-    "viewport": {
-      "w": 390,
-      "h": 844
-    },
-    "styles": {
-      "background": "#F2F2F2",
-      "color": "#1A1A1A",
-      "radius": 0,
-      "fontSize": 16,
-      "fontFamily": "Microsoft YaHei",
-      "borderWidth": 0,
-      "borderColor": "#1A1A1A"
-    },
-    "hasIcon": true,
-    "crop": "recortes/cn-sina-mobile-home-hero.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "cn-sina-mobile-home-footer",
-    "siteId": "cn-sina",
-    "page": "home",
-    "device": "mobile",
-    "type": "footer",
-    "region": "footer",
-    "box": {
-      "x": 0,
-      "y": 9667,
-      "w": 390,
-      "h": 205
-    },
-    "viewport": {
-      "w": 390,
-      "h": 844
-    },
-    "styles": {
-      "background": "#E8E8E8",
-      "color": "#1A1A1A",
-      "radius": 0,
-      "fontSize": 16,
-      "fontFamily": "Microsoft YaHei",
-      "borderWidth": 0,
-      "borderColor": "#1A1A1A"
-    },
-    "hasIcon": false,
-    "crop": "recortes/cn-sina-mobile-home-footer.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
     "id": "br-amazon-desktop-ficha-price",
     "siteId": "br-amazon",
     "page": "ficha",
@@ -25792,99 +25203,6 @@
     "confidence": "alta"
   },
   {
-    "id": "in-flipkart-desktop-home-header",
-    "siteId": "in-flipkart",
-    "page": "home",
-    "device": "desktop",
-    "type": "header",
-    "region": "header",
-    "box": {
-      "x": 120,
-      "y": 66,
-      "w": 1200,
-      "h": 64
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "inter_regular",
-      "borderWidth": 0,
-      "borderColor": "#3D3D3D"
-    },
-    "hasIcon": true,
-    "crop": "recortes/in-flipkart-desktop-home-header.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
-    "id": "in-flipkart-desktop-home-search_bar",
-    "siteId": "in-flipkart",
-    "page": "home",
-    "device": "desktop",
-    "type": "search_bar",
-    "region": "header",
-    "box": {
-      "x": 142,
-      "y": 78,
-      "w": 864,
-      "h": 40
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 8,
-      "fontSize": 12,
-      "fontFamily": "inter_regular",
-      "borderWidth": 0,
-      "borderColor": "#3D3D3D"
-    },
-    "hasIcon": true,
-    "crop": "recortes/in-flipkart-desktop-home-search_bar.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "in-flipkart-desktop-home-footer",
-    "siteId": "in-flipkart",
-    "page": "home",
-    "device": "desktop",
-    "type": "footer",
-    "region": "footer",
-    "box": {
-      "x": 0,
-      "y": 3272,
-      "w": 1440,
-      "h": 355
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#212121",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 12,
-      "fontFamily": "inter_regular",
-      "borderWidth": 1,
-      "borderColor": "#F5F5F5"
-    },
-    "hasIcon": true,
-    "crop": "recortes/in-flipkart-desktop-home-footer.png",
-    "method": "dom",
-    "confidence": "alta"
-  },
-  {
     "id": "jp-rakuten-desktop-home-logo",
     "siteId": "jp-rakuten",
     "page": "home",
@@ -26069,68 +25387,6 @@
     "crop": "recortes/jp-rakuten-desktop-ficha-price.png",
     "method": "dom",
     "confidence": "media"
-  },
-  {
-    "id": "id-shopee-desktop-home-logo",
-    "siteId": "id-shopee",
-    "page": "home",
-    "device": "desktop",
-    "type": "logo",
-    "region": "header",
-    "box": {
-      "x": 120,
-      "y": 13,
-      "w": 190,
-      "h": 42
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#0000EE",
-      "radius": 0,
-      "fontSize": 14,
-      "fontFamily": "Roboto",
-      "borderWidth": 0,
-      "borderColor": "#0000EE"
-    },
-    "hasIcon": false,
-    "crop": "recortes/id-shopee-desktop-home-logo.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "id-shopee-desktop-home-main_nav",
-    "siteId": "id-shopee",
-    "page": "home",
-    "device": "desktop",
-    "type": "main_nav",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 84
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 14,
-      "fontFamily": "Roboto",
-      "borderWidth": 0,
-      "borderColor": "#000000"
-    },
-    "hasIcon": true,
-    "crop": "recortes/id-shopee-desktop-home-main_nav.png",
-    "method": "dom",
-    "confidence": "alta"
   },
   {
     "id": "es-amazon-mobile-home-header",
@@ -28456,68 +27712,6 @@
     "crop": "recortes/mx-homedepot-mobile-ficha-gallery.png",
     "method": "dom",
     "confidence": "media"
-  },
-  {
-    "id": "br-shopee-desktop-home-logo",
-    "siteId": "br-shopee",
-    "page": "home",
-    "device": "desktop",
-    "type": "logo",
-    "region": "header",
-    "box": {
-      "x": 120,
-      "y": 13,
-      "w": 190,
-      "h": 42
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#0000EE",
-      "radius": 0,
-      "fontSize": 14,
-      "fontFamily": "Roboto",
-      "borderWidth": 0,
-      "borderColor": "#0000EE"
-    },
-    "hasIcon": false,
-    "crop": "recortes/br-shopee-desktop-home-logo.png",
-    "method": "dom",
-    "confidence": "media"
-  },
-  {
-    "id": "br-shopee-desktop-home-main_nav",
-    "siteId": "br-shopee",
-    "page": "home",
-    "device": "desktop",
-    "type": "main_nav",
-    "region": "header",
-    "box": {
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 84
-    },
-    "viewport": {
-      "w": 1440,
-      "h": 900
-    },
-    "styles": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "radius": 0,
-      "fontSize": 14,
-      "fontFamily": "Roboto",
-      "borderWidth": 0,
-      "borderColor": "#000000"
-    },
-    "hasIcon": true,
-    "crop": "recortes/br-shopee-desktop-home-main_nav.png",
-    "method": "dom",
-    "confidence": "alta"
   },
   {
     "id": "br-olx-desktop-categoria-product_card",
@@ -40081,5 +39275,966 @@
     "crop": "recortes/cl-jumbo-mobile-ficha-price.png",
     "method": "dom",
     "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-home-logo",
+    "siteId": "cn-tmall",
+    "page": "home",
+    "device": "desktop",
+    "type": "logo",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 36
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "system-ui",
+      "borderWidth": 0,
+      "borderColor": "#000000"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-tmall-desktop-home-logo.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-home-search_bar",
+    "siteId": "cn-tmall",
+    "page": "home",
+    "device": "desktop",
+    "type": "search_bar",
+    "region": "header",
+    "box": {
+      "x": 354,
+      "y": 114,
+      "w": 624,
+      "h": 40
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "system-ui",
+      "borderWidth": 0,
+      "borderColor": "#11192D"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-tmall-desktop-home-search_bar.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-home-main_nav",
+    "siteId": "cn-tmall",
+    "page": "home",
+    "device": "desktop",
+    "type": "main_nav",
+    "region": "body",
+    "box": {
+      "x": 80,
+      "y": 191,
+      "w": 1280,
+      "h": 34
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#1F1F1F",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "system-ui",
+      "borderWidth": 0,
+      "borderColor": "#1F1F1F"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-tmall-desktop-home-main_nav.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-home-hero",
+    "siteId": "cn-tmall",
+    "page": "home",
+    "device": "desktop",
+    "type": "hero",
+    "region": "body",
+    "box": {
+      "x": 352,
+      "y": 233,
+      "w": 360,
+      "h": 158
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 12,
+      "fontSize": 12,
+      "fontFamily": "system-ui",
+      "borderWidth": 0,
+      "borderColor": "#000000"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-tmall-desktop-home-hero.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-categoria-product_card",
+    "siteId": "cn-tmall",
+    "page": "categoria",
+    "device": "desktop",
+    "type": "product_card",
+    "region": "body",
+    "box": {
+      "x": 460,
+      "y": 102,
+      "w": 520,
+      "h": 82
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#F7F9FD",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "-apple-system",
+      "borderWidth": 0,
+      "borderColor": "#000000"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-tmall-desktop-categoria-product_card.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-home-logo",
+    "siteId": "cn-suning",
+    "page": "home",
+    "device": "desktop",
+    "type": "logo",
+    "region": "body",
+    "box": {
+      "x": 125,
+      "y": 146,
+      "w": 190,
+      "h": 90
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": false,
+    "crop": "recortes/cn-suning-desktop-home-logo.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-home-search_bar",
+    "siteId": "cn-suning",
+    "page": "home",
+    "device": "desktop",
+    "type": "search_bar",
+    "region": "body",
+    "box": {
+      "x": 485,
+      "y": 166,
+      "w": 540,
+      "h": 0
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#BBBBBB"
+    },
+    "hasIcon": false,
+    "crop": null,
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-home-main_nav",
+    "siteId": "cn-suning",
+    "page": "home",
+    "device": "desktop",
+    "type": "main_nav",
+    "region": "body",
+    "box": {
+      "x": 125,
+      "y": 284,
+      "w": 200,
+      "h": 476
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-home-main_nav.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-home-hero",
+    "siteId": "cn-suning",
+    "page": "home",
+    "device": "desktop",
+    "type": "hero",
+    "region": "body",
+    "box": {
+      "x": 0,
+      "y": 284,
+      "w": 1440,
+      "h": 476
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#F2F2F2",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-home-hero.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-tmall-desktop-ficha-price",
+    "siteId": "cn-tmall",
+    "page": "ficha",
+    "device": "desktop",
+    "type": "price",
+    "region": "body",
+    "box": {
+      "x": 88,
+      "y": 904,
+      "w": 32,
+      "h": 22
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#FF0036",
+      "radius": 0,
+      "fontSize": 20,
+      "fontFamily": "Inter V",
+      "borderWidth": 0,
+      "borderColor": "#FF0036"
+    },
+    "hasIcon": false,
+    "crop": "recortes/cn-tmall-desktop-ficha-price.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-categoria-filters",
+    "siteId": "cn-suning",
+    "page": "categoria",
+    "device": "desktop",
+    "type": "filters",
+    "region": "body",
+    "box": {
+      "x": 125,
+      "y": 199,
+      "w": 1190,
+      "h": 32
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-categoria-filters.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-categoria-product_card",
+    "siteId": "cn-suning",
+    "page": "categoria",
+    "device": "desktop",
+    "type": "product_card",
+    "region": "body",
+    "box": {
+      "x": 325,
+      "y": 146,
+      "w": 110,
+      "h": 38
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-categoria-product_card.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-ficha-price",
+    "siteId": "cn-suning",
+    "page": "ficha",
+    "device": "desktop",
+    "type": "price",
+    "region": "body",
+    "box": {
+      "x": 432,
+      "y": 416,
+      "w": 219,
+      "h": 38
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 2,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 1,
+      "borderColor": "#E5E5E5"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-ficha-price.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-ficha-buy_button",
+    "siteId": "cn-suning",
+    "page": "ficha",
+    "device": "desktop",
+    "type": "buy_button",
+    "region": "body",
+    "box": {
+      "x": 491,
+      "y": 903,
+      "w": 95,
+      "h": 28
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-ficha-buy_button.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-carrito-cart_summary",
+    "siteId": "cn-suning",
+    "page": "carrito",
+    "device": "desktop",
+    "type": "cart_summary",
+    "region": "body",
+    "box": {
+      "x": 885,
+      "y": 426,
+      "w": 197,
+      "h": 50
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "Microsoft Yahei",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-suning-desktop-carrito-cart_summary.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-suning-desktop-carrito-checkout_button",
+    "siteId": "cn-suning",
+    "page": "carrito",
+    "device": "desktop",
+    "type": "checkout_button",
+    "region": "body",
+    "box": {
+      "x": 1097,
+      "y": 425,
+      "w": 120,
+      "h": 60
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FF6600",
+      "color": "#FFFFFF",
+      "radius": 2,
+      "fontSize": 18,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#FFFFFF"
+    },
+    "hasIcon": false,
+    "crop": "recortes/cn-suning-desktop-carrito-checkout_button.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-vip-desktop-home-header",
+    "siteId": "cn-vip",
+    "page": "home",
+    "device": "desktop",
+    "type": "header",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 173
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 2,
+      "fontSize": 12,
+      "fontFamily": "tahoma",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-vip-desktop-home-header.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "cn-vip-desktop-home-logo",
+    "siteId": "cn-vip",
+    "page": "home",
+    "device": "desktop",
+    "type": "logo",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 30,
+      "w": 1440,
+      "h": 100
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 2,
+      "fontSize": 12,
+      "fontFamily": "tahoma",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-vip-desktop-home-logo.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-vip-desktop-home-main_nav",
+    "siteId": "cn-vip",
+    "page": "home",
+    "device": "desktop",
+    "type": "main_nav",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 30
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#F5F5F5",
+      "color": "#777777",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "tahoma",
+      "borderWidth": 0,
+      "borderColor": "#777777"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-vip-desktop-home-main_nav.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "cn-vip-desktop-home-hero",
+    "siteId": "cn-vip",
+    "page": "home",
+    "device": "desktop",
+    "type": "hero",
+    "region": "body",
+    "box": {
+      "x": 0,
+      "y": 173,
+      "w": 1440,
+      "h": 442
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#333333",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "tahoma",
+      "borderWidth": 0,
+      "borderColor": "#333333"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-vip-desktop-home-hero.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "in-flipkart-desktop-home-header",
+    "siteId": "in-flipkart",
+    "page": "home",
+    "device": "desktop",
+    "type": "header",
+    "region": "header",
+    "box": {
+      "x": 120,
+      "y": 66,
+      "w": 1200,
+      "h": 64
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "inter_regular",
+      "borderWidth": 0,
+      "borderColor": "#3D3D3D"
+    },
+    "hasIcon": true,
+    "crop": "recortes/in-flipkart-desktop-home-header.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "in-flipkart-desktop-home-search_bar",
+    "siteId": "in-flipkart",
+    "page": "home",
+    "device": "desktop",
+    "type": "search_bar",
+    "region": "header",
+    "box": {
+      "x": 142,
+      "y": 78,
+      "w": 864,
+      "h": 40
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 8,
+      "fontSize": 12,
+      "fontFamily": "inter_regular",
+      "borderWidth": 0,
+      "borderColor": "#3D3D3D"
+    },
+    "hasIcon": true,
+    "crop": "recortes/in-flipkart-desktop-home-search_bar.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "in-flipkart-desktop-home-footer",
+    "siteId": "in-flipkart",
+    "page": "home",
+    "device": "desktop",
+    "type": "footer",
+    "region": "footer",
+    "box": {
+      "x": 0,
+      "y": 3547,
+      "w": 1440,
+      "h": 355
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#212121",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 12,
+      "fontFamily": "inter_regular",
+      "borderWidth": 1,
+      "borderColor": "#F5F5F5"
+    },
+    "hasIcon": true,
+    "crop": "recortes/in-flipkart-desktop-home-footer.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "id-shopee-desktop-home-logo",
+    "siteId": "id-shopee",
+    "page": "home",
+    "device": "desktop",
+    "type": "logo",
+    "region": "header",
+    "box": {
+      "x": 120,
+      "y": 13,
+      "w": 190,
+      "h": 42
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#0000EE",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "Roboto",
+      "borderWidth": 0,
+      "borderColor": "#0000EE"
+    },
+    "hasIcon": false,
+    "crop": "recortes/id-shopee-desktop-home-logo.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "id-shopee-desktop-home-main_nav",
+    "siteId": "id-shopee",
+    "page": "home",
+    "device": "desktop",
+    "type": "main_nav",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 84
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "Roboto",
+      "borderWidth": 0,
+      "borderColor": "#000000"
+    },
+    "hasIcon": true,
+    "crop": "recortes/id-shopee-desktop-home-main_nav.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "cn-sina-mobile-home-header",
+    "siteId": "cn-sina",
+    "page": "home",
+    "device": "mobile",
+    "type": "header",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 89,
+      "w": 390,
+      "h": 154
+    },
+    "viewport": {
+      "w": 390,
+      "h": 844
+    },
+    "styles": {
+      "background": "#E8E8E8",
+      "color": "#1A1A1A",
+      "radius": 0,
+      "fontSize": 16,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#1A1A1A"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-sina-mobile-home-header.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "cn-sina-mobile-home-main_nav",
+    "siteId": "cn-sina",
+    "page": "home",
+    "device": "mobile",
+    "type": "main_nav",
+    "region": "header",
+    "box": {
+      "x": 150,
+      "y": 109,
+      "w": 99,
+      "h": 22
+    },
+    "viewport": {
+      "w": 390,
+      "h": 844
+    },
+    "styles": {
+      "background": "#000000",
+      "color": "#1A1A1A",
+      "radius": 15,
+      "fontSize": 16,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#1A1A1A"
+    },
+    "hasIcon": false,
+    "crop": "recortes/cn-sina-mobile-home-main_nav.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "cn-sina-mobile-home-hero",
+    "siteId": "cn-sina",
+    "page": "home",
+    "device": "mobile",
+    "type": "hero",
+    "region": "body",
+    "box": {
+      "x": -1470,
+      "y": 339,
+      "w": 370,
+      "h": 17
+    },
+    "viewport": {
+      "w": 390,
+      "h": 844
+    },
+    "styles": {
+      "background": "#F2F2F2",
+      "color": "#1A1A1A",
+      "radius": 0,
+      "fontSize": 16,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#1A1A1A"
+    },
+    "hasIcon": true,
+    "crop": "recortes/cn-sina-mobile-home-hero.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "cn-sina-mobile-home-footer",
+    "siteId": "cn-sina",
+    "page": "home",
+    "device": "mobile",
+    "type": "footer",
+    "region": "footer",
+    "box": {
+      "x": 0,
+      "y": 9920,
+      "w": 390,
+      "h": 205
+    },
+    "viewport": {
+      "w": 390,
+      "h": 844
+    },
+    "styles": {
+      "background": "#E8E8E8",
+      "color": "#1A1A1A",
+      "radius": 0,
+      "fontSize": 16,
+      "fontFamily": "Microsoft YaHei",
+      "borderWidth": 0,
+      "borderColor": "#1A1A1A"
+    },
+    "hasIcon": false,
+    "crop": "recortes/cn-sina-mobile-home-footer.png",
+    "method": "dom",
+    "confidence": "alta"
+  },
+  {
+    "id": "br-shopee-desktop-home-logo",
+    "siteId": "br-shopee",
+    "page": "home",
+    "device": "desktop",
+    "type": "logo",
+    "region": "header",
+    "box": {
+      "x": 120,
+      "y": 13,
+      "w": 190,
+      "h": 42
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#0000EE",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "Roboto",
+      "borderWidth": 0,
+      "borderColor": "#0000EE"
+    },
+    "hasIcon": false,
+    "crop": "recortes/br-shopee-desktop-home-logo.png",
+    "method": "dom",
+    "confidence": "media"
+  },
+  {
+    "id": "br-shopee-desktop-home-main_nav",
+    "siteId": "br-shopee",
+    "page": "home",
+    "device": "desktop",
+    "type": "main_nav",
+    "region": "header",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 84
+    },
+    "viewport": {
+      "w": 1440,
+      "h": 900
+    },
+    "styles": {
+      "background": "#FFFFFF",
+      "color": "#000000",
+      "radius": 0,
+      "fontSize": 14,
+      "fontFamily": "Roboto",
+      "borderWidth": 0,
+      "borderColor": "#000000"
+    },
+    "hasIcon": true,
+    "crop": "recortes/br-shopee-desktop-home-main_nav.png",
+    "method": "dom",
+    "confidence": "alta"
   }
 ]

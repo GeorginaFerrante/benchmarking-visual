@@ -74,7 +74,12 @@ const today = new Date().toISOString().slice(0, 10);
 /** Un sitio necesita fotos si alguna página esperada no tiene captura válida con partes medidas. */
 export function needsCapture(ref, list) {
   // Solo se reintenta si falta la página de inicio; categoría, ficha y carrito se intentan cuando se puede.
-  return ["desktop", "mobile"].some((d) => ref.captures?.[d]?.status !== "ok" || !list.some((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === "home"));
+  // También se reintentan las fotos viejas marcadas como desactualizadas y las de inicio con menos de 2 partes.
+  return ["desktop", "mobile"].some((d) => {
+    const cap = ref.captures?.[d];
+    const parts = list.filter((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === "home").length;
+    return cap?.status !== "ok" || cap?.stale || parts < 2;
+  });
 }
 const save = () => { fs.writeFileSync(refsPath, JSON.stringify(refs, null, 2)); fs.writeFileSync(compsPath, JSON.stringify(comps, null, 2)); };
 
@@ -197,8 +202,9 @@ async function openPage(page, url) {
 /** Enlaces internos: la categoría sale del menú; la ficha, de un producto con foto. */
 async function findLinks(page) {
   return page.evaluate(({ P, C }) => {
-    const host = location.hostname.replace(/^www\./, "");
-    const same = (h) => { h = h.replace(/^www\./, ""); return h === host || h.endsWith("." + host) || host.endsWith("." + h); };
+    const strip = (h) => h.replace(/^(www|m)\./, "");
+    const host = strip(location.hostname);
+    const same = (h) => strip(h) === host;
     const prodRe = new RegExp(P, "i"), catRe = new RegExp(C, "i");
     const ok = (a) => { try { const u = new URL(a.href); return /^https?:$/.test(u.protocol) && same(u.hostname) && u.pathname.length > 1 && !/login|account|cuenta|ayuda|help|signin|registr/i.test(u.pathname); } catch { return false; } };
     const visible = (a) => { const r = a.getBoundingClientRect(); return r.width > 0 && r.height > 0; };
@@ -216,8 +222,9 @@ async function findLinks(page) {
 async function productFromListing(page) {
   return page.evaluate(({ P }) => {
     const prodRe = new RegExp(P, "i");
-    const host = location.hostname.replace(/^www\./, "");
-    const same = (h) => { h = h.replace(/^www\./, ""); return h === host || h.endsWith("." + host) || host.endsWith("." + h); };
+    const strip = (h) => h.replace(/^(www|m)\./, "");
+    const host = strip(location.hostname);
+    const same = (h) => strip(h) === host;
     const as = [...document.querySelectorAll("main a[href], [class*=product i] a[href], [class*=item i] a[href], li a[href]")].filter((a) => {
       try { const u = new URL(a.href); const r = a.getBoundingClientRect(); return same(u.hostname) && u.href !== location.href && r.width > 60 && r.top > 120 && a.querySelector("img"); } catch { return false; }
     });

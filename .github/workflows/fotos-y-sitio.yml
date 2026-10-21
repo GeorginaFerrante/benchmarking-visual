@@ -41,6 +41,8 @@ jobs:
             echo "faltan=1" >> $GITHUB_OUTPUT
           fi
       - run: npm install
+      - name: Optimizar imágenes
+        run: node pipeline/optimizar-imagenes.mjs
       - name: Instalar navegador
         if: steps.plan.outputs.faltan != '0'
         run: npx playwright install --with-deps chromium

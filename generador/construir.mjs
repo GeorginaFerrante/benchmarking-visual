@@ -22,10 +22,12 @@ const SEG_COLORS = ["#18B26B", "#3A6FF8", "#8B5CF6", "#12A594", "#F08A1C", "#EC4
 const DEV = { desktop: "Computadora", mobile: "Celular" };
 const urls = [];
 
-fs.rmSync(OUT, { recursive: true, force: true });
+// Se regenera todo docs/ menos docs/imagenes, que es donde el capturador guarda las fotos.
 fs.mkdirSync(OUT, { recursive: true });
+for (const f of fs.readdirSync(OUT)) if (f !== "imagenes") fs.rmSync(path.join(OUT, f), { recursive: true, force: true });
+fs.mkdirSync(path.join(OUT, "imagenes"), { recursive: true });
 fs.cpSync(path.join(ROOT, "assets"), path.join(OUT, "assets"), { recursive: true });
-fs.cpSync(path.join(ROOT, "datos/imagenes"), path.join(OUT, "imagenes"), { recursive: true });
+if (fs.existsSync(path.join(ROOT, "datos/imagenes"))) fs.cpSync(path.join(ROOT, "datos/imagenes"), path.join(OUT, "imagenes"), { recursive: true });
 fs.writeFileSync(path.join(OUT, ".nojekyll"), "");
 {
   const src = ["core.mjs", "plantillas.mjs", "resultado.mjs"].map((f) => fs.readFileSync(path.join(ROOT, "generador", f), "utf8")

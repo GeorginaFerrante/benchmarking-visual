@@ -14,7 +14,8 @@ import { chromium } from "playwright";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const refsPath = path.join(root, "datos/references.json");
 const compsPath = path.join(root, "datos/components.json");
-const imgRoot = path.join(root, "datos/imagenes");
+// Las imágenes se guardan una sola vez, directo en el sitio publicado, en JPG liviano.
+const imgRoot = path.join(root, "docs/imagenes");
 fs.mkdirSync(path.join(imgRoot, "capturas"), { recursive: true });
 fs.mkdirSync(path.join(imgRoot, "recortes"), { recursive: true });
 
@@ -22,7 +23,7 @@ const LOCALES = { AR: ["es-AR", "America/Argentina/Buenos_Aires"], US: ["en-US",
 const DEVICES = {
   desktop: { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1,
     userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" },
-  mobile: { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true,
+  mobile: { viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true,
     userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1" },
 };
 const STORE_TYPES = ["ecommerce", "marketplace"];
@@ -57,7 +58,7 @@ const SELECTORS = {
 const PRODUCT_RE = /\/p\/|\/producto|\/product|\/dp\/|\/item|\/ip\/|\/pd\/|-p-|MLA-?\d|MLM-?\d|MLB-?\d|item\.jd|detail\.tmall|item\.taobao|\/goods|\/i\d{4,}/i;
 const CATEGORY_RE = /\/c\/|categor|\/collections?\/|\/browse|\/cat\/|list\.jd|\/l\/|\/b\/|\/department|\/kategori/i;
 const COOKIE_WORDS = ["Aceptar", "Aceptar todo", "Aceptar todas", "Entendido", "Accept", "Accept all", "Accept All", "I agree", "OK", "Got it", "Akzeptieren", "Alle akzeptieren", "Accepter", "Tout accepter", "Aceitar", "Accetta", "Kabul et", "Zaakceptuj", "同意", "同意する"];
-const BLOCK_RE = /captcha|are you a robot|no eres un robot|verify you are human|access denied|unusual traffic|安全验证|滑动验证/i;
+const BLOCK_RE = /captcha|are you a robot|no eres un robot|verify you are human|access denied|acceso denegado|unusual traffic|reference #\d+\.|errors\.edgesuite\.net|request blocked|attention required|安全验证|滑动验证/i;
 
 const argv = process.argv.slice(2);
 const onlyMissing = argv.includes("--faltantes");
@@ -120,8 +121,8 @@ async function captureSite(ref) {
         const layout = await page.evaluate(() => ({ w: document.documentElement.clientWidth, h: window.innerHeight }));
         capture.viewport = layout;
         capture.url = page.url();
-        const shot = `capturas/${ref.id}-${device}-${pg}.png`;
-        await page.screenshot({ path: path.join(imgRoot, shot) });
+        const shot = `capturas/${ref.id}-${device}-${pg}.jpg`;
+        await page.screenshot({ path: path.join(imgRoot, shot), type: "jpeg", quality: 68 });
         capture.screenshot = shot;
         const sel = { ...SELECTORS[pg], ...(ref.selectors?.[pg] ?? {}) };
         const measured = [];
@@ -130,8 +131,8 @@ async function captureSite(ref) {
           if (!handle) continue;
           const info = await measure(handle, type);
           if (!info) continue;
-          const crop = `recortes/${ref.id}-${device}-${pg}-${type}.png`;
-          await handle.screenshot({ path: path.join(imgRoot, crop), timeout: 8000 }).catch(() => null);
+          const crop = `recortes/${ref.id}-${device}-${pg}-${type}.jpg`;
+          await handle.screenshot({ path: path.join(imgRoot, crop), timeout: 8000, type: "jpeg", quality: 78 }).catch(() => null);
           measured.push({
             id: `${ref.id}-${device}-${pg}-${type}`, siteId: ref.id, page: pg, device, type,
             region: type === "footer" ? "footer" : info.inHeader ? "header" : "body",

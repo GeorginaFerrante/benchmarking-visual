@@ -14,7 +14,7 @@ for (const r of refs) {
 for (const c of comps) {
   if (!ids.has(c.siteId)) errors.push(`${c.id}: el sitio ${c.siteId} no existe.`);
   if (c.method === "demo") errors.push(`${c.id}: componente de demostración en datos reales.`);
-  if (c.crop && !fs.existsSync(new URL(`../datos/imagenes/${c.crop}`, import.meta.url))) errors.push(`${c.id}: falta el recorte ${c.crop}.`);
+  if (c.crop && !fs.existsSync(new URL(`../docs/imagenes/${c.crop}`, import.meta.url))) errors.push(`${c.id}: falta el recorte ${c.crop}.`);
 }
 const rids = rules.map((r) => r.id);
 if (new Set(rids).size !== rids.length) errors.push("Hay reglas con id repetido.");

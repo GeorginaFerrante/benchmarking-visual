@@ -12,10 +12,12 @@
     "validate": "node pipeline/validate.mjs",
     "demo:data": "node pipeline/demo/generate-demo.mjs",
     "test": "vitest run",
-    "check": "npm run validate && npm test && npm run sitio"
+    "check": "npm run validate && npm test && npm run sitio",
+    "imagenes": "node pipeline/optimizar-imagenes.mjs"
   },
   "devDependencies": {
-    "vitest": "2.1.4"
+    "vitest": "2.1.4",
+    "sharp": "0.33.5"
   },
   "optionalDependencies": {
     "playwright": "1.48.2"

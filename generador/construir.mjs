@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { COMPONENTS, MIN_SAMPLE, PAGES, POSITIONS, SEGMENTS, SHARED_MIN, WEIGHTS, componentVerdict, computePattern, describeCommon, groupCountries, isLight, pageOf, segmentOf, sentence, slugify } from "./core.mjs";
-import { CHART, MAJORITY, SITE_URL, btn2, crumbs, esc, greenFlag, hbars, icon, link, page, pill, specimen, stackbar } from "./plantillas.mjs";
+import { CHART, MAJORITY, SITE_URL, btn2, crumbs, esc, greenFlag, hbars, icon, link, page, partCard, pill, specimen, stackbar } from "./plantillas.mjs";
 import { hasAnyData, resultBody } from "./resultado.mjs";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
@@ -184,7 +184,10 @@ ${g ? pill(link(ctx, `resultado/${cSlug(s.country)}/${g.slug}/`), "Compararlo co
 <div class="soft"><b>Fotos</b><ul>${Object.entries(s.captures ?? {}).map(([k, v]) => `<li>${esc(k.replace("desktop", "Computadora").replace("mobile", "Celular").replace("_ficha", ", ficha").replace("_categoria", ", categoría"))}: ${v?.status === "ok" ? `${esc(v.date)}${v.stale ? " (posiblemente desactualizada)" : ""}` : v?.status === "fallida" ? "no se pudo sacar" : "pendiente"}</li>`).join("")}</ul></div>
 </div>
 ${s.captures?.desktop?.screenshot ? `<img class="screenshot" src="${ctx.root}imagenes/${s.captures.desktop.screenshot}" alt="Inicio de ${esc(s.name)} en computadora" loading="lazy">` : ""}
-${own.length ? `<section class="section"><h2>Sus partes, una por una</h2><div class="specimens">${own.map((c) => `<div><span class="tag" style="margin-bottom:6px">${esc(COMPONENTS.find((k) => k.type === c.type)?.name)} · ${DEV[c.device]}</span>${specimen(ctx, s, c, "match")}</div>`).join("")}</div></section>` : ""}`,
+${own.length ? `<section class="section"><h2>Sus partes, una por una</h2><p class="muted">Tocá una parte para verla en grande y leer cómo está diseñada.</p>
+${["desktop", "mobile"].map((d) => { const list = own.filter((c) => c.device === d); return list.length ? `<h3 class="dev-title" style="margin-top:22px">${icon(d === "mobile" ? "phone" : "monitor")}${DEV[d]}</h3><div class="part-grid">${list.map((c) => partCard(ctx, s, c, `${COMPONENTS.find((k) => k.type === c.type)?.name}${(c.page ?? "home") !== "home" ? ` (${PAGES[c.page].toLowerCase()})` : ""}`)).join("")}</div>` : ""; }).join("")}
+</section>
+<dialog class="zoom" id="zoom"><div class="zoom-body"></div><button type="button" class="btn2 zoom-close" data-close>Cerrar</button></dialog>` : ""}`,
     }));
   }
 

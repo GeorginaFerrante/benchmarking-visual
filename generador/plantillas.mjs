@@ -1,5 +1,5 @@
 // Plantillas HTML del sitio. Todo se genera como texto estático.
-import { bestTextOn, componentByType, normalize } from "./core.mjs";
+import { bestTextOn, componentByType, describeOne, normalize } from "./core.mjs";
 
 export const SITE_URL = "https://georginaferrante.github.io/benchmarking-visual/";
 export const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -169,7 +169,7 @@ export function specimen(ctx, site, comp, kind = "match") {
     : comp.crop ? `<img src="${ctx.root}imagenes/${comp.crop}" alt="${esc(componentByType(comp.type)?.name)} de ${esc(site.name)}" loading="lazy">`
     : schematic([{ comp, color: kind === "match" ? "#18B26B" : "#F08A1C" }]);
   return `<figure class="specimen ${kind === "match" ? "" : "other"}"><div class="crop">${visual}</div>
-<figcaption>${kind === "match" ? greenFlag() : ""}<span><a href="${link(ctx, `referentes/${site.id}/`)}" style="color:inherit">${esc(site.name)}</a>${n ? `<small>${Math.round(n.widthNorm * 100)} % del ancho · ${n.heightPx} px de alto${comp.styles.radius ? ` · bordes ${comp.styles.radius} px` : ""}</small>` : ""}${comp && !comp.crop ? `<small>${comp.method === "demo" ? "Dibujo de ejemplo" : "Dibujo a partir de las medidas"}</small>` : ""}</span></figcaption></figure>`;
+<figcaption>${kind === "match" ? greenFlag() : ""}<span><a href="${link(ctx, `referentes/${site.id}/`)}" style="color:inherit">${esc(site.name)}</a>${n ? `<small>${esc(describeOne(comp).slice(0, 2).map((x) => x[1]).join(" · "))}</small>` : ""}${comp && !comp.crop ? `<small>${comp.method === "demo" ? "Dibujo de ejemplo" : "Dibujo a partir de las medidas"}</small>` : ""}</span></figcaption></figure>`;
 }
 
 /** Dibujo simple del componente con sus medidas reales (cuando todavía no hay foto). */
@@ -190,4 +190,17 @@ export function strip(ctx, items, variant = "") {
     const fake = !src && comp && !comp.crop;
     return `<figure class="shot"><div class="frame">${img}</div><figcaption><a href="${link(ctx, `referentes/${site.id}/`)}">${esc(site.name)}</a>${fake ? `<small>${comp.method === "demo" ? "dibujo de ejemplo" : "dibujo según medidas"}</small>` : ""}</figcaption></figure>`;
   }).join("")}</div>`;
+}
+
+/** Tarjeta de una parte: al tocarla se abre grande con su descripción en palabras. */
+export function partCard(ctx, site, comp, title) {
+  const desc = describeOne(comp);
+  const big = comp.crop ? `<img src="${ctx.root}imagenes/${comp.crop}" alt="${esc(title)} de ${esc(site.name)}" loading="lazy">` : miniRender(comp);
+  return `<button type="button" class="part-card" data-zoom aria-haspopup="dialog">
+<span class="part-title">${esc(title)}</span>
+<span class="frame">${big}</span>
+<span class="part-desc">${esc(desc[0][1])}</span>
+<span class="zoom-more">Ver en grande</span>
+<template><h3>${esc(title)} · ${esc(site.name)}</h3><div class="zoom-img">${big}</div><dl class="zoom-desc">${desc.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>${comp.crop ? "" : `<p class="muted">Dibujo hecho con las medidas, porque todavía no hay foto.</p>`}</template>
+</button>`;
 }

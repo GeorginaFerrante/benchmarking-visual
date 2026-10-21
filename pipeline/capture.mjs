@@ -39,7 +39,7 @@ const SELECTORS = {
     main_nav: ["header nav", "nav[aria-label*=princip i]", "nav[aria-label*=main i]", "[role=navigation]", "nav"],
     hero: ["main [class*=hero i]", "[class*=banner i]:not(header *)", "[class*=carousel i]", "[class*=slider i]", "main section:first-of-type"],
     primary_button: ["main a[class*=btn-primary i]", "main button[class*=primary i]", "main a[class*=button i]", "a[class*=cta i]", "main button:not([aria-label])"],
-    footer: ["footer", "[role=contentinfo]", "#footer", ".footer"],
+    footer: ["body > footer", "footer:last-of-type", "[role=contentinfo]", "#footer", ".footer", "footer"],
   },
   ficha: {
     gallery: ["[class*=gallery i]", "[class*=product-image i]", "[class*=media-gallery i]", "[data-testid*=gallery i]", "main img"],
@@ -132,7 +132,12 @@ async function captureSite(ref) {
           const info = await measure(handle, type);
           if (!info) continue;
           const crop = `recortes/${ref.id}-${device}-${pg}-${type}.jpg`;
-          await handle.screenshot({ path: path.join(imgRoot, crop), timeout: 8000, type: "jpeg", quality: 78 }).catch(() => null);
+          // Los elementos muy altos (un listado entero, un pie enorme) se recortan a los primeros 3000 px.
+          if (info.box.h > 3000) {
+            await page.screenshot({ path: path.join(imgRoot, crop), type: "jpeg", quality: 78, fullPage: true, clip: { x: Math.max(0, info.box.x), y: Math.max(0, info.box.y), width: Math.max(1, info.box.w), height: 3000 }, timeout: 15000 }).catch(() => null);
+          } else {
+            await handle.screenshot({ path: path.join(imgRoot, crop), timeout: 8000, type: "jpeg", quality: 78 }).catch(() => null);
+          }
           measured.push({
             id: `${ref.id}-${device}-${pg}-${type}`, siteId: ref.id, page: pg, device, type,
             region: type === "footer" ? "footer" : info.inHeader ? "header" : "body",
@@ -249,6 +254,7 @@ async function findVisible(page, list, type) {
       if (!box || box.width < 20 || box.height < 12) continue;
       if ((type === "header" || type === "logo") && box.y > 250) continue;
       if (type === "top_bar" && (box.y > 60 || box.height > 70)) continue;
+      if (type === "footer" && (box.y < 400 || box.height > 2500)) continue;
       if (type === "search_bar" && box.y > 400) continue;
       if (["primary_button", "product_card", "hero"].includes(type) && box.y < 60) continue;
       if (["gallery", "price", "buy_button"].includes(type) && box.y > 1400) continue;

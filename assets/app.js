@@ -185,3 +185,19 @@
     draw();
   }
 })();
+
+/* Partes ampliables: al tocar una tarjeta se abre en grande con su descripción. */
+(function () {
+  var dlg = document.getElementById("zoom");
+  if (!dlg || !dlg.showModal) return;
+  var body = dlg.querySelector(".zoom-body");
+  Array.prototype.forEach.call(document.querySelectorAll("[data-zoom]"), function (b) {
+    b.addEventListener("click", function () {
+      body.innerHTML = "";
+      body.appendChild(b.querySelector("template").content.cloneNode(true));
+      dlg.showModal();
+    });
+  });
+  dlg.querySelector("[data-close]").addEventListener("click", function () { dlg.close(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+})();

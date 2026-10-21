@@ -16,7 +16,7 @@ describe("frecuencia", () => {
     expect(r.matching).toEqual(["a", "b"]);
     expect(r.exceptions).toEqual(["c"]);
     expect(r.absent).toEqual(["d"]);
-    expect(formatFrequency(r)).toBe("2 de 4 referentes (50 %)");
+    expect(formatFrequency(r)).toBe("2 de 3 que lo tienen (67 %)");
   });
   it("tolerancias inclusivas", () => {
     expect(matchesCriteria(comp("x", 300), rule.criteria)).toBe(true);

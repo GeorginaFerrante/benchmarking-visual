@@ -59,7 +59,7 @@ function componentPanel(ctx, k, verdicts, ss, comps, note, showPage) {
     const main = ok[0];
     rec = `<div class="card recommend"><span class="label">${icon("check", "#16A34A", 3)}Recomendación</span>
 <h3>${esc(main.best.rule.name)}</h3>
-<p class="big-fact"><b>${main.best.matching.length} de ${main.valid}</b> líderes lo hacen así${ok.length === 2 ? " en computadora y en celular" : ` en ${DEV[main.device].toLowerCase()}`}.</p>
+<p class="big-fact"><b>${main.best.matching.length} de ${main.best.sitesWithComponent.length}</b> líderes que tienen ${esc(k.name.toLowerCase())} lo hacen así${ok.length === 2 ? " en computadora y en celular" : ` en ${DEV[main.device].toLowerCase()}`}.</p>
 <p style="margin:0">${esc(main.best.rule.plain)}</p>
 <details><summary>Cómo aplicarlo en tu sitio</summary><ol class="steps-list">${main.best.rule.howTo.map((h) => `<li>${esc(h)}</li>`).join("")}</ol></details></div>`;
   } else if (has.length) {

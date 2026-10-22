@@ -29,7 +29,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mercadolibre.com.ar/"
+        "url": "https://www.mercadolibre.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -39,7 +42,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.ar/?skipInApp=true&matt_ignore=true"
+        "url": "https://www.mercadolibre.com.ar/?skipInApp=true&matt_ignore=true",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -215,7 +221,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.coto.com.ar/"
+        "url": "https://www.coto.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -225,7 +234,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.coto.com.ar/"
+        "url": "https://www.coto.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -303,7 +315,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.adidas.com.ar/"
+        "url": "https://www.adidas.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -313,7 +328,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.adidas.com.ar/"
+        "url": "https://www.adidas.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -383,7 +401,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.carrefour.com.ar/"
+        "url": "https://www.carrefour.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -393,7 +414,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.carrefour.com.ar/"
+        "url": "https://www.carrefour.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -561,7 +585,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.farmacity.com/"
+        "url": "https://www.farmacity.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -571,7 +598,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.farmacity.com/"
+        "url": "https://www.farmacity.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -657,7 +687,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.infobae.com/estados-unidos/"
+        "url": "https://www.infobae.com/estados-unidos/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -667,7 +700,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.infobae.com/estados-unidos/"
+        "url": "https://www.infobae.com/estados-unidos/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -700,7 +736,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lanacion.com.ar/"
+        "url": "https://www.lanacion.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -710,7 +749,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lanacion.com.ar/"
+        "url": "https://www.lanacion.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -743,7 +785,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.clarin.com/"
+        "url": "https://www.clarin.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -753,7 +798,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.clarin.com/"
+        "url": "https://www.clarin.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -786,7 +834,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://tn.com.ar/"
+        "url": "https://tn.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -796,7 +847,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://tn.com.ar/"
+        "url": "https://tn.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -829,7 +883,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ambito.com/"
+        "url": "https://www.ambito.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -839,7 +896,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ambito.com/"
+        "url": "https://www.ambito.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -872,7 +932,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.pagina12.com.ar/"
+        "url": "https://www.pagina12.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -882,7 +945,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.pagina12.com.ar/"
+        "url": "https://www.pagina12.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -916,7 +982,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tycsports.com/"
+        "url": "https://www.tycsports.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -926,7 +995,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.tycsports.com/"
+        "url": "https://www.tycsports.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -960,7 +1032,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.espn.com.ar/"
+        "url": "https://www.espn.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -970,7 +1045,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.espn.com.ar/"
+        "url": "https://www.espn.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1004,7 +1082,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ole.com.ar/"
+        "url": "https://www.ole.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1014,7 +1095,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ole.com.ar/"
+        "url": "https://www.ole.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1047,7 +1131,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.argentina.gob.ar/"
+        "url": "https://www.argentina.gob.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1057,7 +1144,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.argentina.gob.ar/"
+        "url": "https://www.argentina.gob.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1090,7 +1180,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.anses.gob.ar/"
+        "url": "https://www.anses.gob.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1100,7 +1193,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.anses.gob.ar/"
+        "url": "https://www.anses.gob.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1134,7 +1230,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.afip.gob.ar/landing/default.asp"
+        "url": "https://www.afip.gob.ar/landing/default.asp",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1144,7 +1243,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.afip.gob.ar/landing/default.asp"
+        "url": "https://www.afip.gob.ar/landing/default.asp",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1177,7 +1279,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://buenosaires.gob.ar/inicio/"
+        "url": "https://buenosaires.gob.ar/inicio/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1187,7 +1292,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://buenosaires.gob.ar/inicio/"
+        "url": "https://buenosaires.gob.ar/inicio/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1221,7 +1329,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.bna.com.ar/Personas"
+        "url": "https://www.bna.com.ar/Personas",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1231,7 +1342,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.bna.com.ar/Personas"
+        "url": "https://www.bna.com.ar/Personas",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1264,7 +1378,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mercadopago.com.ar/"
+        "url": "https://www.mercadopago.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1274,7 +1391,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadopago.com.ar/"
+        "url": "https://www.mercadopago.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1428,7 +1548,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.aerolineas.com.ar/"
+        "url": "https://www.aerolineas.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1438,7 +1561,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.aerolineas.com.ar/"
+        "url": "https://www.aerolineas.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1520,7 +1646,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://jetsmart.com/cl/es/"
+        "url": "https://jetsmart.com/cl/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1530,7 +1659,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://jetsmart.com/cl/es/"
+        "url": "https://jetsmart.com/cl/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1564,7 +1696,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com/"
+        "url": "https://www.amazon.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1574,7 +1709,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com/"
+        "url": "https://www.amazon.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -1670,7 +1808,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.walmart.com/"
+        "url": "https://www.walmart.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1680,7 +1821,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.walmart.com/"
+        "url": "https://www.walmart.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -1836,7 +1980,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.target.com/"
+        "url": "https://www.target.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1846,7 +1993,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.target.com/"
+        "url": "https://www.target.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -2030,7 +2180,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.costco.com/"
+        "url": "https://www.costco.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2040,7 +2193,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.costco.com/"
+        "url": "https://www.costco.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -2128,7 +2284,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.nike.com/"
+        "url": "https://www.nike.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2138,7 +2297,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.nike.com/"
+        "url": "https://www.nike.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -2244,7 +2406,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.homedepot.com/"
+        "url": "https://www.homedepot.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2254,7 +2419,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.homedepot.com/"
+        "url": "https://www.homedepot.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -2386,7 +2554,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.yahoo.com/"
+        "url": "https://www.yahoo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2396,7 +2567,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.yahoo.com/"
+        "url": "https://www.yahoo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2430,7 +2604,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.espn.com/"
+        "url": "https://www.espn.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2440,7 +2617,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.espn.com/"
+        "url": "https://www.espn.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2510,7 +2690,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://my.clevelandclinic.org/"
+        "url": "https://my.clevelandclinic.org/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2520,7 +2703,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://my.clevelandclinic.org/"
+        "url": "https://my.clevelandclinic.org/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2587,7 +2773,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.usa.gov/"
+        "url": "https://www.usa.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2597,7 +2786,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.usa.gov/"
+        "url": "https://www.usa.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2629,7 +2821,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.irs.gov/"
+        "url": "https://www.irs.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2639,7 +2834,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.irs.gov/"
+        "url": "https://www.irs.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2671,7 +2869,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ssa.gov/"
+        "url": "https://www.ssa.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2681,7 +2882,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ssa.gov/"
+        "url": "https://www.ssa.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -2715,7 +2919,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.taobao.com/"
+        "url": "https://www.taobao.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2725,7 +2932,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://main.m.taobao.com/?sprefer=sypc00"
+        "url": "https://main.m.taobao.com/?sprefer=sypc00",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -2878,7 +3088,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://corporate.jd.com/home"
+        "url": "https://corporate.jd.com/home",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2888,7 +3101,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://corporate.jd.com/home"
+        "url": "https://corporate.jd.com/home",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -2968,7 +3184,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://en.pinduoduo.com/"
+        "url": "https://en.pinduoduo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -2978,7 +3197,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.pinduoduo.com/en/"
+        "url": "https://m.pinduoduo.com/en/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3236,7 +3458,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.dangdang.com/"
+        "url": "https://www.dangdang.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3246,7 +3471,10 @@
           "w": 980,
           "h": 2597
         },
-        "url": "https://www.dangdang.com/"
+        "url": "https://www.dangdang.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -3371,7 +3599,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.163.com/"
+        "url": "https://www.163.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3381,7 +3612,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.163.com/"
+        "url": "https://m.163.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -3414,7 +3648,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.sohu.com/"
+        "url": "https://www.sohu.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3424,7 +3661,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.sohu.com/?pvid=000115_3w_index&jump=front"
+        "url": "https://m.sohu.com/?pvid=000115_3w_index&jump=front",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -3458,7 +3698,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.qq.com/"
+        "url": "https://www.qq.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3468,7 +3711,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://xw.qq.com/?f=qqcom&no-redirect=1"
+        "url": "https://xw.qq.com/?f=qqcom&no-redirect=1",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -3499,7 +3745,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.gov.cn/"
+        "url": "https://www.gov.cn/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3509,7 +3758,10 @@
           "w": 750,
           "h": 1624
         },
-        "url": "https://www.gov.cn/"
+        "url": "https://www.gov.cn/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -3543,7 +3795,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mercadolibre.com.mx/"
+        "url": "https://www.mercadolibre.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3553,7 +3808,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.com.mx/?skipInApp=true&matt_ignore=true"
+        "url": "https://www.mercadolibre.com.mx/?skipInApp=true&matt_ignore=true",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3643,7 +3901,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.mx/"
+        "url": "https://www.amazon.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3653,7 +3914,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com.mx/"
+        "url": "https://www.amazon.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -3750,7 +4014,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mercadolivre.com.br/"
+        "url": "https://www.mercadolivre.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3760,7 +4027,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolivre.com.br/?skipInApp=true&matt_ignore=true"
+        "url": "https://www.mercadolivre.com.br/?skipInApp=true&matt_ignore=true",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3850,7 +4120,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.br/"
+        "url": "https://www.amazon.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3860,7 +4133,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com.br/"
+        "url": "https://www.amazon.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -3956,7 +4232,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.rakuten.co.jp/"
+        "url": "https://www.rakuten.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3966,7 +4245,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.rakuten.co.jp/"
+        "url": "https://www.rakuten.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4064,7 +4346,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.co.jp/"
+        "url": "https://www.amazon.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4074,7 +4359,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.co.jp/"
+        "url": "https://www.amazon.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5487,7 +5775,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.coppel.com/"
+        "url": "https://www.coppel.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5497,7 +5788,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.coppel.com/"
+        "url": "https://www.coppel.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -5599,7 +5893,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.homedepot.com.mx/"
+        "url": "https://www.homedepot.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5609,7 +5906,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.homedepot.com.mx/"
+        "url": "https://www.homedepot.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -5695,7 +5995,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.soriana.com/"
+        "url": "https://www.soriana.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5705,7 +6008,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.soriana.com/"
+        "url": "https://www.soriana.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5793,7 +6099,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.fahorro.com/"
+        "url": "https://www.fahorro.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5803,7 +6112,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.fahorro.com/"
+        "url": "https://www.fahorro.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5896,7 +6208,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.volaris.com/"
+        "url": "https://www.volaris.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5906,7 +6221,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.volaris.com/"
+        "url": "https://www.volaris.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6023,7 +6341,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ado.com.mx/"
+        "url": "https://www.ado.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6033,7 +6354,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ado.com.mx/"
+        "url": "https://www.ado.com.mx/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6188,7 +6512,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.olx.com.br/"
+        "url": "https://www.olx.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6198,7 +6525,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.olx.com.br/"
+        "url": "https://www.olx.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -6493,7 +6823,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.americanas.com.br/"
+        "url": "https://www.americanas.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6503,7 +6836,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.americanas.com.br/"
+        "url": "https://www.americanas.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -6599,7 +6935,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.kabum.com.br/"
+        "url": "https://www.kabum.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6609,7 +6948,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.kabum.com.br/"
+        "url": "https://www.kabum.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -6697,7 +7039,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.globo.com/"
+        "url": "https://www.globo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6707,7 +7052,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.globo.com/"
+        "url": "https://www.globo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6740,7 +7088,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.uol.com.br/"
+        "url": "https://www.uol.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6750,7 +7101,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.uol.com.br/"
+        "url": "https://www.uol.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6783,7 +7137,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.terra.com.br/"
+        "url": "https://www.terra.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6793,7 +7150,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.terra.com.br/"
+        "url": "https://www.terra.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6826,7 +7186,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.cnnbrasil.com.br/"
+        "url": "https://www.cnnbrasil.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6836,7 +7199,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.cnnbrasil.com.br/"
+        "url": "https://www.cnnbrasil.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6869,7 +7235,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.estadao.com.br/"
+        "url": "https://www.estadao.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6879,7 +7248,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.estadao.com.br/"
+        "url": "https://www.estadao.com.br/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -7016,7 +7388,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://jp.mercari.com/"
+        "url": "https://jp.mercari.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7026,7 +7401,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://jp.mercari.com/"
+        "url": "https://jp.mercari.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -7261,7 +7639,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.jalan.net/"
+        "url": "https://www.jalan.net/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7271,7 +7652,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.jalan.net/"
+        "url": "https://www.jalan.net/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -7339,7 +7723,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ana.co.jp/"
+        "url": "https://www.ana.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7349,7 +7736,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ana.co.jp/"
+        "url": "https://www.ana.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -7382,7 +7772,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.yahoo.co.jp/"
+        "url": "https://www.yahoo.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7392,7 +7785,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.yahoo.co.jp/"
+        "url": "https://m.yahoo.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -7460,7 +7856,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.nikkei.com/"
+        "url": "https://www.nikkei.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7470,7 +7869,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.nikkei.com/"
+        "url": "https://www.nikkei.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -7748,7 +8150,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.1mg.com/"
+        "url": "https://www.1mg.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7758,7 +8163,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.1mg.com/"
+        "url": "https://www.1mg.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -7923,7 +8331,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.ixigo.com/"
+        "url": "https://www.ixigo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7933,7 +8344,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.ixigo.com/"
+        "url": "https://www.ixigo.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8050,7 +8464,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.hindustantimes.com/"
+        "url": "https://www.hindustantimes.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8060,7 +8477,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.hindustantimes.com/"
+        "url": "https://www.hindustantimes.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8129,7 +8549,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.kleinanzeigen.de/"
+        "url": "https://www.kleinanzeigen.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8139,7 +8562,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.kleinanzeigen.de/"
+        "url": "https://www.kleinanzeigen.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -8226,7 +8652,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.idealo.de/"
+        "url": "https://www.idealo.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8236,7 +8665,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.idealo.de/"
+        "url": "https://www.idealo.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -8453,7 +8885,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediamarkt.de/"
+        "url": "https://www.mediamarkt.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8463,7 +8898,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediamarkt.de/"
+        "url": "https://www.mediamarkt.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -8545,7 +8983,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.otto.de/"
+        "url": "https://www.otto.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8555,7 +8996,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.otto.de/"
+        "url": "https://www.otto.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -8648,7 +9092,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.de/"
+        "url": "https://www.lidl.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8658,7 +9105,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.de/"
+        "url": "https://www.lidl.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -8757,7 +9207,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.bahn.de/"
+        "url": "https://www.bahn.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8767,7 +9220,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.bahn.de/"
+        "url": "https://www.bahn.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8849,7 +9305,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tui.com/"
+        "url": "https://www.tui.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8859,7 +9318,10 @@
           "w": 390,
           "h": 864
         },
-        "url": "https://www.tui.com/"
+        "url": "https://www.tui.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8892,7 +9354,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.aok.de/pk/"
+        "url": "https://www.aok.de/pk/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8902,7 +9367,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.aok.de/pk/"
+        "url": "https://www.aok.de/pk/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8935,7 +9403,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.netdoktor.de/"
+        "url": "https://www.netdoktor.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8945,7 +9416,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.netdoktor.de/"
+        "url": "https://www.netdoktor.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8978,7 +9452,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.apotheken-umschau.de/"
+        "url": "https://www.apotheken-umschau.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8988,7 +9465,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.apotheken-umschau.de/"
+        "url": "https://www.apotheken-umschau.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9021,7 +9501,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tk.de/techniker"
+        "url": "https://www.tk.de/techniker",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9031,7 +9514,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.tk.de/techniker"
+        "url": "https://www.tk.de/techniker",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9101,7 +9587,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.carrefour.es/"
+        "url": "https://www.carrefour.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9111,7 +9600,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.carrefour.es/"
+        "url": "https://www.carrefour.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9201,7 +9693,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediamarkt.es/es/"
+        "url": "https://www.mediamarkt.es/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9211,7 +9706,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediamarkt.es/es/"
+        "url": "https://www.mediamarkt.es/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -9411,7 +9909,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lidl.es/"
+        "url": "https://www.lidl.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9421,7 +9922,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lidl.es/"
+        "url": "https://www.lidl.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -9520,7 +10024,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.elmundo.es/"
+        "url": "https://www.elmundo.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9530,7 +10037,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.elmundo.es/"
+        "url": "https://www.elmundo.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9612,7 +10122,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.abc.es/"
+        "url": "https://www.abc.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9622,7 +10135,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.abc.es/"
+        "url": "https://www.abc.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9655,7 +10171,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.rtve.es/"
+        "url": "https://www.rtve.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9665,7 +10184,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.rtve.es/"
+        "url": "https://www.rtve.es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9871,7 +10393,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.cdiscount.com/"
+        "url": "https://www.cdiscount.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9881,7 +10406,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.cdiscount.com/"
+        "url": "https://www.cdiscount.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -10147,7 +10675,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.vinted.fr/"
+        "url": "https://www.vinted.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10157,7 +10688,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.vinted.fr/"
+        "url": "https://www.vinted.fr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10245,7 +10779,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.e.leclerc/"
+        "url": "https://www.e.leclerc/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10255,7 +10792,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.e.leclerc/"
+        "url": "https://www.e.leclerc/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -10668,7 +11208,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.marksandspencer.com/"
+        "url": "https://www.marksandspencer.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10678,7 +11221,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.marksandspencer.com/"
+        "url": "https://www.marksandspencer.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -10764,7 +11310,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.asda.com/"
+        "url": "https://www.asda.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10774,7 +11323,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.asda.com/"
+        "url": "https://www.asda.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11230,7 +11782,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediaworld.it/"
+        "url": "https://www.mediaworld.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11240,7 +11795,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediaworld.it/"
+        "url": "https://www.mediaworld.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11320,7 +11878,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.unieuro.it/online/"
+        "url": "https://www.unieuro.it/online/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11330,7 +11891,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.unieuro.it/online/"
+        "url": "https://www.unieuro.it/online/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -11463,7 +12027,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.corriere.it/"
+        "url": "https://www.corriere.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11473,7 +12040,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.corriere.it/"
+        "url": "https://www.corriere.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -11506,7 +12076,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.repubblica.it/"
+        "url": "https://www.repubblica.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11516,7 +12089,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.repubblica.it/"
+        "url": "https://www.repubblica.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -11549,7 +12125,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.gazzetta.it/"
+        "url": "https://www.gazzetta.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11559,7 +12138,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.gazzetta.it/"
+        "url": "https://www.gazzetta.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -11592,7 +12174,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.libero.it/"
+        "url": "https://www.libero.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11602,7 +12187,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.libero.it/"
+        "url": "https://www.libero.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -11636,7 +12224,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.falabella.com/falabella-cl"
+        "url": "https://www.falabella.com/falabella-cl",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11646,7 +12237,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.falabella.com/falabella-cl"
+        "url": "https://www.falabella.com/falabella-cl",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -11742,7 +12336,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mercadolibre.cl/"
+        "url": "https://www.mercadolibre.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11752,7 +12349,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mercadolibre.cl/?skipInApp=true&matt_ignore=true"
+        "url": "https://www.mercadolibre.cl/?skipInApp=true&matt_ignore=true",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -12075,7 +12675,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.jumbo.cl/"
+        "url": "https://www.jumbo.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12085,7 +12688,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.jumbo.cl/"
+        "url": "https://www.jumbo.cl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -12305,7 +12911,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.skyairline.com/en/unitedstates"
+        "url": "https://www.skyairline.com/en/unitedstates",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12315,7 +12924,10 @@
           "w": 390,
           "h": 847
         },
-        "url": "https://www.skyairline.com/en/unitedstates"
+        "url": "https://www.skyairline.com/en/unitedstates",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12348,7 +12960,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://jetsmart.com/cl/es/"
+        "url": "https://jetsmart.com/cl/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12358,7 +12973,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://jetsmart.com/cl/es/"
+        "url": "https://jetsmart.com/cl/es/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12461,7 +13079,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.centraldepasajes.com.ar/"
+        "url": "https://www.centraldepasajes.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12471,7 +13092,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.centraldepasajes.com.ar/"
+        "url": "https://www.centraldepasajes.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12539,7 +13163,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.booking.com/index.es-ar.html?chal_t=1792456164583&force_referer="
+        "url": "https://www.booking.com/index.es-ar.html?chal_t=1792456164583&force_referer=",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12549,7 +13176,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.booking.com/index.es-ar.html?chal_t=1792456175002&force_referer="
+        "url": "https://www.booking.com/index.es-ar.html?chal_t=1792456175002&force_referer=",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12582,7 +13212,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.turismocity.com.ar/"
+        "url": "https://www.turismocity.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12592,7 +13225,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.turismocity.com.ar/"
+        "url": "https://www.turismocity.com.ar/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12660,7 +13296,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.airbnb.com/"
+        "url": "https://www.airbnb.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12670,7 +13309,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.airbnb.com/"
+        "url": "https://www.airbnb.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12703,7 +13345,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.booking.com/?chal_t=1792456190706&force_referer="
+        "url": "https://www.booking.com/?chal_t=1792456190706&force_referer=",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12713,7 +13358,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.booking.com/?chal_t=1792456202270&force_referer="
+        "url": "https://www.booking.com/?chal_t=1792456202270&force_referer=",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12816,7 +13464,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.southwest.com/"
+        "url": "https://www.southwest.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12826,7 +13477,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.southwest.com/"
+        "url": "https://www.southwest.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12859,7 +13513,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.foxnews.com/"
+        "url": "https://www.foxnews.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12869,7 +13526,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.foxnews.com/"
+        "url": "https://www.foxnews.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12902,7 +13562,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.usatoday.com/"
+        "url": "https://www.usatoday.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12912,7 +13575,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.usatoday.com/"
+        "url": "https://www.usatoday.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12945,7 +13611,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.cnn.com/"
+        "url": "https://www.cnn.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12955,7 +13624,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.cnn.com/"
+        "url": "https://www.cnn.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12988,7 +13660,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.cbsnews.com/"
+        "url": "https://www.cbsnews.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12998,7 +13673,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.cbsnews.com/"
+        "url": "https://www.cbsnews.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13031,7 +13709,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.healthline.com/"
+        "url": "https://www.healthline.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13041,7 +13722,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.healthline.com/"
+        "url": "https://www.healthline.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13109,7 +13793,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.medicalnewstoday.com/"
+        "url": "https://www.medicalnewstoday.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13119,7 +13806,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.medicalnewstoday.com/"
+        "url": "https://www.medicalnewstoday.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13152,7 +13842,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.nih.gov/"
+        "url": "https://www.nih.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13162,7 +13855,10 @@
           "w": 390,
           "h": 862
         },
-        "url": "https://www.nih.gov/"
+        "url": "https://www.nih.gov/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13237,7 +13933,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.yomiuri.co.jp/"
+        "url": "https://www.yomiuri.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13247,7 +13946,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.yomiuri.co.jp/"
+        "url": "https://www.yomiuri.co.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13280,7 +13982,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://bunshun.jp/"
+        "url": "https://bunshun.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13290,7 +13995,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://bunshun.jp/"
+        "url": "https://bunshun.jp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13395,7 +14103,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.com.tr/"
+        "url": "https://www.amazon.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13405,7 +14116,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.amazon.com.tr/"
+        "url": "https://www.amazon.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -13535,7 +14249,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediamarkt.com.tr/"
+        "url": "https://www.mediamarkt.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13545,7 +14262,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediamarkt.com.tr/"
+        "url": "https://www.mediamarkt.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -13639,7 +14359,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.obilet.com/"
+        "url": "https://www.obilet.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13649,7 +14372,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.obilet.com/"
+        "url": "https://www.obilet.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13822,7 +14548,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.hurriyet.com.tr/"
+        "url": "https://www.hurriyet.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13832,7 +14561,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.hurriyet.com.tr/"
+        "url": "https://www.hurriyet.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13865,7 +14597,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.milliyet.com.tr/"
+        "url": "https://www.milliyet.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13875,7 +14610,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.milliyet.com.tr/"
+        "url": "https://www.milliyet.com.tr/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13944,7 +14682,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.mediaexpert.pl/"
+        "url": "https://www.mediaexpert.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13954,7 +14695,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.mediaexpert.pl/"
+        "url": "https://www.mediaexpert.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -14151,7 +14895,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.biedronka.pl/pl"
+        "url": "https://www.biedronka.pl/pl",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14161,7 +14908,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.biedronka.pl/pl"
+        "url": "https://www.biedronka.pl/pl",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -14249,7 +14999,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.euro.com.pl/"
+        "url": "https://www.euro.com.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14259,7 +15012,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.euro.com.pl/"
+        "url": "https://www.euro.com.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -14334,7 +15090,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.empik.com/"
+        "url": "https://www.empik.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14344,7 +15103,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.empik.com/"
+        "url": "https://www.empik.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -14432,7 +15194,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.interia.pl/"
+        "url": "https://www.interia.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14442,7 +15207,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.interia.pl/"
+        "url": "https://www.interia.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14475,7 +15243,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.wp.pl/"
+        "url": "https://www.wp.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14485,7 +15256,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.wp.pl/"
+        "url": "https://www.wp.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14518,7 +15292,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://tvn24.pl/"
+        "url": "https://tvn24.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14528,7 +15305,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://tvn24.pl/"
+        "url": "https://tvn24.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14561,7 +15341,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.gazeta.pl/0,0.html"
+        "url": "https://www.gazeta.pl/0,0.html",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14571,7 +15354,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://m.gazeta.pl/0,0.html"
+        "url": "https://m.gazeta.pl/0,0.html",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14604,7 +15390,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.wakacje.pl/"
+        "url": "https://www.wakacje.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14614,7 +15403,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.wakacje.pl/"
+        "url": "https://www.wakacje.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14647,7 +15439,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tui.pl/"
+        "url": "https://www.tui.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14657,7 +15452,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.tui.pl/"
+        "url": "https://www.tui.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14690,7 +15488,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.itaka.pl/"
+        "url": "https://www.itaka.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14700,7 +15501,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.itaka.pl/"
+        "url": "https://www.itaka.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -14805,7 +15609,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.lazada.co.id/#?"
+        "url": "https://www.lazada.co.id/#?",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14815,7 +15622,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.lazada.co.id/"
+        "url": "https://www.lazada.co.id/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -14934,7 +15744,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.zalora.co.id/"
+        "url": "https://www.zalora.co.id/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14944,7 +15757,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.zalora.co.id/"
+        "url": "https://www.zalora.co.id/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -15145,7 +15961,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.detik.com/"
+        "url": "https://www.detik.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -15155,7 +15974,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.detik.com/"
+        "url": "https://www.detik.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -15188,7 +16010,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.kompas.com/"
+        "url": "https://www.kompas.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -15198,7 +16023,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.kompas.com/"
+        "url": "https://www.kompas.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },

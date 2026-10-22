@@ -182,27 +182,24 @@ async function captureSite(ref) {
   }
 }
 
+// Avisos de cookies: se aceptan para que no tapen la página (en Europa son casi obligatorios).
+const CONSENT_SELECTORS = ["#onetrust-accept-btn-handler", "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", "#CybotCookiebotDialogBodyButtonAccept", "[data-testid=uc-accept-all-button]", "#uc-btn-accept-banner", ".fc-cta-consent", "#truste-consent-button", "#accept-recommended-btn-handler", "button[mode=primary]", "[aria-label*=accept i][role=button]", "button[id*=accept i]", "button[class*=accept i]"];
+const CONSENT_TEXT = /^(aceptar|aceptar todo|aceptar todas|aceptar y cerrar|acepto|entendido|accept|accept all|accept all cookies|accept cookies|allow all|i agree|agree|agree and close|ok|got it|alle akzeptieren|akzeptieren|zustimmen|alle zulassen|einverstanden|accepter|tout accepter|j'accepte|accepter et fermer|aceitar|aceitar todos|accetta|accetta tutto|accetto|kabul et|tümünü kabul et|zaakceptuj|akceptuję|zgadzam się|przejdź do serwisu|setuju|terima|同意|同意する|すべて同意)$/i;
 async function acceptCookies(page) {
-  for (const w of COOKIE_WORDS) {
-    const b = page.getByRole("button", { name: w, exact: true }).first();
-    if (await b.isVisible().catch(() => false)) { await b.click({ timeout: 2000 }).catch(() => {}); await page.waitForTimeout(800); return; }
+  for (let round = 0; round < 2; round++) {
+    let clicked = false;
+    for (const frame of page.frames()) {
+      for (const sel of CONSENT_SELECTORS) {
+        const b = frame.locator(sel).first();
+        if (await b.isVisible().catch(() => false)) { await b.click({ timeout: 2000 }).catch(() => {}); clicked = true; break; }
+      }
+      if (clicked) break;
+      const byText = frame.locator("button, [role=button], a").filter({ hasText: CONSENT_TEXT }).first();
+      if (await byText.isVisible().catch(() => false)) { await byText.click({ timeout: 2000 }).catch(() => {}); clicked = true; break; }
+    }
+    if (!clicked) return;
+    await page.waitForTimeout(1200);
   }
-}
-
-async function openPage(page, url) {
-  let last;
-  for (let attempt = 0; attempt < 2; attempt++) {
-    try {
-      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 35000 });
-      await page.waitForLoadState("networkidle", { timeout: 12000 }).catch(() => {});
-      await page.evaluate(() => window.scrollTo(0, 700)).catch(() => {});
-      await page.waitForTimeout(1200);
-      await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
-      await page.waitForTimeout(800);
-      return;
-    } catch (e) { last = e; if (/timeout/i.test(String(e.message))) break; await page.waitForTimeout(3000); }
-  }
-  throw last;
 }
 
 /** Enlaces internos: la categoría sale del menú; la ficha, de un producto con foto. */

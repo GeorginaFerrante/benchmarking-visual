@@ -42,7 +42,17 @@ fs.writeFileSync(path.join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="U
 fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nDisallow: /benchmarking-visual/demo/\nSitemap: ${SITE_URL}sitemap.xml\n`);
 console.log(`Sitio generado en docs/: ${urls.length} páginas indexables (+ ejemplo en docs/demo/).`);
 
+/** Saca del análisis los recortes que se revisaron a mano y estaban equivocados (hasta que haya una foto nueva). */
+function applyRevision(sites, comps) {
+  let rev = { excluir: [], excluir_sitios: [], fecha: "" };
+  try { rev = read("revision.json"); } catch {}
+  const bad = new Set(rev.excluir), badSites = new Set(rev.excluir_sitios);
+  const dateOf = (c) => sites.find((s) => s.id === c.siteId)?.captures?.[(c.page ?? "home") === "home" ? c.device : `${c.device}_${c.page}`]?.date ?? "";
+  return comps.filter((c) => !((bad.has(c.id) || badSites.has(c.siteId)) && dateOf(c) <= rev.fecha));
+}
+
 function build({ sites, comps, demo }) {
+  if (!demo) comps = applyRevision(sites, comps);
   const prefix = demo ? "demo/" : "";
   // Páginas sin mediciones: noindex y fuera del sitemap hasta tener datos.
   const write = (p, html) => {

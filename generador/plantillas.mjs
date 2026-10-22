@@ -131,8 +131,10 @@ export function stackbar(parts) {
 /** Barras de opciones: la mayoritaria en verde, el resto en gris. */
 export function optionBars(rows, total) {
   const max = Math.max(...rows.map((r) => r.n));
+  // El verde se mide entre los que tienen esta parte (igual que la recomendación).
+  const base = Math.max(1, total - rows.filter((r) => r.none).reduce((s, r) => s + r.n, 0));
   return `<div class="obars" role="img" aria-label="${rows.map((r) => `${esc(r.label)}: ${r.n} de ${total}`).join("; ")}">${rows.map((r) => {
-    const top = r.n === max && r.n > 0 && !r.none && r.n / total >= 0.7;
+    const top = r.n === max && r.n > 0 && !r.none && r.n / base >= 0.7;
     return `<div class="obar${top ? " top" : ""}"><span class="ol">${esc(r.label)}</span><div class="track"><i style="width:${total ? (r.n / total) * 100 : 0}%;background:${r.none ? NONE : top ? MAJORITY : MINORITY}"></i></div><span class="ov">${r.n} de ${total}</span></div>`;
   }).join("")}</div>`;
 }

@@ -81,13 +81,14 @@ function computePattern(rule, sites, comps) {
     matching,
     exceptions: withComp.filter((id) => !matching.includes(id)),
     absent: valid.filter((id) => !withComp.includes(id)),
-    frequency: valid.length ? matching.length / valid.length : null,
+    // Frecuencia entre los que TIENEN esa parte: si a un sitio no se le detectó, no cuenta en contra.
+    frequency: withComp.length ? matching.length / withComp.length : null,
   };
 }
 
 function formatFrequency(p) {
   if (p.frequency === null) return "Sin capturas válidas todavía";
-  return `${p.matching.length} de ${p.validSites.length} referentes (${Math.round(p.frequency * 100)} %)`;
+  return `${p.matching.length} de ${p.sitesWithComponent.length} que lo tienen (${Math.round(p.frequency * 100)} %)`;
 }
 
 /**
@@ -95,24 +96,24 @@ function formatFrequency(p) {
  * Combina frecuencia observada, ajuste al objetivo declarado y claridad estimada.
  */
 function scorePattern(p, objective) {
-  if (p.validSites.length < MIN_SAMPLE || p.frequency === null) {
+  if (p.sitesWithComponent.length < MIN_SAMPLE || p.frequency === null) {
     return { score: null, factors: [], warnings: [`Evidencia insuficiente: hacen falta al menos ${MIN_SAMPLE} referentes con captura válida.`] };
   }
   const objectiveFit = !objective ? 0.6 : p.rule.goodFor.includes(objective) ? 1 : 0.3;
   const factors = [
-    { label: "Frecuencia entre referentes", weight: WEIGHTS.frequency, value: p.frequency, note: `${p.matching.length} de ${p.validSites.length} lo usan.` },
+    { label: "Frecuencia entre referentes", weight: WEIGHTS.frequency, value: p.frequency, note: `${p.matching.length} de ${p.sitesWithComponent.length} lo usan.` },
     { label: "Ajuste a tu objetivo", weight: WEIGHTS.objective, value: objectiveFit, note: !objective ? "Sin objetivo indicado." : objectiveFit === 1 ? "Suele usarse para este objetivo." : "Se usa menos para este objetivo." },
     { label: "Claridad visual estimada", weight: WEIGHTS.clarity, value: p.rule.clarity, note: "Estimación del equipo; no medida con usuarios." },
   ];
   const raw = factors.reduce((s, f) => s + f.weight * f.value, 0);
-  const warnings = p.validSites.length < 5 ? ["Muestra chica: tomá la puntuación como orientativa."] : [];
+  const warnings = p.sitesWithComponent.length < 5 ? ["Muestra chica: tomá la puntuación como orientativa."] : [];
   return { score: Math.round((raw * 100) / 5) * 5, factors, warnings };
 }
 
 /** Etiqueta de comparación internacional. */
 function compareLabel(p, all) {
-  const enough = all.filter((x) => x.validSites.length >= MIN_SAMPLE);
-  if (p.validSites.length < MIN_SAMPLE) return "Datos insuficientes";
+  const enough = all.filter((x) => x.sitesWithComponent.length >= MIN_SAMPLE);
+  if (p.sitesWithComponent.length < MIN_SAMPLE) return "Datos insuficientes";
   const high = (x) => (x.frequency ?? 0) >= 0.6;
   if (high(p) && enough.every(high)) return "Patrón compartido";
   if (high(p)) return "Patrón local";
@@ -167,7 +168,7 @@ function componentVerdict(rules, sites, comps, type, device, pg = "home") {
   const valid = alts[0].validSites.length;
   const sorted = [...alts].sort((a, b) => (b.frequency ?? 0) - (a.frequency ?? 0));
   const best = sorted[0];
-  if (valid < MIN_SAMPLE || best.frequency === null || !best.sitesWithComponent.length && !best.matching.length) return { type, device, page: pg, alts: sorted, status: "sin-datos", valid };
+  if (valid < MIN_SAMPLE || best.frequency === null || best.sitesWithComponent.length < MIN_SAMPLE) return { type, device, page: pg, alts: sorted, status: "sin-datos", valid };
   const status = best.frequency >= SHARED_MIN ? "comparten" : "no-comparten";
   return { type, device, page: pg, alts: sorted, best, status, valid };
 }
@@ -317,12 +318,11 @@ function describePlain(comps, allComps = comps) {
   const vert = countBy(comps.map((c) => (c.box.y < 160 ? "arriba de todo" : c.box.y < c.viewport.h ? "a la vista sin bajar" : "más abajo, hay que bajar")));
   if (side.n / total >= SHARED_MIN) row("Posición", `${side.value}, ${vert.value}`, Math.min(side.n, vert.n), side.value);
   else row("Posición", "cada uno lo ubica en un lugar distinto", side.n, side.value);
-  // Tamaño (cuántos están cerca del ancho más común)
-  const ws = ns.map((x) => Math.round(x.widthNorm * 100)), hs = comps.map((c) => Math.round(c.box.h));
-  const mw = median(ws), mh = median(hs);
-  const nearW = ws.filter((w) => Math.abs(w - mw) <= 10).length;
-  const wTxt = mw >= 90 ? "todo el ancho" : `cerca de ${mw} % del ancho de la pantalla`;
-  row("Tamaño", nearW / total >= SHARED_MIN ? `${wTxt}, unos ${mh} px de alto` : `muy distinto: entre ${Math.min(...ws)} % y ${Math.max(...ws)} % del ancho`, nearW, wTxt);
+  // Tamaño en palabras: ancho y alto relativos a la pantalla
+  const sizeTxt = countBy(comps.map((c) => `${widthWord(normalize(c).widthNorm)}, ${heightWord(c)}`));
+  const shapeTxt = countBy(comps.map((c) => shapeWord(c)));
+  if (sizeTxt.n / total >= SHARED_MIN) row("Tamaño", `${sizeTxt.value}: ${shapeTxt.n / total >= SHARED_MIN ? shapeTxt.value : "proporciones parecidas"}`, sizeTxt.n, sizeTxt.value);
+  else row("Tamaño", "muy distinto de un sitio a otro", sizeTxt.n, sizeTxt.value);
   // Color
   const cn = countBy(comps.map((c) => colorName(c.styles.background)));
   const tone = countBy(comps.map((c) => (isLight(c.styles.background) ? "claro" : "oscuro o de color")));
@@ -339,11 +339,8 @@ function describePlain(comps, allComps = comps) {
   if (bordered.length >= total - bordered.length) row("Borde", `con borde ${countBy(bordered.map((c) => colorName(c.styles.borderColor ?? "#999999"))).value}`, bordered.length, "con borde");
   else row("Borde", "sin borde", total - bordered.length);
   // Letra
-  const fsz = comps.map((c) => c.styles.fontSize).filter(Boolean);
-  if (fsz.length) {
-    const mf = median(fsz), nearF = fsz.filter((f) => Math.abs(f - mf) <= 3).length;
-    row("Letra", nearF / total >= SHARED_MIN ? `unos ${mf} px${mf >= 24 ? ", grande" : mf <= 14 ? ", chica" : ""}` : `muy distinta: de ${Math.min(...fsz)} a ${Math.max(...fsz)} px`, nearF, `letra de unos ${mf} px`);
-  }
+  const fz = comps.map((c) => fontWord(c.styles.fontSize)).filter(Boolean);
+  if (fz.length) { const m = countBy(fz); row("Letra", m.n / total >= SHARED_MIN ? m.value : "algunos con letra grande y otros chica", m.n, m.value); }
   // Cerca de
   const near = comps.map((c) => nearestOf(c, allComps)).filter(Boolean);
   if (near.length) { const m = countBy(near); if (m.n / total >= 0.5) row("Cerca de", NEIGHBOR_NAMES[m.value] ?? m.value, m.n, `cerca de ${NEIGHBOR_NAMES[m.value] ?? m.value}`); }
@@ -373,6 +370,37 @@ function structureOrder(sites, comps, pg = "home", device = "desktop") {
     return { type: t, present: ranks.length, total: per.length, median: ranks.length ? ranks[Math.floor(ranks.length / 2)] : 2 };
   }).filter((x) => x.present).sort((a, b) => a.median - b.median);
   return { total: per.length, stats };
+}
+
+
+/* ═══ Tamaño y forma en palabras (sin píxeles) ═══ */
+function widthWord(wn) {
+  return wn >= 0.9 ? "todo el ancho" : wn >= 0.6 ? "casi todo el ancho" : wn >= 0.35 ? "cerca de la mitad del ancho" : wn >= 0.15 ? "un tercio del ancho o menos" : "una parte chica del ancho";
+}
+function heightWord(c) {
+  const hn = c.box.h / Math.max(1, c.viewport.h);
+  return hn < 0.06 ? "muy bajo" : hn < 0.15 ? "bajo" : hn < 0.4 ? "de alto mediano" : hn < 0.9 ? "alto, ocupa buena parte de la pantalla" : "muy alto, más que la pantalla";
+}
+function shapeWord(c) {
+  const a = c.box.w / Math.max(1, c.box.h);
+  return a >= 8 ? "una franja larga y fina" : a >= 3 ? "rectangular y alargado" : a >= 1.25 ? "rectangular" : a >= 0.8 ? "casi cuadrado" : "más alto que ancho";
+}
+function cornerWord(c) {
+  const r = c.styles.radius ?? 0;
+  return r >= Math.min(16, c.box.h / 2 - 1) ? "redondeado, tipo píldora" : r > 0 ? "esquinas apenas redondeadas" : "esquinas rectas";
+}
+function fontWord(px) { return !px ? "" : px >= 24 ? "letra grande" : px >= 15 ? "letra mediana" : "letra chica"; }
+/** Descripción corta de una sola parte, para las tarjetas. */
+function describeOne(c) {
+  const n = normalize(c);
+  return [
+    ["Tamaño", `${widthWord(n.widthNorm)}, ${heightWord(c)}`],
+    ["Forma", `${shapeWord(c)}, ${cornerWord(c)}`],
+    ["Color", `fondo ${colorName(c.styles.background)}${isSaturated(c.styles.background) ? ", color fuerte" : ""}`],
+    ...(c.styles.borderWidth ? [["Borde", `con borde ${colorName(c.styles.borderColor ?? "#999999")}`]] : []),
+    ...(c.styles.fontSize ? [["Letra", fontWord(c.styles.fontSize)]] : []),
+    ["Posición", n.widthNorm >= 0.9 ? (c.box.y < 160 ? "arriba de todo, de borde a borde" : "de borde a borde") : `${n.xCenterNorm < 0.35 ? "a la izquierda" : n.xCenterNorm > 0.65 ? "a la derecha" : "al centro"}${c.box.y < 160 ? ", arriba de todo" : ""}`],
+  ];
 }
 
 // Plantillas HTML del sitio. Todo se genera como texto estático.
@@ -545,7 +573,7 @@ function specimen(ctx, site, comp, kind = "match") {
     : comp.crop ? `<img src="${ctx.root}imagenes/${comp.crop}" alt="${esc(componentByType(comp.type)?.name)} de ${esc(site.name)}" loading="lazy">`
     : schematic([{ comp, color: kind === "match" ? "#18B26B" : "#F08A1C" }]);
   return `<figure class="specimen ${kind === "match" ? "" : "other"}"><div class="crop">${visual}</div>
-<figcaption>${kind === "match" ? greenFlag() : ""}<span><a href="${link(ctx, `referentes/${site.id}/`)}" style="color:inherit">${esc(site.name)}</a>${n ? `<small>${Math.round(n.widthNorm * 100)} % del ancho · ${n.heightPx} px de alto${comp.styles.radius ? ` · bordes ${comp.styles.radius} px` : ""}</small>` : ""}${comp && !comp.crop ? `<small>${comp.method === "demo" ? "Dibujo de ejemplo" : "Dibujo a partir de las medidas"}</small>` : ""}</span></figcaption></figure>`;
+<figcaption>${kind === "match" ? greenFlag() : ""}<span><a href="${link(ctx, `referentes/${site.id}/`)}" style="color:inherit">${esc(site.name)}</a>${n ? `<small>${esc(describeOne(comp).slice(0, 2).map((x) => x[1]).join(" · "))}</small>` : ""}${comp && !comp.crop ? `<small>${comp.method === "demo" ? "Dibujo de ejemplo" : "Dibujo a partir de las medidas"}</small>` : ""}</span></figcaption></figure>`;
 }
 
 /** Dibujo simple del componente con sus medidas reales (cuando todavía no hay foto). */
@@ -566,6 +594,19 @@ function strip(ctx, items, variant = "") {
     const fake = !src && comp && !comp.crop;
     return `<figure class="shot"><div class="frame">${img}</div><figcaption><a href="${link(ctx, `referentes/${site.id}/`)}">${esc(site.name)}</a>${fake ? `<small>${comp.method === "demo" ? "dibujo de ejemplo" : "dibujo según medidas"}</small>` : ""}</figcaption></figure>`;
   }).join("")}</div>`;
+}
+
+/** Tarjeta de una parte: al tocarla se abre grande con su descripción en palabras. */
+function partCard(ctx, site, comp, title) {
+  const desc = describeOne(comp);
+  const big = comp.crop ? `<img src="${ctx.root}imagenes/${comp.crop}" alt="${esc(title)} de ${esc(site.name)}" loading="lazy">` : miniRender(comp);
+  return `<button type="button" class="part-card" data-zoom aria-haspopup="dialog">
+<span class="part-title">${esc(title)}</span>
+<span class="frame">${big}</span>
+<span class="part-desc">${esc(desc[0][1])}</span>
+<span class="zoom-more">Ver en grande</span>
+<template><h3>${esc(title)} · ${esc(site.name)}</h3><div class="zoom-img">${big}</div><dl class="zoom-desc">${desc.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>${comp.crop ? "" : `<p class="muted">Dibujo hecho con las medidas, porque todavía no hay foto.</p>`}</template>
+</button>`;
 }
 
 // Arma el HTML de un resultado. Se usa al generar el sitio (un país) y también en el navegador
@@ -628,7 +669,7 @@ function componentPanel(ctx, k, verdicts, ss, comps, note, showPage) {
     const main = ok[0];
     rec = `<div class="card recommend"><span class="label">${icon("check", "#16A34A", 3)}Recomendación</span>
 <h3>${esc(main.best.rule.name)}</h3>
-<p class="big-fact"><b>${main.best.matching.length} de ${main.valid}</b> líderes lo hacen así${ok.length === 2 ? " en computadora y en celular" : ` en ${DEV[main.device].toLowerCase()}`}.</p>
+<p class="big-fact"><b>${main.best.matching.length} de ${main.best.sitesWithComponent.length}</b> líderes que tienen ${esc(k.name.toLowerCase())} lo hacen así${ok.length === 2 ? " en computadora y en celular" : ` en ${DEV[main.device].toLowerCase()}`}.</p>
 <p style="margin:0">${esc(main.best.rule.plain)}</p>
 <details><summary>Cómo aplicarlo en tu sitio</summary><ol class="steps-list">${main.best.rule.howTo.map((h) => `<li>${esc(h)}</li>`).join("")}</ol></details></div>`;
   } else if (has.length) {

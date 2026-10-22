@@ -132,7 +132,7 @@
         "url": "https://www.fravega.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -145,7 +145,7 @@
         "url": "https://www.fravega.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -478,7 +478,7 @@
         "url": "https://www.musimundo.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -491,7 +491,7 @@
         "url": "https://www.musimundo.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -1304,13 +1304,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.santander.com.ar/\", waiting until \"domcont"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -1347,7 +1347,7 @@
         "url": "https://www.bbva.com.ar/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1360,7 +1360,7 @@
         "url": "https://www.bbva.com.ar/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1389,13 +1389,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -1474,7 +1474,7 @@
         "url": "https://flybondi.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1487,7 +1487,7 @@
         "url": "https://flybondi.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -1753,7 +1753,7 @@
         "url": "https://www.ebay.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -1766,7 +1766,7 @@
         "url": "https://www.ebay.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -1936,13 +1936,13 @@
         "url": "https://www.bestbuy.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -1990,13 +1990,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -2347,23 +2347,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.nytimes.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 980,
-          "h": 2121
-        },
-        "url": "https://www.nytimes.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -2480,13 +2470,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -2560,13 +2550,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -2816,13 +2806,16 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.tmall.com/"
+        "url": "https://www.tmall.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tmall.com/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -3070,18 +3063,16 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.suning.com/"
+        "url": "https://www.suning.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://m.suning.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -3157,7 +3148,7 @@
         "url": "https://www.vip.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3170,7 +3161,7 @@
         "url": "https://m.vip.com/v3/index.html?source=www#/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -3334,12 +3325,7 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.sina.com.cn/",
-        "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -3349,7 +3335,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://sina.cn/?from=web"
+        "url": "https://sina.cn/?from=web",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -4178,7 +4167,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.in/"
+        "url": "https://www.amazon.in/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4191,7 +4183,7 @@
         "url": "https://www.amazon.in/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4275,7 +4267,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.flipkart.com/"
+        "url": "https://www.flipkart.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4288,7 +4283,7 @@
         "url": "https://www.flipkart.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4380,7 +4375,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.de/"
+        "url": "https://www.amazon.de/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4393,7 +4391,7 @@
         "url": "https://www.amazon.de/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4481,13 +4479,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -4517,12 +4515,7 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.olx.pl/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4535,7 +4528,7 @@
         "url": "https://m.olx.pl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -4594,7 +4587,7 @@
         "url": "https://www.trendyol.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4607,7 +4600,7 @@
         "url": "https://www.trendyol.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4680,7 +4673,7 @@
         "url": "https://www.hepsiburada.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4693,7 +4686,7 @@
         "url": "https://www.hepsiburada.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4766,7 +4759,7 @@
         "url": "https://www.sahibinden.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4779,7 +4772,7 @@
         "url": "https://www.sahibinden.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4849,7 +4842,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQL9AAAADMYAeCli_AvMFN7WQYCbxgMtKyVL4PUxGrSaVtfhC24yghNylSRrwITPM5fxBY06IT8jNz3gif158RJkQAPpt9MKDNdQzfgsTcvvJXOfkUH-8uRM6W6bVf_fr9l93aJySlxEeW27dbThoiUA_nOi2mZnFS-1bwO91T7vZnp8iW5mAUrOv5FwHT8vkKXQ_cCT5V0M8iVmulDKsxvyWEO1sd0EKWiii_lW-t4LrvWTtleoUtVrjhHRLnhB2RfYMlDIUkYlf2KUfp9vfF2JbjWbmmTeSgDzYuUJtbjy_3QJSQxGnXz_yZw8DxhATEsyq296KFgS_L_wnWp-R17OU5RrCvtYWOey7jdy-wF47_V4CzdivfoAYWzivKugV_CN0lY-CWj9WthsLy-iTNsL3qobn0pwl3rB9iuVt-sVR6745jwwxqx5wMzblgyiXPmfLkWZ_LV6QyQ6M06iym0R5MLPNP-3eLRX5ebWSKgNRKi016BzdKQf0jZA14MRl--WOkxU8RmxW4NG2uOYdJRS4HTvjVx1-7JFR1ph0CYpsjUKSdHs7gLzJY8vpcsXERBRXU_qQsFRmWlvxf4sq_9Fje1gAGSJzFD2nR9oZr8URFQVpvwqG09045GV_OT_ZAQv4XzhDQWppdvutVSCyksqrPeyfVieOSBXDNqIEECdRMX05-WaMVFWeJocRBfM-ICzDb5oNBFelnKp3D5WLHxlzr6FNk641FirsofM_8hDvtt0CWyfnOAH9HsHgvFP3yhK8ai3CusB4meN3L0mRBvoLGvmxQCO1k8gg7ySCVrcakFKOWduLtDcee4KVl56OlF53fD73ZW-Ap0TpUQzl_mARjij-QRRotrUGHBGDmUwnB7ZwG34hKptvlyGeIB-9pzJU8UuRpa0LmPWoX3HnNTZwXDpFknZsqxFdO73fnC5cZgNieGy0D8ErPgSn7C2ZUjr7N_7pgi53HkmPkKtSicGat5rj5it1IAFQ8xzHqSmilTo76KDUlsaECcrR53F&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.co.id/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQL9AAAADMYAeCli_AvMFN7WQYCbxgMtKyVL4PUxGrSaVtfhC24yghNylSRrwITPM5fxBY06IT8jNz3gif158RJkQAPpt9MKDNdQzfgsTcvvJXOfkUH-8uRM6W6bVf_fr9l93aJySlxEeW27dbThoiUA_nOi2mZnFS-1bwO91T7vZnp8iW5mAUrOv5FwHT8vkKXQ_cCT5V0M8iVmulDKsxvyWEO1sd0EKWiii_lW-t4LrvWTtleoUtVrjhHRLnhB2RfYMlDIUkYlf2KUfp9vfF2JbjWbmmTeSgDzYuUJtbjy_3QJSQxGnXz_yZw8DxhATEsyq296KFgS_L_wnWp-R17OU5RrCvtYWOey7jdy-wF47_V4CzdivfoAYWzivKugV_CN0lY-CWj9WthsLy-iTNsL3qobn0pwl3rB9iuVt-sVR6745jwwxqx5wMzblgyiXPmfLkWZ_LV6QyQ6M06iym0R5MLPNP-3eLRX5ebWSKgNRKi016BzdKQf0jZA14MRl--WOkxU8RmxW4NG2uOYdJRS4HTvjVx1-7JFR1ph0CYpsjUKSdHs7gLzJY8vpcsXERBRXU_qQsFRmWlvxf4sq_9Fje1gAGSJzFD2nR9oZr8URFQVpvwqG09045GV_OT_ZAQv4XzhDQWppdvutVSCyksqrPeyfVieOSBXDNqIEECdRMX05-WaMVFWeJocRBfM-ICzDb5oNBFelnKp3D5WLHxlzr6FNk641FirsofM_8hDvtt0CWyfnOAH9HsHgvFP3yhK8ai3CusB4meN3L0mRBvoLGvmxQCO1k8gg7ySCVrcakFKOWduLtDcee4KVl56OlF53fD73ZW-Ap0TpUQzl_mARjij-QRRotrUGHBGDmUwnB7ZwG34hKptvlyGeIB-9pzJU8UuRpa0LmPWoX3HnNTZwXDpFknZsqxFdO73fnC5cZgNieGy0D8ErPgSn7C2ZUjr7N_7pgi53HkmPkKtSicGat5rj5it1IAFQ8xzHqSmilTo76KDUlsaECcrR53F&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.co.id%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.co.id%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -4862,7 +4858,7 @@
         "url": "https://shopee.co.id/verify/traffic/error?home_url=https%3A%2F%2Fshopee.co.id&is_logged_in=false&tracking_id=369486e8ee0-909e-4988-a013-18cf146fd913",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -4928,13 +4924,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.tokopedia.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -4964,13 +4960,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -5007,7 +5003,7 @@
         "url": "https://www.amazon.fr/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5020,7 +5016,7 @@
         "url": "https://www.amazon.fr/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5093,7 +5089,7 @@
         "url": "https://www.amazon.es/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5106,7 +5102,7 @@
         "url": "https://www.amazon.es/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5180,13 +5176,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -5220,7 +5216,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.co.uk/"
+        "url": "https://www.amazon.co.uk/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5233,7 +5232,7 @@
         "url": "https://www.amazon.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -5317,7 +5316,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://www.amazon.it/"
+        "url": "https://www.amazon.it/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5330,7 +5332,7 @@
         "url": "https://www.amazon.it/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "ok",
@@ -5409,13 +5411,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -5445,13 +5447,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -5933,13 +5935,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.vivaaerobus.com/\", waiting until \"domconte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -5975,7 +5977,7 @@
         "url": "https://aeromexico.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -5988,7 +5990,7 @@
         "url": "https://aeromexico.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -6060,13 +6062,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -6103,7 +6105,7 @@
         "url": "https://www.magazineluiza.com.br/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6116,7 +6118,7 @@
         "url": "https://www.magazineluiza.com.br/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -6283,7 +6285,10 @@
           "w": 1440,
           "h": 900
         },
-        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP_AAAADFs6c4dmeK5aRbwMLf9xtAjC6e1fwWpi7275Xf9Q0Rh8goTnYSXlERpWHJXzaPYxfdK2_RKFXs72nNGogjffX3ORfXbqw73AyqBZsTOVA0HBx-e3aspj8llDNiSJg862bSKx_QIuv4AIhfl24lMIFsjY7-Vi_kUV0o0RRYtwVcEj_mn9epNDeiIlT0rppsxGVmVAQVXVTNwjGgr3HlQRBaCT9mSVNXUl_3ls1VAzAuqCBhRKEA1498Iad8B8DWXvbCT0Gw2r_BKq1inxUS6LqJ9PquKKYyKxr9j-VDL3Y-tWyyB3FjbiMUssd6kXmw3QHiWZULTiRrIHg4SPZm_4jOp2W9qupsWzfkvc8LaScwB_OidaZCKlwsrwDT6uw1fUz2XfsuD_PZ5T6blMF4rDht16qgPB1-SKmGIUjxdMA2AzuN91bxOvVkfpd7aZE_upc9gNQREyVNHIerPT49DjIYAFmD70aQ0Wblyboj_aYTIOI9BGNQ4XXvEAcT0IcROCoyEVhbwuI4dK-p-iiRFf1GYkjCHTQkhEqbaX9sTFBdS8P-hjl_L3a3dht5ozfrUKIz_zZziiEKGTIextehoCgRQ0gj0YXbHILKeEDUwk6rHwgzTpWoQ-JJQ0ASNumQ57jU-nVX2tEjtLHk-vb0_qP0kTe9oU-EtxH55MxaDQ8DsgYCgc_XiAaKE2qrIIk8UQtPeptevcdkMACV3HbP06BqzIr3rqXPnPwUI9lKvaayfxauAv6-AF801ru35iNOMub2Q1qAiON9h1LcjZDZp5jTOqUrfzM8qzvJsveHDf1bIWu08ejA9XrEhdCXW7iVcfxfaMzs8MBzqo0AhKjgAhPeUOVVAt8oAi0dUgmMGPWZM1qy7NpYoZZdpkcdoedVbk0BQuNh5DIwjREmriuuewt9B4tS2v3CXKQJX673hUqMP6qCI95T4oeQvLf4PzdkN8EJhEG7sbkhHLCG6GXr-qKUqAp84Q1SYDuV5cadNm-tokp5C9f_auBNm3hdrSuEzNof6triehrl-G7pEzSydhkf5RrVOuZ7UNL3JhlcT7td5K1Tdz7Lgo8vQHSkdc6hb2MhA3LNhANg1fIhOCarsZckTplOsD3W5Y7V2k_nFzs8IPh47E_zDOsThA4cyGSmZijcxBACw-X6NccZQyiYqCIfE435irsEc3AHCUcdQcwm4g0XeHmGScUmiRkqnc__VFLRJJtF2Gv2lzjHFNGBZad3OdcijMUBmZC2UPDHe2WIVB8_80-ilBbE7o0YKs3p6nOBoeUiza6ugcfQoI0FIprc7uvsmlDDvyfYy9PwV2pXrCqDelGloTcSUCBK_hRLosjEMcBLXPWpz7Pw-Z&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false"
+        "url": "https://shopee.com.br/verify/captcha?anti_bot_tracking_id=gqRjZGVrxHSFomtptTE0MjUxOnRyYWNraW5nX2lkX2tleaJrdtEAAqRhbGdv0gAAAGSjZGVrwKJjdMRAAAAADLyQlHjbhu_tIJoVd59UO0aGI3u8EPZbMRUCgbeCPd4w23IClM5T1bD7-qxvztQnbHA8L7r5z24rbHP-k6pjaXBoZXJ0ZXh0xQP_AAAADFs6c4dmeK5aRbwMLf9xtAjC6e1fwWpi7275Xf9Q0Rh8goTnYSXlERpWHJXzaPYxfdK2_RKFXs72nNGogjffX3ORfXbqw73AyqBZsTOVA0HBx-e3aspj8llDNiSJg862bSKx_QIuv4AIhfl24lMIFsjY7-Vi_kUV0o0RRYtwVcEj_mn9epNDeiIlT0rppsxGVmVAQVXVTNwjGgr3HlQRBaCT9mSVNXUl_3ls1VAzAuqCBhRKEA1498Iad8B8DWXvbCT0Gw2r_BKq1inxUS6LqJ9PquKKYyKxr9j-VDL3Y-tWyyB3FjbiMUssd6kXmw3QHiWZULTiRrIHg4SPZm_4jOp2W9qupsWzfkvc8LaScwB_OidaZCKlwsrwDT6uw1fUz2XfsuD_PZ5T6blMF4rDht16qgPB1-SKmGIUjxdMA2AzuN91bxOvVkfpd7aZE_upc9gNQREyVNHIerPT49DjIYAFmD70aQ0Wblyboj_aYTIOI9BGNQ4XXvEAcT0IcROCoyEVhbwuI4dK-p-iiRFf1GYkjCHTQkhEqbaX9sTFBdS8P-hjl_L3a3dht5ozfrUKIz_zZziiEKGTIextehoCgRQ0gj0YXbHILKeEDUwk6rHwgzTpWoQ-JJQ0ASNumQ57jU-nVX2tEjtLHk-vb0_qP0kTe9oU-EtxH55MxaDQ8DsgYCgc_XiAaKE2qrIIk8UQtPeptevcdkMACV3HbP06BqzIr3rqXPnPwUI9lKvaayfxauAv6-AF801ru35iNOMub2Q1qAiON9h1LcjZDZp5jTOqUrfzM8qzvJsveHDf1bIWu08ejA9XrEhdCXW7iVcfxfaMzs8MBzqo0AhKjgAhPeUOVVAt8oAi0dUgmMGPWZM1qy7NpYoZZdpkcdoedVbk0BQuNh5DIwjREmriuuewt9B4tS2v3CXKQJX673hUqMP6qCI95T4oeQvLf4PzdkN8EJhEG7sbkhHLCG6GXr-qKUqAp84Q1SYDuV5cadNm-tokp5C9f_auBNm3hdrSuEzNof6triehrl-G7pEzSydhkf5RrVOuZ7UNL3JhlcT7td5K1Tdz7Lgo8vQHSkdc6hb2MhA3LNhANg1fIhOCarsZckTplOsD3W5Y7V2k_nFzs8IPh47E_zDOsThA4cyGSmZijcxBACw-X6NccZQyiYqCIfE435irsEc3AHCUcdQcwm4g0XeHmGScUmiRkqnc__VFLRJJtF2Gv2lzjHFNGBZad3OdcijMUBmZC2UPDHe2WIVB8_80-ilBbE7o0YKs3p6nOBoeUiza6ugcfQoI0FIprc7uvsmlDDvyfYy9PwV2pXrCqDelGloTcSUCBK_hRLosjEMcBLXPWpz7Pw-Z&app_key=FlashSale.PC&client_id=1&next=https%3A%2F%2Fshopee.com.br%2Fverify%2Ftraffic%3F%3Fclient_id%3D%26next%3Dhttps%253A%252F%252Fshopee.com.br%252F%26redirect_type%3D2%26should_replace_history%3Dfalse&redirect_type=2&scene=crawler_item&should_replace_history=false",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6296,7 +6301,7 @@
         "url": "https://shopee.com.br/verify/traffic/error?home_url=https%3A%2F%2Fshopee.com.br&is_logged_in=false&tracking_id=94660805438-a550-416a-a56d-b55c4410861a",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -6369,7 +6374,7 @@
         "url": "https://www.casasbahia.com.br/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6382,7 +6387,7 @@
         "url": "https://www.casasbahia.com.br/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -6448,13 +6453,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -6911,7 +6916,7 @@
         "url": "https://kakaku.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -6921,7 +6926,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://s.kakaku.com/"
+        "url": "https://s.kakaku.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7106,13 +7114,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.biccamera.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7142,13 +7150,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://zozo.jp/\", waiting until \"domcontentloaded\"\n"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7178,13 +7186,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.muji.com/jp/ja/store\", waiting until \"domc"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7214,13 +7222,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7292,13 +7300,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7413,13 +7421,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nhk.or.jp/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7499,7 +7507,7 @@
         "url": "https://www.myntra.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7512,7 +7520,7 @@
         "url": "https://www.myntra.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7585,7 +7593,7 @@
         "url": "https://www.snapdeal.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -7598,7 +7606,7 @@
         "url": "https://www.snapdeal.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -7664,13 +7672,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7700,13 +7708,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.nykaa.com/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7841,13 +7849,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.makemytrip.com/\", waiting until \"domconten"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7876,13 +7884,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.goibibo.com/\", waiting until \"domcontentlo"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7954,13 +7962,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.redbus.in/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -7996,7 +8004,7 @@
         "url": "https://www.indiatimes.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8006,7 +8014,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.indiatimes.com/"
+        "url": "https://www.indiatimes.com/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -8078,13 +8089,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -8291,7 +8302,7 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.de/\", waiting until \"domcontentloa"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8304,7 +8315,7 @@
         "url": "https://www.zalando.de/supported-browsers",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.de/\", waiting until \"domcontentloa"
+        "lastError": "openPage is not defined"
       },
       "mobile_categoria": {
         "status": "fallida",
@@ -8359,7 +8370,7 @@
         "url": "https://www.ebay.de/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8372,7 +8383,7 @@
         "url": "https://www.ebay.de/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -8792,7 +8803,7 @@
         "url": "https://www.holidaycheck.de/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -8805,7 +8816,7 @@
         "url": "https://www.holidaycheck.de/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9050,13 +9061,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -9274,13 +9285,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -9317,7 +9328,7 @@
         "url": "https://es.wallapop.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9330,7 +9341,7 @@
         "url": "https://es.wallapop.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9555,7 +9566,7 @@
         "url": "https://elpais.com/us/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9568,7 +9579,7 @@
         "url": "https://elpais.com/us/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -9691,7 +9702,7 @@
         "url": "https://www.fnac.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9704,7 +9715,7 @@
         "url": "https://www.fnac.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9777,7 +9788,7 @@
         "url": "https://www.boulanger.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9790,7 +9801,7 @@
         "url": "https://www.boulanger.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -9967,7 +9978,7 @@
         "url": "https://www.darty.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -9980,7 +9991,7 @@
         "url": "https://www.darty.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10053,7 +10064,7 @@
         "url": "https://www.carrefour.fr/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10066,7 +10077,7 @@
         "url": "https://www.carrefour.fr/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10339,13 +10350,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -10374,13 +10385,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.airfrance.fr/\", waiting until \"domcontentl"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -10409,13 +10420,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -10452,7 +10463,7 @@
         "url": "https://www.ebay.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10465,7 +10476,7 @@
         "url": "https://www.ebay.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10531,13 +10542,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -10574,7 +10585,7 @@
         "url": "https://www.next.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10587,7 +10598,7 @@
         "url": "https://www.next.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10849,13 +10860,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -10892,7 +10903,7 @@
         "url": "https://www.currys.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -10905,7 +10916,7 @@
         "url": "https://www.currys.co.uk/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -10971,13 +10982,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.johnlewis.com/\", waiting until \"domcontent"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -11007,13 +11018,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -11050,7 +11061,7 @@
         "url": "https://www.zalando.it/supported-browsers",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11063,7 +11074,7 @@
         "url": "https://www.zalando.it/supported-browsers",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.it/\", waiting until \"domcontentloa"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11136,7 +11147,7 @@
         "url": "https://www.ebay.it/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11149,7 +11160,7 @@
         "url": "https://www.ebay.it/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11413,13 +11424,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -11834,7 +11845,7 @@
         "url": "https://www.paris.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11847,7 +11858,7 @@
         "url": "https://www.paris.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -11920,7 +11931,7 @@
         "url": "https://simple.ripley.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -11933,7 +11944,7 @@
         "url": "https://simple.ripley.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -12006,13 +12017,13 @@
         "url": "https://www.lider.cl/inicio",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -12163,7 +12174,7 @@
         "url": "https://www.easy.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12176,7 +12187,7 @@
         "url": "https://www.easy.cl/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Bloqueo o CAPTCHA"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -12248,7 +12259,7 @@
         "url": "https://www.latamairlines.com/cl/es",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -12261,7 +12272,7 @@
         "url": "https://www.latamairlines.com/cl/es",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -12376,13 +12387,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -12411,13 +12422,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -12489,23 +12500,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.ruta1000.com.ar/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 812,
-          "h": 1758
-        },
-        "url": "https://www.ruta1000.com.ar/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -12620,13 +12621,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -12741,13 +12742,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -12776,13 +12777,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13069,13 +13070,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13190,12 +13191,7 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.asahi.com/",
-        "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -13205,7 +13201,10 @@
           "w": 390,
           "h": 844
         },
-        "url": "https://www.asahi.com/sp/"
+        "url": "https://www.asahi.com/sp/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       }
     }
   },
@@ -13320,13 +13319,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13356,23 +13355,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.akakce.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.akakce.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13506,23 +13495,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.vatanbilgisayar.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.vatanbilgisayar.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13699,23 +13678,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.etstur.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.etstur.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13744,13 +13713,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13779,23 +13748,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.flypgs.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.flypgs.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13824,13 +13783,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.turkishairlines.com/\", waiting until \"domc"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.turkishairlines.com/\", waiting until \"domc"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -13945,13 +13904,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -14079,7 +14038,7 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -14089,7 +14048,10 @@
           "w": 390,
           "h": 847
         },
-        "url": "https://www.ceneo.pl/"
+        "url": "https://www.ceneo.pl/",
+        "stale": true,
+        "lastAttempt": "2026-10-22",
+        "lastError": "openPage is not defined"
       },
       "mobile_categoria": {
         "status": "ok",
@@ -14149,18 +14111,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.zalando.pl/supported-browsers",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.zalando.pl/\", waiting until \"domcontentloa"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -14772,13 +14729,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -14808,23 +14765,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.blibli.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.blibli.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -14947,13 +14894,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.olx.co.id/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.olx.co.id/\", waiting until \"domcontentload"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15089,13 +15036,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15124,23 +15071,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://www.tiket.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "url": "https://www.tiket.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15169,13 +15106,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15290,23 +15227,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "url": "https://kumparan.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "viewport": {
-          "w": 390,
-          "h": 983
-        },
-        "url": "https://kumparan.com/",
-        "error": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15336,13 +15263,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15379,7 +15306,7 @@
         "url": "https://www.mytheresa.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -15392,7 +15319,7 @@
         "url": "https://www.mytheresa.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",
@@ -15458,13 +15385,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15494,13 +15421,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15530,13 +15457,13 @@
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       },
       "mobile": {
         "status": "fallida",
         "date": "2026-10-22",
         "screenshot": null,
-        "error": "Bloqueo o CAPTCHA"
+        "error": "openPage is not defined"
       }
     }
   },
@@ -15573,7 +15500,7 @@
         "url": "https://www.bloomingdales.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "mobile": {
         "status": "ok",
@@ -15586,7 +15513,7 @@
         "url": "https://www.bloomingdales.com/",
         "stale": true,
         "lastAttempt": "2026-10-22",
-        "lastError": "Página vacía o bloqueada: no se reconoció ninguna parte"
+        "lastError": "openPage is not defined"
       },
       "desktop_categoria": {
         "status": "fallida",

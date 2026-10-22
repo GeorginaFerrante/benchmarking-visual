@@ -186,18 +186,19 @@
   }
 })();
 
-/* Partes ampliables: al tocar una tarjeta se abre en grande con su descripción. */
+/* Partes ampliables: al tocar una tarjeta se abre en grande con su descripción.
+   Se escucha en todo el documento, así funciona aunque la tarjeta se toque mientras la página termina de cargar. */
 (function () {
-  var dlg = document.getElementById("zoom");
-  if (!dlg || !dlg.showModal) return;
-  var body = dlg.querySelector(".zoom-body");
-  Array.prototype.forEach.call(document.querySelectorAll("[data-zoom]"), function (b) {
-    b.addEventListener("click", function () {
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("[data-zoom]") : null;
+    var dlg = document.getElementById("zoom");
+    if (b && dlg && dlg.showModal) {
+      var body = dlg.querySelector(".zoom-body");
       body.innerHTML = "";
       body.appendChild(b.querySelector("template").content.cloneNode(true));
       dlg.showModal();
-    });
+      return;
+    }
+    if (dlg && dlg.open && (e.target === dlg || (e.target.closest && e.target.closest("[data-close]")))) dlg.close();
   });
-  dlg.querySelector("[data-close]").addEventListener("click", function () { dlg.close(); });
-  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
 })();

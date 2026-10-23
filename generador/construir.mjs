@@ -48,7 +48,12 @@ function applyRevision(sites, comps) {
   try { rev = read("revision.json"); } catch {}
   const bad = new Set(rev.excluir), badSites = new Set(rev.excluir_sitios);
   const dateOf = (c) => sites.find((s) => s.id === c.siteId)?.captures?.[(c.page ?? "home") === "home" ? c.device : `${c.device}_${c.page}`]?.date ?? "";
-  return comps.filter((c) => !((bad.has(c.id) || badSites.has(c.siteId)) && dateOf(c) <= rev.fecha));
+  const until = (c) => (rev.excluir_hasta ?? []).find((x) => x.sitio === c.siteId || x.id === c.id)?.hasta;
+  return comps.filter((c) => {
+    if ((bad.has(c.id) || badSites.has(c.siteId)) && dateOf(c) <= rev.fecha) return false;
+    const u = until(c);
+    return !(u && dateOf(c) <= u);
+  });
 }
 
 function build({ sites, comps, demo }) {
@@ -70,12 +75,14 @@ function build({ sites, comps, demo }) {
   const withPhotos = new Set(comps.map((c) => c.siteId));
   const hasCaptures = (ss) => ss.some((s) => withPhotos.has(s.id));
   const photoCount = (ss) => ss.filter((s) => withPhotos.has(s.id)).length;
-  const index = Object.fromEntries(countries.map((c) => [c.code, { slug: cSlug(c.code), name: c.name, segs: segsOf(c.code).map((g) => g.slug) }]));
+  // La consulta solo ofrece combinaciones con al menos 3 líderes con fotos (en el ejemplo, todas).
+  const ready = (code, g) => demo || sitesIn(code, g).filter((s) => withPhotos.has(s.id)).length >= MIN_SAMPLE;
+  const index = Object.fromEntries(countries.map((c) => [c.code, { slug: cSlug(c.code), name: c.name, segs: segsOf(c.code).filter((g) => ready(c.code, g)).map((g) => g.slug) }]));
   const demoLink = (ctx, to = "resultado/argentina/tienda-online/") => (demo ? "" : `<p style="margin:14px 0 0">${btn2(`${ctx.root}demo/${to}index.html`, "Ver un ejemplo de cómo se verá")}</p>`);
 
   /* ═══ Inicio: consulta en pasos (una pregunta por pantalla) ═══ */
   const notes = (() => { try { return read("notas.json"); } catch { return {}; } })();
-  const available = countries.map((c) => ({ c, segs: segsOf(c.code) })).filter((x) => x.segs.length);
+  const available = countries.map((c) => ({ c, segs: segsOf(c.code).filter((g) => ready(c.code, g)) })).filter((x) => x.segs.length);
   {
     const p = "", ctx = ctxFor(p);
     const opt = (name, value, inner) => `<label class="type"><input type="radio" name="${name}" value="${value}">${inner}</label>`;
@@ -87,7 +94,7 @@ function build({ sites, comps, demo }) {
 <div class="progress" aria-hidden="true"><i></i></div>
 <fieldset class="step" data-step="pais"><legend><span class="kicker">Pregunta <span data-n>1</span></span><h1>¿En qué países está tu público?</h1></legend>
 <p class="muted">Podés marcar uno o varios. Vamos a mirar a los sitios más visitados de esos países. <span class="sel-count" data-sel-count></span></p>
-<div class="types">${countries.map((c) => `<label class="type"><input type="checkbox" name="pais" value="${c.code}"><span class="check-ico" aria-hidden="true"></span><span><b>${esc(c.name)}</b><small>${sitesIn(c.code).length ? `${sitesIn(c.code).length} sitios analizados` : "Próximamente"}</small></span></label>`).join("")}</div>
+<div class="types">${countries.map((c) => `<label class="type"><input type="checkbox" name="pais" value="${c.code}"><span class="check-ico" aria-hidden="true"></span><span><b>${esc(c.name)}</b><small>${index[c.code].segs.length ? `${sitesIn(c.code).filter((x) => demo || withPhotos.has(x.id)).length} sitios analizados` : "Próximamente"}</small></span></label>`).join("")}</div>
 <div class="wizard-inline"><button type="button" class="pill" data-next><span>Siguiente</span><span class="ico">${icon("arrow", "#fff")}</span></button></div></fieldset>
 <fieldset class="step" data-step="tipo"><legend><span class="kicker">Pregunta <span data-n>2</span></span><h1>¿Qué tipo de sitio es?</h1></legend>
 <div class="types">${SEGMENTS.map((g) => opt("tipo", g.slug, `${icon(g.icon)}<span><b>${esc(g.name)}</b><small>${esc(g.hint)}</small></span>`)).join("")}</div></fieldset>

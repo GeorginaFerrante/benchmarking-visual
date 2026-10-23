@@ -1,6 +1,6 @@
 {
-  "_ayuda": "Recortes revisados a mano que quedan fuera del análisis porque la foto salió equivocada (otro elemento, un aviso de cookies o una página de bloqueo). Solo se excluyen mientras la foto sea de la fecha de revisión o anterior: cuando el capturador saca una foto nueva, vuelve a entrar.",
-  "fecha": "2026-10-22",
+  "_ayuda": "Recortes revisados a mano que quedan fuera del análisis porque la foto salió equivocada. «fecha»: las de «excluir» y «excluir_sitios» se descartan solo si la foto es de esa fecha o anterior. «excluir_hasta»: casos puntuales con su propia fecha.",
+  "fecha": "2026-10-21",
   "excluir_sitios": [
     "ar-adidas",
     "cl-jumbo",
@@ -193,5 +193,263 @@
     "us-walmart-desktop-home-main_nav",
     "us-yahoo-desktop-home-hero",
     "us-yahoo-desktop-home-primary_button"
+  ],
+  "excluir_hasta": [
+    {
+      "sitio": "fr-leboncoin",
+      "hasta": "2026-10-23"
+    },
+    {
+      "sitio": "de-tk",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-carrefour-desktop-home-footer",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-farmacity-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-carrefour-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-mercadopago-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-bbva-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-mercadopago-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-santander-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-bbva-desktop-home-footer",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "us-booking-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "us-southwest-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "ar-booking-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "mx-mercadolibre-desktop-ficha-gallery",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "mx-liverpool-desktop-ficha-price",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "mx-soriana-desktop-ficha-price",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "mx-vivaaerobus-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "mx-volaris-desktop-home-footer",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "br-amazon-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "br-olx-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "jp-amazon-desktop-home-main_nav",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "jp-mercari-desktop-home-main_nav",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "jp-yahoo-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "jp-bunshun-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-amazon-desktop-home-main_nav",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-myntra-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-amazon-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-myntra-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-1mg-desktop-ficha-price",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "in-indiatimes-desktop-home-footer",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-amazon-desktop-home-main_nav",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-kleinanzeigen-desktop-home-main_nav",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-kleinanzeigen-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-otto-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-zalando-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-amazon-desktop-ficha-price",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-amazon-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "de-holidaycheck-desktop-home-logo",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "pl-zalando-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "pl-olx-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "pl-wakacje-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "pl-itaka-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "tr-hepsiburada-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "tr-hepsiburada-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "tr-amazon-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "id-zalora-desktop-home-header",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "id-lazada-desktop-home-search_bar",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "id-zalora-desktop-home-search_bar",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "id-lazada-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "id-zalora-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-zara-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-lidl-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-mediamarkt-desktop-ficha-gallery",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-amazon-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-amazon-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "es-wallapop-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "gb-amazon-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-subito-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-trovaprezzi-desktop-home-hero",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-amazon-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-zalando-desktop-home-primary_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-amazon-desktop-ficha-buy_button",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-unieuro-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    },
+    {
+      "id": "it-amazon-desktop-categoria-product_card",
+      "hasta": "2026-10-23"
+    }
   ]
 }

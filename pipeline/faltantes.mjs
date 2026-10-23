@@ -6,6 +6,7 @@ try { comps = JSON.parse(fs.readFileSync(new URL("../datos/components.json", imp
 const needs = (ref) => ["desktop", "mobile"].some((d) => {
   const cap = ref.captures?.[d];
   const parts = comps.filter((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === "home").length;
-  return cap?.status !== "ok" || cap?.stale || parts < 2;
+  const stale = !!cap?.stale && !/openPage is not defined|before initialization/.test(cap.lastError ?? "");
+  return cap?.status !== "ok" || stale || parts < 2;
 });
 console.log(refs.filter(needs).length);

@@ -3,6 +3,12 @@
 //   npm run capture -- AR           → solo un país
 //   npm run capture -- ar-fravega   → un sitio puntual
 //   npm run capture -- --faltantes  → solo los sitios que todavía no tienen fotos
+//   npm run capture -- --pendientes --navegador
+//        → desde tu compu, con tu Chrome visible: todo lo que falta (inicio, categoría, ficha y
+//          las fotos marcadas como equivocadas en datos/revision.json). Si aparece un CAPTCHA,
+//          espera a que lo resuelvas en la ventana y sigue.
+//   --continuar             → saltea los sitios que ya se intentaron hoy o ayer (para retomar)
+//   --saltear "Nombre"      → saltea ese sitio (se puede repetir o separar varios con comas)
 // Procesa varios sitios a la vez (variable CONCURRENCY, por defecto 4).
 // En tiendas online además entra a una ficha de producto y a una página de categoría.
 // Resultado: datos/imagenes/{capturas,recortes}/*.png, datos/components.json y estado en datos/references.json.
@@ -58,21 +64,35 @@ const SELECTORS = {
 const PRODUCT_RE = /\/p\/|\/producto|\/product|\/dp\/|\/item|\/ip\/|\/pd\/|-p-|MLA-?\d|MLM-?\d|MLB-?\d|item\.jd|detail\.tmall|item\.taobao|\/goods|\/i\d{4,}/i;
 const CATEGORY_RE = /\/c\/|categor|\/collections?\/|\/browse|\/cat\/|list\.jd|\/l\/|\/b\/|\/department|\/kategori/i;
 const COOKIE_WORDS = ["Aceptar", "Aceptar todo", "Aceptar todas", "Entendido", "Accept", "Accept all", "Accept All", "I agree", "OK", "Got it", "Akzeptieren", "Alle akzeptieren", "Accepter", "Tout accepter", "Aceitar", "Accetta", "Kabul et", "Zaakceptuj", "同意", "同意する"];
-const BLOCK_RE = /captcha|are you a robot|no eres un robot|verify you are human|access denied|acceso denegado|unusual traffic|reference #\d+\.|errors\.edgesuite\.net|request blocked|attention required|安全验证|滑动验证/i;
+const BLOCK_RE = /captcha|are you a robot|no eres un robot|verify you are human|access denied|acceso denegado|unusual traffic|reference #\d+\.|reference error|pas à un robot|not a robot|no eres un robot|no sos un robot|nicht um einen roboter|unable to give you access|security issue was automatically identified|errors\.edgesuite\.net|request blocked|attention required|安全验证|滑动验证/i;
 // Avisos de cookies: se aceptan para que no tapen la página (en Europa son casi obligatorios).
 const CONSENT_SELECTORS = ["#onetrust-accept-btn-handler", "#didomi-notice-agree-button", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", "#CybotCookiebotDialogBodyButtonAccept", "[data-testid=uc-accept-all-button]", "#uc-btn-accept-banner", ".fc-cta-consent", "#truste-consent-button", "#accept-recommended-btn-handler", "button[mode=primary]", "[aria-label*=accept i][role=button]", "button[id*=accept i]", "button[class*=accept i]"];
 const CONSENT_TEXT = /^(aceptar|aceptar todo|aceptar todas|aceptar y cerrar|acepto|entendido|accept|accept all|accept all cookies|accept cookies|allow all|i agree|agree|agree and close|ok|got it|alle akzeptieren|akzeptieren|zustimmen|alle zulassen|einverstanden|accepter|tout accepter|j'accepte|accepter et fermer|aceitar|aceitar todos|accetta|accetta tutto|accetto|kabul et|tümünü kabul et|zaakceptuj|akceptuję|zgadzam się|przejdź do serwisu|setuju|terima|同意|同意する|すべて同意)$/i;
 
 const argv = process.argv.slice(2);
 const onlyMissing = argv.includes("--faltantes");
-const args = argv.filter((a) => !a.startsWith("--"));
+const pending = argv.includes("--pendientes");
+const headed = argv.includes("--navegador") && !process.env.DT_HEADLESS;
+let revision = { excluir: [], excluir_sitios: [], fecha: "" };
+try { revision = JSON.parse(fs.readFileSync(path.join(root, "datos/revision.json"), "utf8")); } catch {}
+const resume = argv.includes("--continuar");
+// --saltear "Frávega" o --saltear "Frávega,Musimundo" (por nombre o por id, sin importar mayúsculas ni tildes)
+const norm = (x) => String(x).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+const skip = argv.flatMap((a, i) => (a === "--saltear" && argv[i + 1] ? argv[i + 1].split(",") : a.startsWith("--saltear=") ? a.slice(10).split(",") : [])).map(norm).filter(Boolean);
+const args = argv.filter((a, i) => !a.startsWith("--") && argv[i - 1] !== "--saltear");
 const refs = JSON.parse(fs.readFileSync(refsPath, "utf8"));
 let comps = [];
 try { comps = JSON.parse(fs.readFileSync(compsPath, "utf8")); } catch {}
 const targets = refs
   .filter((r) => !args.length || args.includes(r.country) || args.includes(r.id))
-  .filter((r) => !onlyMissing || needsCapture(r, comps));
+  .filter((r) => !onlyMissing || needsCapture(r, comps))
+  .filter((r) => !pending || needsAnything(r, comps))
+  .filter((r) => !skip.some((x) => norm(r.name) === x || norm(r.id) === x || norm(r.name).includes(x)))
+  .filter((r) => !resume || !attemptedRecently(r));
+if (skip.length) console.log(`Salteando: ${skip.join(", ")}`);
 console.log(`${targets.length} sitios para capturar.`);
+// Se anota qué sitios se fotografiaron en esta tanda (lo usa «npm run exportar»).
+fs.writeFileSync(path.join(root, "datos/ultima-captura.json"), JSON.stringify({ fecha: new Date().toISOString().slice(0, 10), sitios: targets.map((r) => r.id) }, null, 2));
 if (!targets.length) process.exit(0);
 const today = new Date().toISOString().slice(0, 10);
 /** Un sitio necesita fotos si alguna página esperada no tiene captura válida con partes medidas. */
@@ -82,33 +102,78 @@ export function needsCapture(ref, list) {
   return ["desktop", "mobile"].some((d) => {
     const cap = ref.captures?.[d];
     const parts = list.filter((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === "home").length;
-    return cap?.status !== "ok" || cap?.stale || parts < 2;
+    return cap?.status !== "ok" || isStale(cap) || parts < 2;
   });
+}
+/** Se intentó hoy o ayer (sirve para retomar una tanda cortada sin repetir lo hecho). */
+function attemptedRecently(ref) {
+  const d = new Date(), today = d.toISOString().slice(0, 10);
+  d.setUTCDate(d.getUTCDate() - 1); const yesterday = d.toISOString().slice(0, 10);
+  return Object.values(ref.captures ?? {}).some((c) => [c?.date, c?.lastAttempt].some((x) => x === today || x === yesterday) && (c?.status === "ok" || c?.error || c?.lastError));
+}
+/** «Desactualizada» de verdad: se ignoran las marcas que dejó el error del capturador del 22/10 (no fue culpa del sitio). */
+function isStale(cap) {
+  return !!cap?.stale && !/openPage is not defined|before initialization/.test(cap.lastError ?? "");
+}
+/** Todo lo pendiente: inicio sin fotos, categoría o ficha sin fotos, o fotos marcadas como equivocadas. */
+function needsAnything(ref, list) {
+  if (needsCapture(ref, list)) return true;
+  if (revision.excluir_sitios?.includes(ref.id)) return true;
+  if (list.some((c) => c.siteId === ref.id && revision.excluir?.includes(c.id))) return true;
+  if (!STORE_TYPES.includes(ref.siteType)) return false;
+  return ["desktop", "mobile"].some((d) => ["categoria", "ficha"].some((pg) => !list.some((c) => c.siteId === ref.id && c.device === d && (c.page ?? "home") === pg)));
 }
 const save = () => { fs.writeFileSync(refsPath, JSON.stringify(refs, null, 2)); fs.writeFileSync(compsPath, JSON.stringify(comps, null, 2)); };
 
-const browser = await chromium.launch({ headless: true, args: ["--disable-http2", ...(process.env.CHROME_PATH ? ["--headless=new"] : [])], ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
+// En tu compu (--navegador) se usa tu Chrome instalado, con la ventana visible; si no está, el que trae Playwright.
+async function launchBrowser() {
+  if (headed) {
+    try { return await chromium.launch({ headless: false, channel: "chrome", args: ["--disable-http2"] }); }
+    catch { console.log("No encontré Chrome instalado: uso el navegador de Playwright, también visible."); return chromium.launch({ headless: false, args: ["--disable-http2"] }); }
+  }
+  return chromium.launch({ headless: true, args: ["--disable-http2", ...(process.env.CHROME_PATH ? ["--headless=new"] : [])], ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
+}
+const browser = await launchBrowser();
+// Mientras corre, escribir «s» y Enter en la ventana negra saltea el sitio en el que está.
+let skipNow = false;
+const openContexts = new Set();
+if (process.stdin.isTTY || process.env.DT_STDIN) {
+  process.stdin.setEncoding("utf8");
+  process.stdin.on("data", async (txt) => {
+    if (!/^\s*(s|saltear|skip)\s*$/i.test(txt)) return;
+    skipNow = true;
+    console.log("   ⏭  Salteando este sitio…");
+    for (const c of openContexts) await c.close().catch(() => {});
+  });
+}
+console.log("Tip: si se traba en un sitio, escribí s y apretá Enter para saltearlo.");
+if (headed) console.log("Modo con tu navegador: se abre una ventana de Chrome. Si aparece un CAPTCHA o un «no soy un robot», resolvelo ahí; el programa espera hasta 2 minutos.");
 const queue = [...targets];
-const workers = Array.from({ length: Math.max(1, Number(process.env.CONCURRENCY) || 4) }, async () => {
+const workers = Array.from({ length: headed ? 1 : Math.max(1, Number(process.env.CONCURRENCY) || 4) }, async () => {
   for (let ref = queue.shift(); ref; ref = queue.shift()) {
     try { await captureSite(ref); } catch (e) { console.log(`${ref.name}: error inesperado (${String(e.message ?? e).slice(0, 80)})`); }
   }
 });
 await Promise.all(workers);
 await browser.close();
+process.stdin.pause();
 const meta = JSON.parse(fs.readFileSync(path.join(root, "datos/meta.json"), "utf8"));
 meta.dataVersion = `${today}-capturas`; meta.generatedAt = today;
 fs.writeFileSync(path.join(root, "datos/meta.json"), JSON.stringify(meta, null, 2));
 console.log("Capturas listas.");
 
 async function captureSite(ref) {
+  skipNow = false;
   const [locale, timezoneId] = LOCALES[ref.country] ?? ["en-US", "UTC"];
   for (const [device, opts] of Object.entries(DEVICES)) {
+    if (skipNow) break;
     const ctx = await browser.newContext({ ...opts, locale, timezoneId });
+    openContexts.add(ctx);
     const page = await ctx.newPage();
     let links = {};
     const pages = STORE_TYPES.includes(ref.siteType) ? ["home", "categoria", "ficha", "carrito"] : ["home"];
     for (const pg of pages) {
+      if (skipNow) break;
       const key = pg === "home" ? device : `${device}_${pg}`;
       const url = pg === "home" ? ref.url : ref.pages?.[pg] ?? links[pg];
       const tag = `${ref.name} · ${device} · ${pg}`;
@@ -118,7 +183,20 @@ async function captureSite(ref) {
         await openPage(page, url);
         await acceptCookies(page);
         const text = (await page.textContent("body").catch(() => "")) ?? "";
-        if (BLOCK_RE.test(text.slice(0, 5000))) throw new Error("Bloqueo o CAPTCHA");
+        if (BLOCK_RE.test(text.slice(0, 5000))) {
+          if (!headed) throw new Error("Bloqueo o CAPTCHA");
+          // Con la ventana visible, una persona puede resolverlo: se espera hasta 2 minutos.
+          console.log(`   ⏸  ${ref.name}: hay un CAPTCHA o un control. Resolvelo en la ventana de Chrome (espero hasta 2 minutos)…`);
+          let solved = false;
+          for (let w = 0; w < 24 && !solved; w++) {
+            await page.waitForTimeout(5000);
+            const t = (await page.textContent("body").catch(() => "")) ?? "";
+            solved = !BLOCK_RE.test(t.slice(0, 5000));
+          }
+          if (!solved) throw new Error("Bloqueo o CAPTCHA (no se resolvió a tiempo)");
+          await page.waitForTimeout(2000);
+          await acceptCookies(page);
+        }
         if (pg === "home") { links = await findLinks(page); if (!links.ficha) links.ficha = await productFromListing(page); }
         if (pg === "carrito" && !CART_RE.test(page.url())) throw new Error("No se pudo llegar al carrito");
         const layout = await page.evaluate(() => ({ w: document.documentElement.clientWidth, h: window.innerHeight }));
@@ -168,7 +246,7 @@ async function captureSite(ref) {
         }
       } catch (e) {
         capture.screenshot = null;
-        capture.error = String(e.message ?? e).slice(0, 120);
+        capture.error = skipNow ? "Salteado a mano" : String(e.message ?? e).slice(0, 120);
         console.log(`${tag}: falló (${capture.error})`);
       }
       const prev = ref.captures?.[key];
@@ -181,7 +259,8 @@ async function captureSite(ref) {
       save();
       if (pg === "home" && capture.status !== "ok") break; // sin inicio no hay enlaces a seguir
     }
-    await ctx.close();
+    openContexts.delete(ctx);
+    await ctx.close().catch(() => {});
   }
 }
 

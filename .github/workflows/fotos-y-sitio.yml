@@ -43,6 +43,8 @@ jobs:
       - run: npm install
       - name: Optimizar imágenes
         run: node pipeline/optimizar-imagenes.mjs
+      - name: Importar fotos de mi compu
+        run: node pipeline/importar.mjs
       - name: Instalar navegador
         if: steps.plan.outputs.faltan != '0'
         run: npx playwright install --with-deps chromium

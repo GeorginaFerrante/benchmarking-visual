@@ -1,0 +1,26 @@
+name: Publicar sitio
+on:
+  push:
+    branches: [main]
+    paths: ["paquete/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Armar el sitio
+        run: |
+          ls paquete/*.zip
+          rm -rf docs && mkdir docs
+          for z in paquete/*.zip; do unzip -q -o "$z" -d docs; done
+          rm -rf paquete
+      - name: Guardar
+        run: |
+          git config user.name "designtrust-bot"
+          git config user.email "designtrust-bot@users.noreply.github.com"
+          git add -A docs paquete
+          git commit -m "Publicar sitio $(date +%F)" || echo "Sin cambios"
+          git push
